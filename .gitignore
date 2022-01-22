@@ -1,0 +1,47 @@
+# MacOS
+.DS_Store
+
+# Sublime Text
+app.sublime-project
+app.sublime-workspace
+
+# Storybook
+.storybook-static-develop
+.storybook-static-release
+
+# Test
+coverage
+
+# NPM Papillon Bits
+.npmrc
+npm-debug.log
+lerna-debug.log
+node_modules
+
+# NPM Papillon Bits Components Package
+packages/components/build
+packages/components/node_modules
+
+# NPM Papillon Bits CSS Package
+packages/CSS/build
+packages/CSS/node_modules
+
+# NPM Papillon Bits Docs Package
+packages/docs/build
+packages/docs/node_modules
+packages/docs/.env.develop
+packages/docs/.env.test
+packages/docs/.env.acceptance
+packages/docs/.env.release
+
+# NPM Papillon Bits Library Package
+packages/library/build
+packages/library/node_modules
+
+# NPM Papillon Bits Styleguide Package
+packages/styleguide/build
+packages/styleguide/node_modules
+packages/styleguide/.env.develop
+packages/styleguide/.env.test
+packages/styleguide/.env.acceptance
+packages/styleguide/.env.release

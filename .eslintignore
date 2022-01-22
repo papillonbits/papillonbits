@@ -1,0 +1,60 @@
+# MacOS
+.DS_Store
+
+# Sublime Text
+app.sublime-project
+app.sublime-workspace
+
+# Storybook
+.storybook-static-develop
+.storybook-static-release
+
+# CI/CD
+.travis.yml
+
+# Test
+coverage
+
+# NPM Papillon Bits
+.npmrc
+npm-debug.log
+lerna-debug.log
+node_modules
+package-lock.json
+
+# NPM Papillon Bits Components Package
+packages/components/package-lock.json
+packages/components/build
+packages/components/node_modules
+packages/components/src/content
+
+# NPM Papillon Bits CSS Package
+packages/CSS/package-lock.json
+packages/CSS/build
+packages/CSS/node_modules
+packages/CSS/src/primer
+
+# NPM Papillon Bits Docs Package
+packages/docs/src/asset/*
+packages/docs/package-lock.json
+packages/docs/build
+packages/docs/node_modules
+packages/docs/.env.develop
+packages/docs/.env.test
+packages/docs/.env.acceptance
+packages/docs/.env.release
+
+# NPM Papillon Bits Library Package
+packages/library/package-lock.json
+packages/library/build
+packages/library/node_modules
+
+# NPM Papillon Bits Styleguide Package
+packages/styleguide/src/asset/*
+packages/styleguide/package-lock.json
+packages/styleguide/build
+packages/styleguide/node_modules
+packages/styleguide/.env.develop
+packages/styleguide/.env.test
+packages/styleguide/.env.acceptance
+packages/styleguide/.env.release

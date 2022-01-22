@@ -1,0 +1,22 @@
+{
+  "packages/components/src/**/*.{js,jsx}": [
+    "eslint --ext .js --ext .jsx packages/components/src/**/**/*.{js,jsx} --fix",
+    "prettier --write \"packages/components/src/**/**/*.{js,jsx}\"",
+    "git add"
+  ],
+  "packages/docs/src/**/*.{js,jsx}": [
+    "eslint --ext .js --ext .jsx packages/docs/src/**/**/*.{js,jsx} --fix",
+    "prettier --write \"packages/docs/src/**/**/*.{js,jsx}\"",
+    "git add"
+  ],
+  "packages/library/src/**/*.js": [
+    "eslint --ext .js --ext .jsx packages/library/src/**/**/*.js --fix",
+    "prettier --write \"packages/library/src/**/**/*.js\"",
+    "git add"
+  ],
+  "packages/components/src/**/*.scss": [
+    "stylelint \"packages/components/src/**/**/*.scss\" --custom-syntax=postcss-scss --fix",
+    "prettier --write \"packages/components/src/**/**/*.scss\"",
+    "git add"
+  ]
+}
