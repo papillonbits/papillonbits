@@ -1,0 +1,24 @@
+.btn-link {
+  display: inline-block;
+  padding: 0;
+  font-size: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 0;
+  appearance: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:disabled,
+  &[aria-disabled='true'] {
+    &,
+    &:hover {
+      cursor: default;
+    }
+  }
+}
