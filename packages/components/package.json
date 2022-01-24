@@ -24,7 +24,7 @@
     "transpile-old": "babel --copy-files --no-copy-ignored --out-dir build src --ignore **/__tests__",
     "transpile-new": "npm-run-all transpile:types && npm run transpile:js",
     "transpile:types": "tsc --emitDeclarationOnly",
-    "transpile:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "transpile:js": "babel src --out-dir build --extensions \".ts,.tsx\" --source-maps inline",
     "build": "npm-run-all remove-snapshot-folders remove-build-folder transpile-new",
     "build-test": "npm run build",
     "build-acceptance": "npm run build",
