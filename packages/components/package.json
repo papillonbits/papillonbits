@@ -1,0 +1,34 @@
+{
+  "name": "@papillonbits/components",
+  "version": "0.0.0",
+  "description": "Papillon Bits Components",
+  "homepage": "https://github.com/papillonbits/papillonbits/tree/master/packages/components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papillonbits/papillonbits.git",
+    "directory": "packages/components"
+  },
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "clean-up": "rm -rf build node_modules package-lock.json",
+    "install-packages": "npm install",
+    "install-papillonbits-latest": "npm i \"@papillonbits/css\"@latest && npm i \"@papillonbits/library\"@latest",
+    "remove-test-folders": "rm -rf src/**/**/__tests__ && rm -rf src/**/**/**/__tests__ && rm -rf src/primer/Concept",
+    "remove-snapshot-folders": "rm -rf src/**/**/__tests__/__snapshots__",
+    "remove-build-folder": "rm -rf build",
+    "transpile-old": "babel --copy-files --no-copy-ignored --out-dir build src --ignore **/__tests__",
+    "transpile-new": "npm-run-all transpile:types && npm run transpile:js",
+    "transpile:types": "tsc --emitDeclarationOnly",
+    "transpile:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "build": "npm-run-all remove-snapshot-folders remove-build-folder transpile-new",
+    "build-test": "npm run build",
+    "build-acceptance": "npm run build",
+    "build-release": "npm run build"
+  },
+  "dependencies": {}
+}
