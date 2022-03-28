@@ -1,0 +1,39 @@
+{
+  "name": "@papillonbits/library",
+  "version": "0.3.0",
+  "description": "Papillon Bits Library",
+  "homepage": "https://github.com/papillonbits/papillonbits/tree/master/packages/library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papillonbits/papillonbits.git",
+    "directory": "packages/library"
+  },
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "files": [
+    "a11y/",
+    "array/",
+    "auth/",
+    "boolean/",
+    "browser/",
+    "date/",
+    "event/",
+    "hooks/",
+    "number/",
+    "object/",
+    "pagination/",
+    "sort/",
+    "store/",
+    "string/",
+    "README.md"
+  ],
+  "scripts": {
+    "clean-up": "rm -rf build node_modules package-lock.json",
+    "install-packages": "npm install",
+    "install-papillonbits-latest": "echo \"library skipping install-papillonbits-latest\" && exit 0",
+    "build": "rm -rf build && babel --copy-files --no-copy-ignored --out-dir build src --ignore **/__tests__",
+    "build-test": "npm run build",
+    "build-acceptance": "npm run build",
+    "build-release": "npm run build"
+  }
+}

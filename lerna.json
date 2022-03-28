@@ -1,7 +1,4 @@
 {
-  "packages": [
-    "packages/components",
-    "packages/css"
-  ],
+  "packages": ["packages/components", "packages/css", "packages/library"],
   "version": "0.3.0"
 }
