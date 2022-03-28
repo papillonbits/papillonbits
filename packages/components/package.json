@@ -27,5 +27,8 @@
     "build-test": "npm run build",
     "build-acceptance": "npm run build",
     "build-release": "npm run build"
+  },
+  "dependencies": {
+    "@papillonbits/css": "^0.2.0"
   }
 }
