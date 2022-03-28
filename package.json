@@ -47,10 +47,7 @@
     "report-coverage": "codecov",
     "build-test": "lerna run build-test --stream",
     "build-acceptance": "lerna run build-acceptance --stream",
-    "build-release": "lerna run build-release --stream",
-    "type-init": "tsc --init --declaration --allowSyntheticDefaultImports --target esnext --outDir lib",
-    "type-check": "tsc --noEmit",
-    "type-check:watch": "npm run type-check -- --watch"
+    "build-release": "lerna run build-release --stream"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -68,14 +65,11 @@
     "@babel/plugin-transform-spread": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
-    "@babel/preset-typescript": "^7.16.7",
     "@babel/register": "^7.17.7",
     "@babel/runtime": "^7.17.8",
     "@svgr/webpack": "^6.2.1",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^27.5.1",
@@ -114,8 +108,7 @@
     "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
-    "stylelint-scss": "^4.2.0",
-    "typescript": "^4.6.3"
+    "stylelint-scss": "^4.2.0"
   },
   "dependencies": {
     "classnames": "^2.3.1",

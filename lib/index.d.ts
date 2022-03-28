@@ -1,1 +1,0 @@
-export { primer } from './primer';

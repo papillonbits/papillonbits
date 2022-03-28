@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
+  presets: ['@babel/preset-env', '@babel/preset-react'],
   plugins: [
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-proposal-nullish-coalescing-operator',
@@ -17,6 +17,5 @@ module.exports = {
     '@babel/plugin-transform-runtime',
     '@babel/plugin-transform-spread',
     'syntax-async-functions',
-    '@babel/plugin-transform-modules-commonjs',
   ],
 }
