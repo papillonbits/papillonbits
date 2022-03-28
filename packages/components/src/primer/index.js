@@ -1,7 +1,8 @@
-import { Button } from './Button'
+import { Blankslate, blankslateVariant } from './Blankslate'
 
 export const primer = {
-  Button: {
-    Button,
+  Blankslate: {
+    Blankslate,
+    blankslateVariant,
   },
 }
