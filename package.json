@@ -16,8 +16,6 @@
     "install-papillonbits-latest": "npm i \"@papillonbits/components\"@latest && npm i \"@papillonbits/library\"@latest && lerna run install-papillonbits-latest --stream",
     "collect-build-folders": "mv packages/library/build/* packages/library && rm -rf packages/library/build",
     "restore-build-folders": "rm -rf packages/library/build && mkdir packages/library/build && mv packages/library/a11y packages/library/array packages/library/auth packages/library/boolean packages/library/browser packages/library/date packages/library/event packages/library/hooks packages/library/number packages/library/object packages/library/pagination packages/library/sort packages/library/store packages/library/string packages/library/build/",
-    "collect-build-folders": "mv packages/library/build/* packages/library && rm -rf packages/library/build",
-    "restore-build-folders": "rm -rf packages/library/build && mkdir packages/library/build && mv packages/library/a11y packages/library/array packages/library/auth packages/library/boolean packages/library/browser packages/library/date packages/library/event packages/library/hooks packages/library/number packages/library/object packages/library/pagination packages/library/sort packages/library/store packages/library/string packages/library/build/",
     "release": "npm run collect-build-folders && lerna publish && npm run restore-build-folders",
     "start-storybook-develop": "NODE_ENV=develop start-storybook -p 3003 -c ./.storybook/develop",
     "start-storybook-release": "NODE_ENV=release start-storybook -p 5005 -c ./.storybook/release",
@@ -137,6 +135,7 @@
   },
   "dependencies": {
     "@papillonbits/components": "^0.2.0",
+    "@papillonbits/library": "^0.4.0",
     "@primer/primitives": "^7.6.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.8.1",
