@@ -7,6 +7,7 @@ import { ErrorBoundary } from './ErrorBoundary'
 import { Form } from './Form'
 import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
+import { Label } from './Label'
 
 export const primer = {
   Alert: {
@@ -42,4 +43,5 @@ export const primer = {
     iconName,
     iconSize,
   },
+  Label,
 }
