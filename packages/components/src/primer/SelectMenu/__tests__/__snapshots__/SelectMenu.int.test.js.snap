@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectMenu /> Render must match regular() 1`] = `
+<details
+  className="details-reset details-overlay"
+>
+  <summary
+    aria-haspopup={true}
+    className="btn btn-outline"
+  >
+    Choose an item
+     
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="ml-2"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "display": "inline-block",
+          "fill": "currentColor",
+          "userSelect": "none",
+          "verticalAlign": "text-bottom",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+  </summary>
+  <div
+    className="SelectMenu"
+  >
+    <div
+      className="SelectMenu-modal"
+    >
+      <header
+        className="SelectMenu-header"
+      >
+        <h3
+          className="SelectMenu-title"
+        >
+          Title
+        </h3>
+        <button
+          className="SelectMenu-closeButton"
+          type="button"
+        />
+      </header>
+      <div
+        className="SelectMenu-list"
+      >
+        <button
+          className="SelectMenu-item"
+          onClick={[Function]}
+          role="menuitem"
+          type="button"
+        >
+          Item 1
+        </button>
+        <button
+          className="SelectMenu-item"
+          onClick={[Function]}
+          role="menuitem"
+          type="button"
+        >
+          Item 2
+        </button>
+        <button
+          className="SelectMenu-item"
+          onClick={[Function]}
+          role="menuitem"
+          type="button"
+        >
+          Item 3
+        </button>
+        <button
+          className="SelectMenu-item"
+          onClick={[Function]}
+          role="menuitem"
+          type="button"
+        >
+          Item 4
+        </button>
+      </div>
+    </div>
+  </div>
+</details>
+`;
