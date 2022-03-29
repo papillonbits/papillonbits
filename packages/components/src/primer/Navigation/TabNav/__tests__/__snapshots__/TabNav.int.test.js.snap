@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabNav /> Render must match inactive() 1`] = `
+<div
+  className="tabnav tabnav-inactive"
+>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match regular() 1`] = `
+<div
+  className="tabnav"
+>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match withButtonActions() 1`] = `
+<div
+  className="tabnav"
+>
+  <a
+    className="btn btn-sm float-right"
+    href="#url"
+    role="button"
+  >
+    Button
+  </a>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match withLinkActions() 1`] = `
+<div
+  className="tabnav"
+>
+  <div
+    className="float-right"
+  >
+    <a
+      className="tabnav-extra"
+      href="#url"
+    >
+      Tabnav extra link
+    </a>
+    <a
+      className="tabnav-extra"
+      href="#url"
+    >
+      Tabnav extra link
+    </a>
+  </div>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match withMixedEnabledVisibleItems() 1`] = `
+<div
+  className="tabnav"
+>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match withNavigation() 1`] = `
+<div
+  className="tabnav"
+>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<TabNav /> Render must match withTextActions() 1`] = `
+<div
+  className="tabnav"
+>
+  <div
+    className="tabnav-extra float-right"
+  >
+    Tabnav widget text here.
+  </div>
+  <nav
+    aria-label="Foo bar"
+    className="tabnav-tabs"
+  >
+    <a
+      aria-current="page"
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Foo tab
+    </a>
+    <a
+      className="tabnav-tab"
+      href="#url"
+      onClick={[Function]}
+    >
+      Bar tab
+    </a>
+  </nav>
+</div>
+`;
