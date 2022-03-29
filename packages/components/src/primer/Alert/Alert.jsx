@@ -1,17 +1,17 @@
-// import { Fragment } from 'react'
-// import { useState } from '@papillonbits/library/hooks'
-// import utilityStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
+import { Fragment } from 'react'
+import { useState } from '@papillonbits/library/hooks'
+import utilityStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
 import cx from 'classnames'
 import { propTypes, defaultProps, alertVariant } from './Alert.prop'
 import styles from './Alert.scss'
-// import buttonStyles from '../Button/Button.scss'
-// import { Input } from '../Form/Input'
-// import { Button, buttonVariant, buttonInputType, iconAlignment } from '../Button'
-// import { iconName } from '../Icon/Icon.prop'
-// import { Icon, iconSize } from '../Icon'
+import buttonStyles from '../Button/Button.scss'
+import { Input } from '../Form/Input'
+import { Button, buttonVariant, buttonInputType, iconAlignment } from '../Button'
+import { iconName } from '../Icon/Icon.prop'
+import { Icon, iconSize } from '../Icon'
 
-export function Alert({ dataTest, className, variant, children /* , consent */ }) {
-  // const [consentValue, setConsentValue] = useState('')
+export function Alert({ dataTest, className, variant, children, consent }) {
+  const [consentValue, setConsentValue] = useState('')
 
   return (
     <div data-test={dataTest?.default} className={className}>
@@ -24,7 +24,7 @@ export function Alert({ dataTest, className, variant, children /* , consent */ }
             [styles['flash-consent']]: variant === alertVariant.consent,
           })}
         >
-          {/*          {consent && (
+          {consent && (
             <Fragment>
               <Button
                 dataTest={dataTest?.cancel}
@@ -58,8 +58,8 @@ export function Alert({ dataTest, className, variant, children /* , consent */ }
                 }
               />
             </Fragment>
-          )} */}
-          {/*          {variant === alertVariant.info && <Icon className={utilityStyles['mr-2']} icon={iconName.Info16} size={iconSize.small} />}
+          )}
+          {variant === alertVariant.info && <Icon className={utilityStyles['mr-2']} icon={iconName.Info16} size={iconSize.small} />}
           {variant === alertVariant.warning && !consent && (
             <Icon className={utilityStyles['mr-2']} icon={iconName.Alert16} size={iconSize.small} />
           )}
@@ -70,9 +70,9 @@ export function Alert({ dataTest, className, variant, children /* , consent */ }
           {variant === alertVariant.success && (
             <Icon className={utilityStyles['mr-2']} icon={iconName.CheckCircle16} size={iconSize.small} />
           )}
-          {variant === alertVariant.consent && <Icon className={utilityStyles['mr-2']} icon={iconName.Question16} size={iconSize.small} />} */}
+          {variant === alertVariant.consent && <Icon className={utilityStyles['mr-2']} icon={iconName.Question16} size={iconSize.small} />}
           {children}
-          {/*          {consent?.withInput && (
+          {consent?.withInput && (
             <Input
               dataTest={dataTest?.value}
               className={styles['flash-action']}
@@ -87,7 +87,7 @@ export function Alert({ dataTest, className, variant, children /* , consent */ }
               }}
               autoFocus={true} // eslint-disable-line
             />
-          )} */}
+          )}
         </div>
       </div>
     </div>

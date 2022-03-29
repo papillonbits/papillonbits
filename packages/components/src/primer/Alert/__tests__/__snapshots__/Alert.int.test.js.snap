@@ -10,6 +10,77 @@ exports[`<Alert /> Render must match consent() 1`] = `
     <div
       className="flash flash-consent"
     >
+      <button
+        autoFocus={false}
+        className="btn btn-sm primary flash-action btn"
+        data-test={null}
+        id={null}
+        onClick={[Function]}
+        type="button"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Cancel
+      </button>
+      <button
+        autoFocus={true}
+        className="btn btn-sm primary flash-action btn btn-primary"
+        data-test={null}
+        id={null}
+        onClick={[Function]}
+        type="button"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Approve
+      </button>
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
     </div>
   </div>
@@ -26,7 +97,91 @@ exports[`<Alert /> Render must match consentWithInput() 1`] = `
     <div
       className="flash flash-consent"
     >
+      <button
+        autoFocus={false}
+        className="btn btn-sm primary flash-action btn"
+        data-test={null}
+        id={null}
+        onClick={[Function]}
+        type="button"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Cancel
+      </button>
+      <button
+        autoFocus={false}
+        className="btn btn-sm primary flash-action btn btn-primary"
+        data-test={null}
+        id={null}
+        onClick={[Function]}
+        type="button"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Approve
+      </button>
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
+      <input
+        autoFocus={true}
+        className="flash-action form-control"
+        data-test={null}
+        id={null}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyUp={[Function]}
+        placeholder=""
+        type="text"
+        value=""
+      />
     </div>
   </div>
 </div>
@@ -42,6 +197,23 @@ exports[`<Alert /> Render must match error() 1`] = `
     <div
       className="flash flash-error"
     >
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
     </div>
   </div>
@@ -58,6 +230,23 @@ exports[`<Alert /> Render must match info() 1`] = `
     <div
       className="flash"
     >
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
     </div>
   </div>
@@ -111,6 +300,23 @@ exports[`<Alert /> Render must match success() 1`] = `
     <div
       className="flash flash-success"
     >
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
     </div>
   </div>
@@ -127,6 +333,23 @@ exports[`<Alert /> Render must match warning() 1`] = `
     <div
       className="flash flash-warn"
     >
+      <mock-file
+        aria-hidden="true"
+        aria-label={null}
+        className="mr-2"
+        height={16}
+        role="img"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "userSelect": "none",
+            "verticalAlign": "text-bottom",
+          }
+        }
+        viewBox="0 0 16 16"
+        width={16}
+      />
       Flash message goes here.
     </div>
   </div>
