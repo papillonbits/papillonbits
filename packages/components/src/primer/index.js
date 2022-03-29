@@ -10,6 +10,7 @@ import { Icon, iconName, iconSize } from './Icon'
 import { Label } from './Label'
 import { Loader, loaderVariant } from './Loader'
 import { Navigation } from './Navigation'
+import { Pagination } from './Pagination'
 
 export const primer = {
   Alert: {
@@ -51,4 +52,5 @@ export const primer = {
     loaderVariant,
   },
   Navigation,
+  Pagination,
 }
