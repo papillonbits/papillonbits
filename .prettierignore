@@ -26,7 +26,6 @@ package-lock.json
 packages/components/package-lock.json
 packages/components/build
 packages/components/node_modules
-packages/components/src/content
 
 # NPM Papillon Bits CSS Package
 packages/CSS/package-lock.json

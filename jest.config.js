@@ -26,8 +26,6 @@ module.exports = {
     '!packages/**/build/**',
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
-    '!packages/components/src/concept/**',
-    '!packages/components/src/content/**',
     '!packages/css/**',
     '!packages/docs/**',
     '!packages/library/**',

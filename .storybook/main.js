@@ -35,10 +35,7 @@ module.exports = {
       options: {
         rule: {
           test: [/\.int.story\.js?$/],
-          include: [
-            path.resolve(__dirname, '../packages/components/src/concept/**/__tests__/*'),
-            path.resolve(__dirname, '../packages/components/src/primer/**/__tests__/*'),
-          ],
+          include: [path.resolve(__dirname, '../packages/components/src/primer/**/__tests__/*')],
         },
         loaderOptions: {
           prettierConfig: {
