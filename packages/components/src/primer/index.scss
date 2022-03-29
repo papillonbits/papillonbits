@@ -1,6 +1,6 @@
 @mixin inactive {
   pointer-events: none;
-  color: $gray-200;
+  color: var(--color-scale-gray-2);
   cursor: not-allowed;
   user-select: none;
 }

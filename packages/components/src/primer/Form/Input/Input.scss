@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+// custom-style
+.input-inactive {
+  @include inactive;
+
+  color: var(--color-scale-gray-4) !important;
+  background-color: var(--color-scale-gray-2) !important;
+}
