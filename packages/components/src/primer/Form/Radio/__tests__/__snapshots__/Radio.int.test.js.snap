@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> Render must match inactive() 1`] = `
+Array [
+  <div
+    className="m-0 form-checkbox radio-inactive"
+    data-test={null}
+  >
+    <label
+      htmlFor="checkbox"
+    >
+      <input
+        checked={false}
+        name="fantastic-name"
+        onChange={[Function]}
+        type="radio"
+      />
+      White
+    </label>
+  </div>,
+  <div
+    className="m-0 form-checkbox radio-inactive"
+    data-test={null}
+  >
+    <label
+      htmlFor="checkbox"
+    >
+      <input
+        checked={true}
+        name="fantastic-name"
+        onChange={[Function]}
+        type="radio"
+      />
+      Black
+    </label>
+  </div>,
+]
+`;
+
+exports[`<Radio /> Render must match regular() 1`] = `
+Array [
+  <div
+    className="m-0 form-checkbox"
+    data-test={null}
+  >
+    <label
+      htmlFor="checkbox"
+    >
+      <input
+        checked={false}
+        name="fantastic-name"
+        onChange={[Function]}
+        type="radio"
+      />
+      White
+    </label>
+  </div>,
+  <div
+    className="m-0 form-checkbox"
+    data-test={null}
+  >
+    <label
+      htmlFor="checkbox"
+    >
+      <input
+        checked={true}
+        name="fantastic-name"
+        onChange={[Function]}
+        type="radio"
+      />
+      Black
+    </label>
+  </div>,
+]
+`;
