@@ -2,6 +2,14 @@ const path = require('path')
 const modulesPath = path.resolve(__dirname, '../packages')
 const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin')
 
+function isEmpty(obj) {
+  for (var prop in obj) {
+    if (obj.hasOwnProperty(prop)) return false
+  }
+
+  return true
+}
+
 module.exports = {
   stories: ['../../packages/components/src/primer/**/__tests__/*.int.story.@(js|mdx)'],
   addons: [
@@ -73,17 +81,17 @@ module.exports = {
     //     : preset
     // })
 
-    // const fileLoaderRuleSVG = config.module.rules.find((rule) => rule.test.test && rule.test.test('.svg'))
-    // fileLoaderRuleSVG.exclude = /\.svg$/
+    const fileLoaderRuleSVG = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.svg'))
+    fileLoaderRuleSVG.exclude = /\.svg$/
 
-    // const fileLoaderRuleJSX = config.module.rules.find((rule) => rule.test.test && rule.test.test('.jsx'))
-    // fileLoaderRuleJSX.use[0].options.plugins.push(
-    //   path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
-    // )
+    const fileLoaderRuleJSX = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.jsx'))
+    fileLoaderRuleJSX.use[0].options.plugins.push(
+      path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
+    )
 
-    // fileLoaderRuleJSX.use[0].options.plugins.push(
-    //   path.resolve(__dirname, '../node_modules/babel-plugin-syntax-async-functions/lib/index.js'),
-    // )
+    fileLoaderRuleJSX.use[0].options.plugins.push(
+      path.resolve(__dirname, '../node_modules/babel-plugin-syntax-async-functions/lib/index.js'),
+    )
 
     config.module.rules = config.module.rules.concat([
       {
