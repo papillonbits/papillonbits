@@ -1,0 +1,8 @@
+@import '../../index.scss';
+
+// custom-style
+.checkbox-inactive {
+  @include inactive;
+
+  color: var(--color-scale-gray-4) !important;
+}
