@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> Render must match inacive() 1`] = `
+<div
+  className={null}
+>
+  <details
+    className="dropdown details-reset details-overlay d-inline-block dropdown-inactive"
+  >
+    <summary
+      aria-haspopup={true}
+      className="btn"
+    >
+      <div
+        className="d-flex flex-justify-between flex-items-center dropdown-inactive"
+      >
+        <div>
+          Dropdown
+        </div>
+         
+        <div
+          className="dropdown-caret"
+        />
+      </div>
+    </summary>
+    <ul
+      className="dropdown-menu dropdown-menu-se width-full"
+    >
+      <li>
+        <a
+          aria-current="page"
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 1
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 2
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 3
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 4
+        </a>
+      </li>
+    </ul>
+  </details>
+</div>
+`;
+
+exports[`<Dropdown /> Render must match regular() 1`] = `
+<div
+  className={null}
+>
+  <details
+    className="dropdown details-reset details-overlay d-inline-block"
+  >
+    <summary
+      aria-haspopup={true}
+      className="btn"
+    >
+      <div
+        className="d-flex flex-justify-between flex-items-center"
+      >
+        <div>
+          Dropdown
+        </div>
+         
+        <div
+          className="dropdown-caret"
+        />
+      </div>
+    </summary>
+    <ul
+      className="dropdown-menu dropdown-menu-se width-full"
+    >
+      <li>
+        <a
+          aria-current="page"
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 1
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 2
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 3
+        </a>
+      </li>
+      <li>
+        <a
+          className="dropdown-item"
+          href="#url"
+          onClick={[Function]}
+        >
+          Dropdown Item 4
+        </a>
+      </li>
+    </ul>
+  </details>
+</div>
+`;
