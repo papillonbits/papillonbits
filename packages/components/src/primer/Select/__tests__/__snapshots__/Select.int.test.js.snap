@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> Render must match inacive() 1`] = `
+<div
+  className="select"
+>
+  <select
+    className="select-menu width-full select-inactive"
+    id={null}
+    onChange={[Function]}
+    readOnly={false}
+    value="Select"
+  >
+    <option
+      selected={true}
+      value="Select Item 1"
+    >
+      Select Item 1
+    </option>
+    <option
+      selected={false}
+      value="Select Item 2"
+    >
+      Select Item 2
+    </option>
+    <option
+      selected={false}
+      value="Select Item 3"
+    >
+      Select Item 3
+    </option>
+    <option
+      selected={false}
+      value="Select Item 4"
+    >
+      Select Item 4
+    </option>
+  </select>
+</div>
+`;
+
+exports[`<Select /> Render must match regular() 1`] = `
+<div
+  className="select"
+>
+  <select
+    className="select-menu width-full"
+    id={null}
+    onChange={[Function]}
+    readOnly={false}
+    value="Select"
+  >
+    <option
+      selected={true}
+      value="Select Item 1"
+    >
+      Select Item 1
+    </option>
+    <option
+      selected={false}
+      value="Select Item 2"
+    >
+      Select Item 2
+    </option>
+    <option
+      selected={false}
+      value="Select Item 3"
+    >
+      Select Item 3
+    </option>
+    <option
+      selected={false}
+      value="Select Item 4"
+    >
+      Select Item 4
+    </option>
+  </select>
+</div>
+`;

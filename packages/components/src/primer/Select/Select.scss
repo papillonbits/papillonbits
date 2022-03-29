@@ -1,0 +1,49 @@
+@import '../../index.scss';
+
+.select {
+  position: relative;
+}
+
+.select-menu {
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 160px;
+  padding-top: $spacer-1;
+  padding-bottom: $spacer-1;
+  margin-top: 2px;
+  list-style: none;
+  background-color: var(--color-scale-white);
+  background-clip: padding-box;
+  border: $border;
+  border-radius: $border-radius;
+  box-shadow: var(--color-shadow-large);
+
+  &::before,
+  &::after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+  }
+
+  &::before {
+    border: $spacer-2 $border-style transparent;
+    border-bottom-color: rgba(var(--color-scale-black), 0.15);
+  }
+
+  &::after {
+    border: 7px $border-style transparent;
+    border-bottom-color: var(--color-scale-white);
+  }
+
+  > ul {
+    list-style: none;
+  }
+}
+
+.select-inactive {
+  pointer-events: none;
+  cursor: not-allowed;
+  user-select: none;
+  color: var(--color-scale-gray-4) !important;
+}
