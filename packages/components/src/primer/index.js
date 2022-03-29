@@ -11,6 +11,7 @@ import { Label } from './Label'
 import { Loader, loaderVariant } from './Loader'
 import { Navigation } from './Navigation'
 import { Pagination } from './Pagination'
+import { Popover, popoverVariant, popoverSize } from './Popover'
 
 export const primer = {
   Alert: {
@@ -53,4 +54,9 @@ export const primer = {
   },
   Navigation,
   Pagination,
+  Popover: {
+    Popover,
+    popoverVariant,
+    popoverSize,
+  },
 }
