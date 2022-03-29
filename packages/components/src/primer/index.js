@@ -5,6 +5,7 @@ import { Button, buttonElement, buttonVariant, buttonSize, buttonState, iconAlig
 import { Dropdown, dropdownState } from './Dropdown'
 import { ErrorBoundary } from './ErrorBoundary'
 import { Form } from './Form'
+import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
 
 export const primer = {
@@ -35,6 +36,7 @@ export const primer = {
   },
   ErrorBoundary,
   Form,
+  Grid,
   Icon: {
     Icon,
     iconName,
