@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> Render must match regular() 1`] = `
+<nav
+  aria-label="Person settings"
+  aria-labelledby="menu-heading"
+  className="menu"
+>
+  <a
+    aria-current="page"
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Account
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Profile
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Emails
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Notifications
+  </a>
+</nav>
+`;
+
+exports[`<Menu /> Render must match withHeading() 1`] = `
+<nav
+  aria-label="Person settings"
+  aria-labelledby="menu-heading"
+  className="menu"
+>
+  <span
+    className="menu-heading"
+  >
+    Menu heading
+  </span>
+  <a
+    aria-current="page"
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Account
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Profile
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Emails
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Notifications
+  </a>
+</nav>
+`;
+
+exports[`<Menu /> Render must match withIcons() 1`] = `
+<nav
+  aria-label="Person settings"
+  aria-labelledby="menu-heading"
+  className="menu"
+>
+  <a
+    aria-current="page"
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Account
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Profile
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Emails
+  </a>
+  <a
+    className="menu-item"
+    href="#url"
+    onClick={[Function]}
+  >
+    Notifications
+  </a>
+</nav>
+`;
