@@ -9,6 +9,7 @@ import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
 import { Label } from './Label'
 import { Loader, loaderVariant } from './Loader'
+import { Navigation } from './Navigation'
 
 export const primer = {
   Alert: {
@@ -49,4 +50,5 @@ export const primer = {
     Loader,
     loaderVariant,
   },
+  Navigation,
 }
