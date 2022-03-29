@@ -8,6 +8,7 @@ import { Form } from './Form'
 import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
 import { Label } from './Label'
+import { Loader, loaderVariant } from './Loader'
 
 export const primer = {
   Alert: {
@@ -44,4 +45,8 @@ export const primer = {
     iconSize,
   },
   Label,
+  Loader: {
+    Loader,
+    loaderVariant,
+  },
 }
