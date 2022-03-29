@@ -1,0 +1,7225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
+<div
+  className=""
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
+<div
+  className="flexGrid-inactive"
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            aria-describedby="isSelected"
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
+<div
+  className=""
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] = `
+<div
+  className="flexGrid-inactive"
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
+<div
+  className=""
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
+<div
+  className="flexGrid-inactive"
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+    >
+      <div
+        className="m-0 form-checkbox"
+        data-test={null}
+      >
+        <label
+          htmlFor="checkbox"
+        >
+          <input
+            checked={false}
+            name="isSelected"
+            onChange={[Function]}
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
+<div
+  className=""
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
+<div
+  className="flexGrid-inactive"
+>
+  <div
+    className="d-flex flex-row flex-items-start bg-blue-light border"
+  >
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Created
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Date Modified
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Kind
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Name
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        >
+          <span
+            className="ml-1 text-gray-light"
+          >
+             |
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="d-flex flex-justify-between width-full"
+      >
+        <div
+          className="css-truncate css-truncate-overflow"
+        >
+          Size
+        </div>
+        <div
+          className="d-flex flex-items-start ml-1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed May 13 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 03 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PostScript file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          y8P.ps
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        37.72 exabyte (EB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri May 01 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Dec 31 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Perl script file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          Pj9m.cgi
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        339 gigabyte (GB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Mon Oct 31 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Feb 21 2017
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        PSD image
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          mRGfhp.psd
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        325.6 kilobyte (KB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 11 2020
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Aug 26 2018
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Active Server Page file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          FBrXhyh736LIV.aspx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        716 terabyte (TB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 21 2014
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Wed Mar 04 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          beylpO7v
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 20 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Feb 08 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Database file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          aD9iiQhkj.db
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        913.5 bit (b)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Fri Mar 11 2016
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu May 02 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Apple Mail e-mail file
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          9kcUYOj65.emlx
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        921.8 zettabyte (ZB)
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Sun Oct 25 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Thu Apr 11 2019
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Folder
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        --
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row flex-items-start border item row"
+    onClick={[Function]}
+    onDoubleClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Jan 20 2015
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Tue Oct 15 2013
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        Microsoft Excel file with macros
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="octicon"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "#79b8ff",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        <span
+          className="ml-2"
+        >
+          1NplEr0hHjFnTmW.xlsm
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+    >
+      <div
+        className="css-truncate css-truncate-overflow"
+      >
+        474.53 petabyte (PB)
+      </div>
+    </div>
+  </div>
+</div>
+`;

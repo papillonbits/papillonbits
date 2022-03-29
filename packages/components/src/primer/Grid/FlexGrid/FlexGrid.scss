@@ -1,0 +1,26 @@
+@import '../../index.scss';
+
+.item {
+  &:hover {
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.row {
+  &:nth-of-type(odd) {
+    background-color: var(--color-scale-blue-0);
+  }
+}
+
+input[type='checkbox'] {
+  &:hover {
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+// custom-style
+.flexGrid-inactive {
+  @include inactive;
+}
