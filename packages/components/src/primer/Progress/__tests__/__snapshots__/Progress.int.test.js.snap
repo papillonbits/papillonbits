@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Progress /> Render must match large() 1`] = `
+<span
+  className="Progress Progress--large"
+>
+  <span
+    className="Progress-item bg-green"
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  />
+</span>
+`;
+
+exports[`<Progress /> Render must match normal() 1`] = `
+<span
+  className="Progress"
+>
+  <span
+    className="Progress-item bg-green"
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  />
+</span>
+`;
+
+exports[`<Progress /> Render must match small() 1`] = `
+<span
+  className="Progress Progress--small"
+>
+  <span
+    className="Progress-item bg-green"
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  />
+</span>
+`;
