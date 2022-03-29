@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreviousNext /> Render must match inactive() 1`] = `
+<nav
+  aria-label="Pagination"
+  className="paginate-container previousnext-inactive"
+>
+  <div
+    className="pagination d-flex"
+  >
+    <a
+      aria-label="Previous"
+      href="#url"
+      onClick={[Function]}
+      rel="previous"
+    >
+      &lt;
+    </a>
+    <span>
+      Viewing 3 to 7
+    </span>
+    <a
+      aria-label="Next"
+      href="#url"
+      onClick={[Function]}
+      rel="next"
+    >
+      &gt;
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`<PreviousNext /> Render must match regular() 1`] = `
+<nav
+  aria-label="Pagination"
+  className="paginate-container"
+>
+  <div
+    className="pagination d-flex"
+  >
+    <a
+      aria-label="Previous"
+      href="#url"
+      onClick={[Function]}
+      rel="previous"
+    >
+      &lt;
+    </a>
+    <span>
+      Viewing 3 to 7
+    </span>
+    <a
+      aria-label="Next"
+      href="#url"
+      onClick={[Function]}
+      rel="next"
+    >
+      &gt;
+    </a>
+  </div>
+</nav>
+`;
