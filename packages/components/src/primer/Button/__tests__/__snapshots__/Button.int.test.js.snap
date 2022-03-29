@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Render must match blue() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-blue"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue button
+</button>
+`;
+
+exports[`<Button /> Render must match blueIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-blue"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Blue icon button
+</button>
+`;
+
+exports[`<Button /> Render must match blueIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-blue"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match blueInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-blue button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match blueLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large btn-blue"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue large button
+</button>
+`;
+
+exports[`<Button /> Render must match blueSmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm btn-blue"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue small button
+</button>
+`;
+
+exports[`<Button /> Render must match danger() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-danger"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger button
+</button>
+`;
+
+exports[`<Button /> Render must match dangerIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-danger"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Danger icon button
+</button>
+`;
+
+exports[`<Button /> Render must match dangerIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-danger"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match dangerInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-danger button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match dangerLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large btn-danger"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger large button
+</button>
+`;
+
+exports[`<Button /> Render must match dangerSmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm btn-danger"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger small button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Default icon button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match defaultInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default large button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultLink() 1`] = `
+<a
+  className="btn"
+  href="#url"
+  onClick={[Function]}
+  role="button"
+>
+  Default link button
+</a>
+`;
+
+exports[`<Button /> Render must match defaultNormal() 1`] = `
+<button
+  autoFocus={false}
+  className="btn"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default normal button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultSmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default small button
+</button>
+`;
+
+exports[`<Button /> Render must match orange() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-orange"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange button
+</button>
+`;
+
+exports[`<Button /> Render must match orangeIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-orange"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Orange icon button
+</button>
+`;
+
+exports[`<Button /> Render must match orangeIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-orange"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match orangeInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-orange button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match orangeLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large btn-orange"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange large button
+</button>
+`;
+
+exports[`<Button /> Render must match orangeSmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm btn-orange"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange small button
+</button>
+`;
+
+exports[`<Button /> Render must match outline() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-outline"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline button
+</button>
+`;
+
+exports[`<Button /> Render must match outlineIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-outline"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Outline icon button
+</button>
+`;
+
+exports[`<Button /> Render must match outlineIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-outline"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match outlineInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-outline button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match outlineLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large btn-outline"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline large button
+</button>
+`;
+
+exports[`<Button /> Render must match outlineSmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm btn-outline"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline small button
+</button>
+`;
+
+exports[`<Button /> Render must match primary() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-primary"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary button
+</button>
+`;
+
+exports[`<Button /> Render must match primaryIconLeftAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-primary"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="mr-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+  Primary icon button
+</button>
+`;
+
+exports[`<Button /> Render must match primaryIconRightAligned() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-primary"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary icon button
+  <mock-file
+    aria-hidden="true"
+    aria-label={null}
+    className="ml-2"
+    height={16}
+    role="img"
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "currentColor",
+        "userSelect": "none",
+        "verticalAlign": "text-bottom",
+      }
+    }
+    viewBox="0 0 16 16"
+    width={16}
+  />
+</button>
+`;
+
+exports[`<Button /> Render must match primaryInactive() 1`] = `
+<button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-primary button-inactive"
+  data-test={null}
+  disabled="true"
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match primaryLarge() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-large btn-primary"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary large button
+</button>
+`;
+
+exports[`<Button /> Render must match primarySmall() 1`] = `
+<button
+  autoFocus={false}
+  className="btn btn-sm btn-primary"
+  data-test={null}
+  id={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary small button
+</button>
+`;
