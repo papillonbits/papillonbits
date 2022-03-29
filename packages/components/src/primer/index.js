@@ -2,6 +2,7 @@ import { Alert, alertVariant } from './Alert'
 import { Breadcrumb, breadcrumbState } from './Breadcrumb'
 import { Blankslate, blankslateVariant } from './Blankslate'
 import { Button, buttonElement, buttonVariant, buttonSize, buttonState, iconAlignment, buttonInputType } from './Button'
+import { Form } from './Form'
 import { Icon, iconName, iconSize } from './Icon'
 
 export const primer = {
@@ -26,6 +27,7 @@ export const primer = {
     iconAlignment,
     buttonInputType,
   },
+  Form,
   Icon: {
     Icon,
     iconName,
