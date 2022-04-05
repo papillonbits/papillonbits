@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
-    "install-packages": "npm install",
+    "install-packages": "npm i",
     "install-papillonbits-latest": "echo \"css skipping install-papillonbits-latest\" && exit 0",
     "build": "rm -rf build && babel --copy-files --no-copy-ignored --out-dir build src",
     "build-test": "npm run build",

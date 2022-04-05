@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
-    "install-packages": "npm install",
+    "install-packages": "npm i",
     "install-papillonbits-latest": "npm i \"@papillonbits/css\"@latest && npm i \"@papillonbits/library\"@latest",
     "remove-test-folders": "rm -rf src/**/**/__tests__ && rm -rf src/**/**/**/__tests__ && rm -rf src/primer/Concept",
     "remove-snapshot-folders": "rm -rf src/**/**/__tests__/__snapshots__",

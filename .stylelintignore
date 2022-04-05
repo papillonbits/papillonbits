@@ -16,10 +16,12 @@ app.sublime-workspace
 coverage
 
 # NPM Papillon Bits
+.env
 .npmrc
 npm-debug.log
 lerna-debug.log
 node_modules
+codecov
 package-lock.json
 
 # NPM Papillon Bits Components Package

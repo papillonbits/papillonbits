@@ -4,11 +4,8 @@ import 'jest-enzyme'
 import renderer from 'react-test-renderer'
 
 import Enzyme, { shallow, mount } from 'enzyme'
-import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
 
 import { configureAxe, toHaveNoViolations } from 'jest-axe'
-
-Enzyme.configure({ adapter: new Adapter() })
 
 global.renderToJSON = (component) => renderer.create(component).toJSON()
 
