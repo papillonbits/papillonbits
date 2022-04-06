@@ -1,271 +1,259 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<UnderlineNav /> Render must match fullContainer() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav UnderlineNav--full"
->
-  <div
-    className="container-lg UnderlineNav-container"
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav UnderlineNav--full"
   >
     <div
-      className="UnderlineNav-body"
+      class="container-lg UnderlineNav-container"
+    >
+      <div
+        class="UnderlineNav-body"
+        role="tablist"
+      >
+        <a
+          aria-current="page"
+          class="UnderlineNav-item"
+        >
+          Item 1
+        </a>
+        <a
+          class="UnderlineNav-item"
+        >
+          Item 2
+        </a>
+        <a
+          class="UnderlineNav-item"
+        >
+          Item 3
+        </a>
+        <a
+          class="UnderlineNav-item"
+        >
+          Item 4
+        </a>
+      </div>
+      <div
+        class="UnderlineNav-actions"
+      >
+        <a
+          class="btn"
+          href="#url"
+        >
+          Button
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`<UnderlineNav /> Render must match regular() 1`] = `
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav"
+  >
+    <div
+      class="UnderlineNav-body"
+      role="tablist"
+    >
+      <button
+        aria-selected="true"
+        class="UnderlineNav-item"
+        role="tab"
+        type="button"
+      >
+        Item 1
+      </button>
+      <button
+        class="UnderlineNav-item"
+        role="tab"
+        type="button"
+      >
+        Item 2
+      </button>
+      <button
+        class="UnderlineNav-item"
+        role="tab"
+        type="button"
+      >
+        Item 3
+      </button>
+      <button
+        class="UnderlineNav-item"
+        role="tab"
+        type="button"
+      >
+        Item 4
+      </button>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`<UnderlineNav /> Render must match rightAligned() 1`] = `
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav UnderlineNav--right"
+  >
+    <div
+      class="UnderlineNav-body"
       role="tablist"
     >
       <a
         aria-current="page"
-        className="UnderlineNav-item"
-        onClick={[Function]}
+        class="UnderlineNav-item"
       >
         Item 1
       </a>
       <a
-        className="UnderlineNav-item"
-        onClick={[Function]}
+        class="UnderlineNav-item"
       >
         Item 2
       </a>
       <a
-        className="UnderlineNav-item"
-        onClick={[Function]}
+        class="UnderlineNav-item"
       >
         Item 3
       </a>
       <a
-        className="UnderlineNav-item"
-        onClick={[Function]}
+        class="UnderlineNav-item"
       >
         Item 4
       </a>
     </div>
+  </nav>
+</div>
+`;
+
+exports[`<UnderlineNav /> Render must match rightAlignedWithActions() 1`] = `
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav UnderlineNav--right"
+  >
     <div
-      className="UnderlineNav-actions"
+      class="UnderlineNav-actions"
     >
       <a
-        className="btn"
+        class="btn"
         href="#url"
       >
         Button
       </a>
     </div>
-  </div>
-</nav>
-`;
-
-exports[`<UnderlineNav /> Render must match regular() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav"
->
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
-  >
-    <button
-      aria-selected="true"
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
+    <div
+      class="UnderlineNav-body"
+      role="tablist"
     >
-      Item 1
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 2
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 3
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 4
-    </button>
-  </div>
-</nav>
-`;
-
-exports[`<UnderlineNav /> Render must match rightAligned() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav UnderlineNav--right"
->
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
-  >
-    <a
-      aria-current="page"
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 1
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 2
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 3
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 4
-    </a>
-  </div>
-</nav>
-`;
-
-exports[`<UnderlineNav /> Render must match rightAlignedWithActions() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav UnderlineNav--right"
->
-  <div
-    className="UnderlineNav-actions"
-  >
-    <a
-      className="btn"
-      href="#url"
-    >
-      Button
-    </a>
-  </div>
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
-  >
-    <a
-      aria-current="page"
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 1
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 2
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 3
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 4
-    </a>
-  </div>
-</nav>
+      <a
+        aria-current="page"
+        class="UnderlineNav-item"
+      >
+        Item 1
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 2
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 3
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 4
+      </a>
+    </div>
+  </nav>
+</div>
 `;
 
 exports[`<UnderlineNav /> Render must match withActions() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav"
->
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav"
   >
-    <a
-      aria-current="page"
-      className="UnderlineNav-item"
-      onClick={[Function]}
+    <div
+      class="UnderlineNav-body"
+      role="tablist"
     >
-      Item 1
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
+      <a
+        aria-current="page"
+        class="UnderlineNav-item"
+      >
+        Item 1
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 2
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 3
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 4
+      </a>
+    </div>
+    <div
+      class="UnderlineNav-actions"
     >
-      Item 2
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 3
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 4
-    </a>
-  </div>
-  <div
-    className="UnderlineNav-actions"
-  >
-    <a
-      className="btn"
-      href="#url"
-    >
-      Button
-    </a>
-  </div>
-</nav>
+      <a
+        class="btn"
+        href="#url"
+      >
+        Button
+      </a>
+    </div>
+  </nav>
+</div>
 `;
 
 exports[`<UnderlineNav /> Render must match withIcons() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav"
->
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
+<div>
+  <nav
+    aria-label="Foo bar"
+    class="UnderlineNav"
   >
-    <a
-      aria-current="page"
-      className="UnderlineNav-item"
-      onClick={[Function]}
+    <div
+      class="UnderlineNav-body"
+      role="tablist"
     >
-      Item 1
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 2
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 3
-    </a>
-    <a
-      className="UnderlineNav-item"
-      onClick={[Function]}
-    >
-      Item 4
-    </a>
-  </div>
-</nav>
+      <a
+        aria-current="page"
+        class="UnderlineNav-item"
+      >
+        Item 1
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 2
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 3
+      </a>
+      <a
+        class="UnderlineNav-item"
+      >
+        Item 4
+      </a>
+    </div>
+  </nav>
+</div>
 `;

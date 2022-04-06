@@ -1,218 +1,218 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<TabNav /> Render must match inactive() 1`] = `
-<div
-  className="tabnav tabnav-inactive"
->
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
+<div>
+  <div
+    class="tabnav tabnav-inactive"
   >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
+  </div>
 </div>
 `;
 
 exports[`<TabNav /> Render must match regular() 1`] = `
-<div
-  className="tabnav"
->
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
+<div>
+  <div
+    class="tabnav"
   >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
+  </div>
 </div>
 `;
 
 exports[`<TabNav /> Render must match withButtonActions() 1`] = `
-<div
-  className="tabnav"
->
-  <a
-    className="btn btn-sm float-right"
-    href="#url"
-    role="button"
-  >
-    Button
-  </a>
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
+<div>
+  <div
+    class="tabnav"
   >
     <a
-      aria-current="page"
-      className="tabnav-tab"
+      class="btn btn-sm float-right"
       href="#url"
-      onClick={[Function]}
+      role="button"
     >
-      Foo tab
+      Button
     </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Bar tab
-    </a>
-  </nav>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
+  </div>
 </div>
 `;
 
 exports[`<TabNav /> Render must match withLinkActions() 1`] = `
-<div
-  className="tabnav"
->
+<div>
   <div
-    className="float-right"
+    class="tabnav"
   >
-    <a
-      className="tabnav-extra"
-      href="#url"
+    <div
+      class="float-right"
     >
-      Tabnav extra link
-    </a>
-    <a
-      className="tabnav-extra"
-      href="#url"
+      <a
+        class="tabnav-extra"
+        href="#url"
+      >
+        Tabnav extra link
+      </a>
+      <a
+        class="tabnav-extra"
+        href="#url"
+      >
+        Tabnav extra link
+      </a>
+    </div>
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Tabnav extra link
-    </a>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
   </div>
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
-  >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
 </div>
 `;
 
 exports[`<TabNav /> Render must match withMixedEnabledVisibleItems() 1`] = `
-<div
-  className="tabnav"
->
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
+<div>
+  <div
+    class="tabnav"
   >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
+  </div>
 </div>
 `;
 
 exports[`<TabNav /> Render must match withNavigation() 1`] = `
-<div
-  className="tabnav"
->
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
+<div>
+  <div
+    class="tabnav"
   >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
     >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
+  </div>
 </div>
 `;
 
 exports[`<TabNav /> Render must match withTextActions() 1`] = `
-<div
-  className="tabnav"
->
+<div>
   <div
-    className="tabnav-extra float-right"
+    class="tabnav"
   >
-    Tabnav widget text here.
+    <div
+      class="tabnav-extra float-right"
+    >
+      Tabnav widget text here.
+    </div>
+    <nav
+      aria-label="Foo bar"
+      class="tabnav-tabs"
+    >
+      <a
+        aria-current="page"
+        class="tabnav-tab"
+        href="#url"
+      >
+        Foo tab
+      </a>
+      <a
+        class="tabnav-tab"
+        href="#url"
+      >
+        Bar tab
+      </a>
+    </nav>
   </div>
-  <nav
-    aria-label="Foo bar"
-    className="tabnav-tabs"
-  >
-    <a
-      aria-current="page"
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Foo tab
-    </a>
-    <a
-      className="tabnav-tab"
-      href="#url"
-      onClick={[Function]}
-    >
-      Bar tab
-    </a>
-  </nav>
 </div>
 `;

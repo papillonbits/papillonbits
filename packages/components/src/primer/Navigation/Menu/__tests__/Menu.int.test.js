@@ -1,4 +1,4 @@
-import { defaultItems as items, custom, regular, withIcons, withHeading } from './Menu.int.story'
+import { defaultItems as items, regular, withIcons, withHeading } from './Menu.int.story'
 
 jest.mock('@papillonbits/library/array', () => ({
   getIndexItems: () => {},
@@ -27,8 +27,6 @@ describe('<Menu />', () => {
     { ...items[3], index: 3, isSelected: false },
   ]
 
-  const onClickMockFn = jest.fn()
-
   const setIndexItemsMockFn = jest.fn((indexItems) => {
     indexItemsDataObject = indexItems
   })
@@ -43,15 +41,6 @@ describe('<Menu />', () => {
 
   afterEach(() => jest.clearAllMocks())
 
-  describe('Event', () => {
-    test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(custom(onClickMockFn))
-      mountCustomRender.find('nav').first().find('a').first().simulate('click')
-      expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
-      expect(mountCustomRender.props().onClick).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
-    })
-  })
-
   describe('Render', () => {
     test('must match regular()', () => {
       expect(global.renderToJSON(regular())).toMatchSnapshot()
@@ -63,15 +52,6 @@ describe('<Menu />', () => {
 
     test('must match withHeading()', () => {
       expect(global.renderToJSON(withHeading())).toMatchSnapshot()
-    })
-  })
-
-  describe('State', () => {
-    test('must reset new items with index when onClick()', () => {
-      const mountCustomRender = global.renderMount(custom(onClickMockFn))
-      mountCustomRender.find('nav').first().find('a').first().simulate('click')
-      expect(setIndexItemsMockFn).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
-      expect(indexItemsDataObject).toBe(newIndexItemsWithSelectedDataObject)
     })
   })
 })

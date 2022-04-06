@@ -1,4 +1,4 @@
-import { items, custom, regular, inactive } from './Select.int.story'
+import { items, regular, inactive } from './Select.int.story'
 
 jest.mock('@papillonbits/library/array', () => ({
   getIndexItems: () => {},
@@ -22,15 +22,6 @@ describe('<Select />', () => {
     { ...items[3], index: 3, isSelected: false },
   ]
 
-  const newItemsDataObject = [
-    { ...items[0], isSelected: true },
-    { ...items[1], isSelected: false },
-    { ...items[2], isSelected: false },
-    { ...items[3], isSelected: false },
-  ]
-
-  const onChangeMockFn = jest.fn()
-
   beforeEach(() => {
     jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexItemsDataObject)
 
@@ -38,18 +29,6 @@ describe('<Select />', () => {
   })
 
   afterEach(() => jest.clearAllMocks())
-
-  describe('Event', () => {
-    test('must return new items without index when onChange()', () => {
-      const mountCustomRender = global.renderMount(custom(onChangeMockFn))
-      mountCustomRender.find('select').first().simulate('change')
-      expect(mountCustomRender.props().onChange).toBe(onChangeMockFn)
-      expect(mountCustomRender.props().onChange).toHaveBeenCalledWith({
-        selectedText: newItemsDataObject[0].text,
-        items: newItemsDataObject,
-      })
-    })
-  })
 
   describe('Render', () => {
     test('must match regular()', () => {

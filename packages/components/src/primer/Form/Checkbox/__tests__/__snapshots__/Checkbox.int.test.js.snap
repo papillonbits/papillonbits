@@ -1,77 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Checkbox /> Render must match isChecked() 1`] = `
-<div
-  className="m-0 form-checkbox"
-  data-test={null}
->
-  <label
-    htmlFor="checkbox"
+<div>
+  <div
+    class="m-0 form-checkbox"
   >
-    <input
-      aria-describedby="help-text-for-checkbox"
-      checked={true}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    is checked
-  </label>
+    <label
+      for="checkbox"
+    >
+      <input
+        aria-describedby="help-text-for-checkbox"
+        checked=""
+        type="checkbox"
+      />
+      is checked
+    </label>
+  </div>
 </div>
 `;
 
 exports[`<Checkbox /> Render must match isCheckedInactive() 1`] = `
-<div
-  className="m-0 form-checkbox checkbox-inactive"
-  data-test={null}
->
-  <label
-    htmlFor="checkbox"
+<div>
+  <div
+    class="m-0 form-checkbox checkbox-inactive"
   >
-    <input
-      aria-describedby="help-text-for-checkbox"
-      checked={true}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    is checked
-  </label>
+    <label
+      for="checkbox"
+    >
+      <input
+        aria-describedby="help-text-for-checkbox"
+        checked=""
+        type="checkbox"
+      />
+      is checked
+    </label>
+  </div>
 </div>
 `;
 
 exports[`<Checkbox /> Render must match isNotChecked() 1`] = `
-<div
-  className="m-0 form-checkbox"
-  data-test={null}
->
-  <label
-    htmlFor="checkbox"
+<div>
+  <div
+    class="m-0 form-checkbox"
   >
-    <input
-      aria-describedby="help-text-for-checkbox"
-      checked={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    is not checked
-  </label>
+    <label
+      for="checkbox"
+    >
+      <input
+        aria-describedby="help-text-for-checkbox"
+        type="checkbox"
+      />
+      is not checked
+    </label>
+  </div>
 </div>
 `;
 
 exports[`<Checkbox /> Render must match isNotCheckedInactive() 1`] = `
-<div
-  className="m-0 form-checkbox checkbox-inactive"
-  data-test={null}
->
-  <label
-    htmlFor="checkbox"
+<div>
+  <div
+    class="m-0 form-checkbox checkbox-inactive"
   >
-    <input
-      aria-describedby="help-text-for-checkbox"
-      checked={false}
-      onChange={[Function]}
-      type="checkbox"
-    />
-    is not checked
-  </label>
+    <label
+      for="checkbox"
+    >
+      <input
+        aria-describedby="help-text-for-checkbox"
+        type="checkbox"
+      />
+      is not checked
+    </label>
+  </div>
 </div>
 `;

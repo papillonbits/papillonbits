@@ -1,120 +1,114 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Menu /> Render must match regular() 1`] = `
-<nav
-  aria-label="Person settings"
-  aria-labelledby="menu-heading"
-  className="menu"
->
-  <a
-    aria-current="page"
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
+<div>
+  <nav
+    aria-label="Person settings"
+    aria-labelledby="menu-heading"
+    class="menu"
   >
-    Account
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Profile
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Emails
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Notifications
-  </a>
-</nav>
+    <a
+      aria-current="page"
+      class="menu-item"
+      href="#url"
+    >
+      Account
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Profile
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Emails
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Notifications
+    </a>
+  </nav>
+</div>
 `;
 
 exports[`<Menu /> Render must match withHeading() 1`] = `
-<nav
-  aria-label="Person settings"
-  aria-labelledby="menu-heading"
-  className="menu"
->
-  <span
-    className="menu-heading"
+<div>
+  <nav
+    aria-label="Person settings"
+    aria-labelledby="menu-heading"
+    class="menu"
   >
-    Menu heading
-  </span>
-  <a
-    aria-current="page"
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Account
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Profile
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Emails
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Notifications
-  </a>
-</nav>
+    <span
+      class="menu-heading"
+    >
+      Menu heading
+    </span>
+    <a
+      aria-current="page"
+      class="menu-item"
+      href="#url"
+    >
+      Account
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Profile
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Emails
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Notifications
+    </a>
+  </nav>
+</div>
 `;
 
 exports[`<Menu /> Render must match withIcons() 1`] = `
-<nav
-  aria-label="Person settings"
-  aria-labelledby="menu-heading"
-  className="menu"
->
-  <a
-    aria-current="page"
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
+<div>
+  <nav
+    aria-label="Person settings"
+    aria-labelledby="menu-heading"
+    class="menu"
   >
-    Account
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Profile
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Emails
-  </a>
-  <a
-    className="menu-item"
-    href="#url"
-    onClick={[Function]}
-  >
-    Notifications
-  </a>
-</nav>
+    <a
+      aria-current="page"
+      class="menu-item"
+      href="#url"
+    >
+      Account
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Profile
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Emails
+    </a>
+    <a
+      class="menu-item"
+      href="#url"
+    >
+      Notifications
+    </a>
+  </nav>
+</div>
 `;

@@ -1,5 +1,4 @@
 import {
-  custom,
   regular,
   regularLarge,
   bottom,
@@ -16,25 +15,6 @@ import {
 } from './Popover.int.story'
 
 describe('<Popover />', () => {
-  const introOnClickMockFn = jest.fn()
-  const acknowledgeOnClickMockFn = jest.fn()
-
-  describe('Event', () => {
-    test('must call introOnClick()', () => {
-      const mountCustomRender = global.renderMount(custom(introOnClickMockFn, acknowledgeOnClickMockFn))
-      mountCustomRender.find('button').first().simulate('click')
-      expect(mountCustomRender.props().introOnClick).toBe(introOnClickMockFn)
-      expect(mountCustomRender.props().introOnClick).toHaveBeenCalled()
-    })
-
-    test('must call acknowledgeOnClick()', () => {
-      const mountCustomRender = global.renderMount(custom(introOnClickMockFn, acknowledgeOnClickMockFn))
-      mountCustomRender.find('button').last().simulate('click')
-      expect(mountCustomRender.props().acknowledgeOnClick).toBe(acknowledgeOnClickMockFn)
-      expect(mountCustomRender.props().acknowledgeOnClick).toHaveBeenCalled()
-    })
-  })
-
   describe('Render', () => {
     test('must match regular()', () => {
       expect(global.renderToJSON(regular())).toMatchSnapshot()

@@ -1,5 +1,4 @@
 import {
-  custom,
   defaultNormal,
   defaultSmall,
   defaultLarge,
@@ -38,27 +37,8 @@ import {
   orangeIconLeftAligned,
   orangeIconRightAligned,
 } from './Button.int.story'
-import { buttonElement } from '../Button.prop'
 
 describe('<Button />', () => {
-  const onClickMockFn = jest.fn()
-
-  describe('Event', () => {
-    test('must call onClick() when element button', () => {
-      const mountCustomRender = global.renderMount(custom(buttonElement.button, onClickMockFn))
-      mountCustomRender.find('button').first().simulate('click')
-      expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
-      expect(mountCustomRender.props().onClick).toHaveBeenCalled()
-    })
-
-    test('must call onClick() when element a', () => {
-      const mountCustomRender = global.renderMount(custom(buttonElement.a, onClickMockFn))
-      mountCustomRender.find('a').first().simulate('click')
-      expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
-      expect(mountCustomRender.props().onClick).toHaveBeenCalled()
-    })
-  })
-
   describe('Render', () => {
     test('must match defaultNormal()', () => {
       expect(global.renderToJSON(defaultNormal())).toMatchSnapshot()

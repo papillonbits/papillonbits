@@ -1,4 +1,4 @@
-import { ariaAttr, items, custom, regular } from './SelectMenu.int.story'
+import { items, regular } from './SelectMenu.int.story'
 
 jest.mock('@papillonbits/library/array', () => ({
   getIndexItems: () => {},
@@ -28,15 +28,6 @@ describe('<SelectMenu />', () => {
     { ...items[3], index: 3, isSelected: false },
   ]
 
-  const newItemsDataObject = [
-    { ...items[0], isSelected: true },
-    { ...items[1], isSelected: false },
-    { ...items[2], isSelected: false },
-    { ...items[3], isSelected: false },
-  ]
-
-  const onClickMockFn = jest.fn()
-
   const setIndexItemsMockFn = jest.fn((indexItems) => {
     indexItemsDataObject = indexItems
   })
@@ -57,30 +48,9 @@ describe('<SelectMenu />', () => {
 
   afterEach(() => jest.clearAllMocks())
 
-  describe('Event', () => {
-    test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(custom(onClickMockFn))
-      mountCustomRender.find('button').last().simulate('click')
-      expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
-      expect(mountCustomRender.props().onClick).toHaveBeenCalledWith({
-        ariaAttr,
-        items: newItemsDataObject,
-      })
-    })
-  })
-
   describe('Render', () => {
     test('must match regular()', () => {
       expect(global.renderToJSON(regular())).toMatchSnapshot()
-    })
-  })
-
-  describe('State', () => {
-    test('must reset new items with index when onClick()', () => {
-      const mountCustomRender = global.renderMount(custom(onClickMockFn))
-      mountCustomRender.find('button').last().simulate('click')
-      expect(setIndexItemsMockFn).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
-      expect(indexItemsDataObject).toBe(newIndexItemsWithSelectedDataObject)
     })
   })
 })

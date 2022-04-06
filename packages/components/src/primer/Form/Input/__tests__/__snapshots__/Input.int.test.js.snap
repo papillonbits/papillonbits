@@ -1,31 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Input /> Render must match inactive() 1`] = `
-<input
-  aria-label="Repository description"
-  className="form-control input-inactive"
-  data-test={null}
-  id={null}
-  onBlur={[Function]}
-  onChange={[Function]}
-  onFocus={[Function]}
-  onKeyUp={[Function]}
-  placeholder="Fantastic placeholder"
-  type="text"
-/>
+<div>
+  <input
+    aria-label="Repository description"
+    class="form-control input-inactive"
+    placeholder="Fantastic placeholder"
+    type="text"
+    value=""
+  />
+</div>
 `;
 
 exports[`<Input /> Render must match regular() 1`] = `
-<input
-  aria-label="Repository description"
-  className="form-control"
-  data-test={null}
-  id={null}
-  onBlur={[Function]}
-  onChange={[Function]}
-  onFocus={[Function]}
-  onKeyUp={[Function]}
-  placeholder="Fantastic placeholder"
-  type="text"
-/>
+<div>
+  <input
+    aria-label="Repository description"
+    class="form-control"
+    placeholder="Fantastic placeholder"
+    type="text"
+    value=""
+  />
+</div>
 `;

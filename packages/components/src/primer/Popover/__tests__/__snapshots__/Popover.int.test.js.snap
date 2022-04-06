@@ -1,554 +1,439 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Popover /> Render must match bottom() 1`] = `
-<div
-  className="position-relative text-center"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative text-center"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom mx-auto mb-2"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom mx-auto mb-2"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
   </div>
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
 </div>
 `;
 
 exports[`<Popover /> Render must match bottomLeft() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": true,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-left mb-2"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-left mb-2"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
   </div>
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
 </div>
 `;
 
 exports[`<Popover /> Render must match bottomRight() 1`] = `
-<div
-  className="position-relative text-right pr-2"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative text-right pr-2"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-right mb-2"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-right mb-2"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
   </div>
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
 </div>
 `;
 
 exports[`<Popover /> Render must match left() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match leftBottom() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-bottom"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-bottom"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match leftTop() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-top"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-top"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match regular() 1`] = `
-<div
-  className="position-relative text-center"
->
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": true,
-      }
-    }
+    class="position-relative text-center"
   >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
+    <button
+      class="btn btn-primary"
+      type="button"
     >
-      <h4
-        className="mb-2"
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match regularLarge() 1`] = `
-<div
-  className="position-relative text-center"
->
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": true,
-      }
-    }
+    class="position-relative text-center"
   >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2 Popover-message--large"
+    <button
+      class="btn btn-primary"
+      type="button"
     >
-      <h4
-        className="mb-2"
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2 Popover-message--large"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match right() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--right"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match rightBottom() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-bottom"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-bottom"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match rightTop() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-top"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-top"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match topLeft() 1`] = `
-<div
-  className="position-relative"
->
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
+    class="position-relative"
   >
     <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--top-left"
+      class="[object Object]"
     >
-      <h4
-        className="mb-2"
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--top-left"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>
 `;
 
 exports[`<Popover /> Render must match topRight() 1`] = `
-<div
-  className="position-relative text-center"
->
-  <button
-    autoFocus={false}
-    className="btn btn-primary"
-    data-test={null}
-    id={null}
-    onClick={[Function]}
-    type="button"
-  >
-    UI
-  </button>
+<div>
   <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": true,
-      }
-    }
+    class="position-relative text-center"
   >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
+    <button
+      class="btn btn-primary"
+      type="button"
     >
-      <h4
-        className="mb-2"
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
       >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        autoFocus={false}
-        className="mt-2 text-bold btn btn-outline"
-        data-test={null}
-        id={null}
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
     </div>
   </div>
 </div>

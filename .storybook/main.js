@@ -16,8 +16,6 @@ module.exports = {
     '@storybook/addon-a11y',
     '@storybook/addon-actions',
     '@storybook/addon-backgrounds',
-    '@storybook/addon-cssresources',
-    '@storybook/addon-design-assets',
     {
       name: '@storybook/addon-docs',
       options: {
