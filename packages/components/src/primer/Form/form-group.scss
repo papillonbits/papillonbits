@@ -15,8 +15,16 @@
   // stylelint-disable-next-line primer/spacing
   margin: 15px 0;
 
+  // Autocomplete with embedded icon
+  .form-control.autocomplete-embedded-icon-wrap {
+    &:focus-within {
+      background-color: var(--color-canvas-default);
+    }
+  }
+
   // Text fields
   .form-control {
+    // stylelint-disable-next-line primer/responsive-widths
     width: 440px;
     max-width: 100%;
     // stylelint-disable-next-line primer/spacing
@@ -210,6 +218,7 @@
       &::after {
         border-bottom-color: var(--color-success-subtle);
       }
+
       &::before {
         border-bottom-color: var(--color-success-muted);
       }
@@ -217,7 +226,7 @@
   }
 
   &.warn {
-    .form-control {
+    .form-control:not(:focus, :focus-visible) {
       border-color: var(--color-attention-emphasis);
     }
 
@@ -230,6 +239,7 @@
       &::after {
         border-bottom-color: var(--color-attention-subtle);
       }
+
       &::before {
         border-bottom-color: var(--color-attention-muted);
       }
@@ -237,7 +247,7 @@
   }
 
   &.errored {
-    .form-control {
+    .form-control:not(:focus, :focus-visible) {
       border-color: var(--color-danger-emphasis);
     }
 
@@ -254,6 +264,7 @@
       &::after {
         border-bottom-color: var(--color-danger-subtle);
       }
+
       &::before {
         border-bottom-color: var(--color-danger-muted);
       }

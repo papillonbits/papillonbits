@@ -40,12 +40,6 @@
     }
   }
 
-  &:focus {
-    z-index: 1;
-    outline: none;
-    box-shadow: var(--color-primer-shadow-focus);
-  }
-
   &:hover {
     text-decoration: none;
     background-color: var(--color-neutral-subtle);

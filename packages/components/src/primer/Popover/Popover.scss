@@ -1,7 +1,5 @@
 @import '../../index.scss';
 
-// stylelint-disable function-no-unknown
-
 .Popover {
   position: absolute;
   z-index: 100;
@@ -126,6 +124,7 @@
   }
 
   &::before {
+    // stylelint-disable-next-line function-no-unknown
     margin-top: -($spacer-2 + 1);
   }
 
