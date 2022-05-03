@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blankslate /> Render must match capped() 1`] = `
+<div>
+  <div
+    class="blankslate blankslate-capped"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blankslate /> Render must match cleanBackground() 1`] = `
+<div>
+  <div
+    class="blankslate blankslate-clean-background"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blankslate /> Render must match large() 1`] = `
+<div>
+  <div
+    class="blankslate blankslate-large"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blankslate /> Render must match narrow() 1`] = `
+<div>
+  <div
+    class="blankslate blankslate-narrow"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blankslate /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="blankslate"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blankslate /> Render must match spacious() 1`] = `
+<div>
+  <div
+    class="blankslate blankslate-spacious"
+  >
+    <h3>
+      This is a blank slate
+    </h3>
+    <p>
+      Use it to provide information when no dynamic content exists.
+    </p>
+  </div>
+</div>
+`;

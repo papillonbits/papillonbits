@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Render must match dismissable() 1`] = `
+<div>
+  <div
+    class="p-1"
+  >
+    <div
+      class="Toast"
+    >
+      <span
+        class="Toast-icon"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </span>
+      <span
+        class="Toast-content"
+      >
+        This toast is dismissable.
+      </span>
+      <button
+        class="Toast-dismissButton"
+        type="button"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Button /> Render must match error() 1`] = `
+<div>
+  <div
+    class="p-1"
+  >
+    <div
+      class="Toast Toast--error"
+    >
+      <span
+        class="Toast-icon"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </span>
+      <span
+        class="Toast-content"
+      >
+        Error message goes here
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Button /> Render must match info() 1`] = `
+<div>
+  <div
+    class="p-1"
+  >
+    <div
+      class="Toast"
+    >
+      <span
+        class="Toast-icon"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </span>
+      <span
+        class="Toast-content"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Cum sociis natoquepenatibus et ma
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Button /> Render must match success() 1`] = `
+<div>
+  <div
+    class="p-1"
+  >
+    <div
+      class="Toast Toast--success"
+    >
+      <span
+        class="Toast-icon"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </span>
+      <span
+        class="Toast-content"
+      >
+        Success message goes here
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Button /> Render must match warning() 1`] = `
+<div>
+  <div
+    class="p-1"
+  >
+    <div
+      class="Toast Toast--warning"
+    >
+      <span
+        class="Toast-icon"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="octicon"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+      </span>
+      <span
+        class="Toast-content"
+      >
+        Warning message goes here
+      </span>
+    </div>
+  </div>
+</div>
+`;

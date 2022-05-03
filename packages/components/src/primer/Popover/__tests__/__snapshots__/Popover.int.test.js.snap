@@ -1,0 +1,440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popover /> Render must match bottom() 1`] = `
+<div>
+  <div
+    class="position-relative text-center"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom mx-auto mb-2"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match bottomLeft() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-left mb-2"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match bottomRight() 1`] = `
+<div>
+  <div
+    class="position-relative text-right pr-2"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--bottom-right mb-2"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match left() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match leftBottom() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-bottom"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match leftTop() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-top"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="position-relative text-center"
+  >
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match regularLarge() 1`] = `
+<div>
+  <div
+    class="position-relative text-center"
+  >
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2 Popover-message--large"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match right() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match rightBottom() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-bottom"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match rightTop() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--right-top"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match topLeft() 1`] = `
+<div>
+  <div
+    class="position-relative"
+  >
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large Popover-message--top-left"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match topRight() 1`] = `
+<div>
+  <div
+    class="position-relative text-center"
+  >
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      UI
+    </button>
+    <div
+      class="[object Object]"
+    >
+      <div
+        class="Popover-message text-left p-4 Box box-shadow-large mx-auto mt-2"
+      >
+        <h4
+          class="mb-2"
+        >
+          Popover heading
+        </h4>
+        <p>
+          Message about this particular piece of UI.
+        </p>
+        <button
+          class="mt-2 text-bold btn btn-outline"
+          type="button"
+        >
+          Got it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

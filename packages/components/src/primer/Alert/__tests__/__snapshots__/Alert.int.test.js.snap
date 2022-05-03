@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> Render must match consent() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash flash-consent"
+      >
+        <button
+          class="btn btn-sm primary flash-action btn"
+          type="button"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Cancel
+        </button>
+        <button
+          class="btn btn-sm primary flash-action btn btn-primary"
+          type="button"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Approve
+        </button>
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match consentWithInput() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash flash-consent"
+      >
+        <button
+          class="btn btn-sm primary flash-action btn"
+          type="button"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Cancel
+        </button>
+        <button
+          class="btn btn-sm primary flash-action btn btn-primary"
+          type="button"
+        >
+          <mock-file
+            aria-hidden="true"
+            classname="mr-2"
+            height="16"
+            role="img"
+            style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+            viewbox="0 0 16 16"
+            width="16"
+          />
+          Approve
+        </button>
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+        <input
+          class="flash-action form-control"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match error() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash flash-error"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match info() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match regular() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash"
+      >
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match regularMultipleParagraphs() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash"
+      >
+        <p>
+          This is a longer flash message in it's own paragraph. It ends up looking something like this. If we keep adding more text, it'll eventually wrap to a new line.
+        </p>
+        <p>
+          And this is another paragraph.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match success() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash flash-success"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> Render must match warning() 1`] = `
+<div>
+  <div>
+    <div
+      class="flash-messages"
+    >
+      <div
+        class="flash flash-warn"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        Flash message goes here.
+      </div>
+    </div>
+  </div>
+</div>
+`;
