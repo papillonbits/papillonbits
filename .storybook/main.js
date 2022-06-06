@@ -79,14 +79,14 @@ module.exports = {
     const fileLoaderRuleSVG = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.svg'))
     fileLoaderRuleSVG.exclude = /\.svg$/
 
-    const fileLoaderRuleJSX = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.jsx'))
-    fileLoaderRuleJSX.use[0].options.plugins.push(
-      path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
-    )
+    // const fileLoaderRuleJSX = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.jsx'))
+    // fileLoaderRuleJSX.use[0].options.plugins.push(
+    //   path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
+    // )
 
-    fileLoaderRuleJSX.use[0].options.plugins.push(
-      path.resolve(__dirname, '../node_modules/babel-plugin-syntax-async-functions/lib/index.js'),
-    )
+    // fileLoaderRuleJSX.use[0].options.plugins.push(
+    //   path.resolve(__dirname, '../node_modules/babel-plugin-syntax-async-functions/lib/index.js'),
+    // )
 
     config.module.rules = config.module.rules.concat([
       {

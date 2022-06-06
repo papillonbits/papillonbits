@@ -16,7 +16,6 @@
     ],
     "@babel/plugin-transform-runtime",
     "@babel/plugin-transform-spread",
-    "syntax-async-functions",
-    "@babel/plugin-transform-modules-commonjs"
+    "syntax-async-functions"
   ]
 }
