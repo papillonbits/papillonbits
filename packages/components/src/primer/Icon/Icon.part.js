@@ -101,6 +101,12 @@ import CommentDiscussion24 from '../SVG/icon/comment-discussion-24.svg'
 import Commit24 from '../SVG/icon/commit-24.svg'
 import Container16 from '../SVG/icon/container-16.svg'
 import Container24 from '../SVG/icon/container-24.svg'
+import Copilot16 from '../SVG/icon/copilot-16.svg'
+import Copilot24 from '../SVG/icon/copilot-24.svg'
+import Copilot48 from '../SVG/icon/copilot-48.svg'
+import Copilot96 from '../SVG/icon/copilot-96.svg'
+import CopilotError16 from '../SVG/icon/copilot-error-16.svg'
+import CopilotWarning16 from '../SVG/icon/copilot-warning-16.svg'
 import Copy16 from '../SVG/icon/copy-16.svg'
 import Copy24 from '../SVG/icon/copy-24.svg'
 import Cpu16 from '../SVG/icon/cpu-16.svg'
@@ -158,6 +164,7 @@ import FeedTag16 from '../SVG/icon/feed-tag-16.svg'
 import FeedTrophy16 from '../SVG/icon/feed-trophy-16.svg'
 import File16 from '../SVG/icon/file-16.svg'
 import File24 from '../SVG/icon/file-24.svg'
+import FileAdded16 from '../SVG/icon/file-added-16.svg'
 import FileBadge16 from '../SVG/icon/file-badge-16.svg'
 import FileBinary16 from '../SVG/icon/file-binary-16.svg'
 import FileBinary24 from '../SVG/icon/file-binary-24.svg'
@@ -171,6 +178,8 @@ import FileDirectoryFill16 from '../SVG/icon/file-directory-fill-16.svg'
 import FileDirectoryFill24 from '../SVG/icon/file-directory-fill-24.svg'
 import FileDirectoryOpenFill16 from '../SVG/icon/file-directory-open-fill-16.svg'
 import FileMedia24 from '../SVG/icon/file-media-24.svg'
+import FileMoved16 from '../SVG/icon/file-moved-16.svg'
+import FileRemoved16 from '../SVG/icon/file-removed-16.svg'
 import FileSubmodule16 from '../SVG/icon/file-submodule-16.svg'
 import FileSubmodule24 from '../SVG/icon/file-submodule-24.svg'
 import FileSymlinkFile16 from '../SVG/icon/file-symlink-file-16.svg'
@@ -355,6 +364,7 @@ import RepoDeleted16 from '../SVG/icon/repo-deleted-16.svg'
 import RepoForked16 from '../SVG/icon/repo-forked-16.svg'
 import RepoForked24 from '../SVG/icon/repo-forked-24.svg'
 import RepoLocked16 from '../SVG/icon/repo-locked-16.svg'
+import RepoLocked24 from '../SVG/icon/repo-locked-24.svg'
 import RepoPull16 from '../SVG/icon/repo-pull-16.svg'
 import RepoPush16 from '../SVG/icon/repo-push-16.svg'
 import RepoPush24 from '../SVG/icon/repo-push-24.svg'
@@ -402,6 +412,7 @@ import SingleSelect16 from '../SVG/icon/single-select-16.svg'
 import SingleSelect24 from '../SVG/icon/single-select-24.svg'
 import Skip16 from '../SVG/icon/skip-16.svg'
 import Skip24 from '../SVG/icon/skip-24.svg'
+import Sliders16 from '../SVG/icon/sliders-16.svg'
 import Smiley16 from '../SVG/icon/smiley-16.svg'
 import Smiley24 from '../SVG/icon/smiley-24.svg'
 import SortAsc16 from '../SVG/icon/sort-asc-16.svg'
@@ -598,6 +609,12 @@ export const iconComponents = {
   Commit24,
   Container16,
   Container24,
+  Copilot16,
+  Copilot24,
+  Copilot48,
+  Copilot96,
+  CopilotError16,
+  CopilotWarning16,
   Copy16,
   Copy24,
   Cpu16,
@@ -655,6 +672,7 @@ export const iconComponents = {
   FeedTrophy16,
   File16,
   File24,
+  FileAdded16,
   FileBadge16,
   FileBinary16,
   FileBinary24,
@@ -668,6 +686,8 @@ export const iconComponents = {
   FileDirectoryFill24,
   FileDirectoryOpenFill16,
   FileMedia24,
+  FileMoved16,
+  FileRemoved16,
   FileSubmodule16,
   FileSubmodule24,
   FileSymlinkFile16,
@@ -852,6 +872,7 @@ export const iconComponents = {
   RepoForked16,
   RepoForked24,
   RepoLocked16,
+  RepoLocked24,
   RepoPull16,
   RepoPush16,
   RepoPush24,
@@ -899,6 +920,7 @@ export const iconComponents = {
   SingleSelect24,
   Skip16,
   Skip24,
+  Sliders16,
   Smiley16,
   Smiley24,
   SortAsc16,
