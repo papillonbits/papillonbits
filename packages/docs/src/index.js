@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
-import './asset/npm/primer.css'
-import './asset/custom.css'
-import './asset/github/styleguide.css'
+// import './asset/npm/primer.css'
+// import './asset/custom.css'
+// import './asset/github/styleguide.css'
 import './asset/main.css'
 
 import './asset/github/styleguide'

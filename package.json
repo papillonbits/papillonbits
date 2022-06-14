@@ -75,8 +75,8 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.4.3",
-    "@papillonbits/components": "^0.11.0",
-    "@papillonbits/library": "^0.11.0",
+    "@papillonbits/components": "^0.12.0",
+    "@papillonbits/library": "^0.12.0",
     "@primer/primitives": "^7.8.3",
     "classnames": "^2.3.1",
     "prop-types": "^15.8.1",

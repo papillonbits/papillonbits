@@ -2,6 +2,7 @@
   "packages": [
     "packages/components",
     "packages/css",
+    "packages/docs",
     "packages/library"
   ],
   "version": "0.12.0"
