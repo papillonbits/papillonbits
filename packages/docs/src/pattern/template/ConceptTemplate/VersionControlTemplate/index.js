@@ -1,0 +1,1 @@
+export { VersionControlTemplate } from './VersionControlTemplate'

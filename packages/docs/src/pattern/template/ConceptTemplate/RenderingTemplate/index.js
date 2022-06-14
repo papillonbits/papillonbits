@@ -1,0 +1,1 @@
+export { RenderingTemplate } from './RenderingTemplate'

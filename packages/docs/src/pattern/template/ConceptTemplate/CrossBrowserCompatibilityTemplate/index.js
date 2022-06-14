@@ -1,0 +1,1 @@
+export { CrossBrowserCompatibilityTemplate } from './CrossBrowserCompatibilityTemplate'

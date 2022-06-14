@@ -1,0 +1,1 @@
+export { MicrositeTemplate } from './MicrositeTemplate'

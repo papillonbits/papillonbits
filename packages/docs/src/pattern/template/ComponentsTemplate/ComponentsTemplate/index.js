@@ -1,0 +1,1 @@
+export { ComponentsTemplate } from './ComponentsTemplate'

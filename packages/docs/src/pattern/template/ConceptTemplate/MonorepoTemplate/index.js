@@ -1,0 +1,1 @@
+export { MonorepoTemplate } from './MonorepoTemplate'

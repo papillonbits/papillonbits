@@ -1,0 +1,1 @@
+export { RoutingTemplate } from './RoutingTemplate'

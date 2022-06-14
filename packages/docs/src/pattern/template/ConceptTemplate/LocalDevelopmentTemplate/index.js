@@ -1,0 +1,1 @@
+export { LocalDevelopmentTemplate } from './LocalDevelopmentTemplate'

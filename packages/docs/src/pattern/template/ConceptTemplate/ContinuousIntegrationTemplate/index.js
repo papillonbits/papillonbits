@@ -1,0 +1,1 @@
+export { ContinuousIntegrationTemplate } from './ContinuousIntegrationTemplate'

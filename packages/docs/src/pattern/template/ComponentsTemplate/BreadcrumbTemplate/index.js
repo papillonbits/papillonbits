@@ -1,0 +1,1 @@
+export { BreadcrumbTemplate } from './BreadcrumbTemplate'

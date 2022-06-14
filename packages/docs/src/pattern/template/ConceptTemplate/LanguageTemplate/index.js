@@ -1,0 +1,1 @@
+export { LanguageTemplate } from './LanguageTemplate'
