@@ -1,1 +1,0 @@
-export { ContinuousDeliveryTemplate } from './ContinuousDeliveryTemplate'

@@ -1,1 +1,0 @@
-export { LocalDevelopmentTemplate } from './LocalDevelopmentTemplate'

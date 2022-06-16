@@ -1,1 +1,0 @@
-export { TestingTemplate } from './TestingTemplate'

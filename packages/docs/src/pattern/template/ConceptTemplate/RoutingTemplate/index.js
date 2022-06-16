@@ -1,1 +1,0 @@
-export { RoutingTemplate } from './RoutingTemplate'

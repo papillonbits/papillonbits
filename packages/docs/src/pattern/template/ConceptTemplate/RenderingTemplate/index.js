@@ -1,1 +1,0 @@
-export { RenderingTemplate } from './RenderingTemplate'

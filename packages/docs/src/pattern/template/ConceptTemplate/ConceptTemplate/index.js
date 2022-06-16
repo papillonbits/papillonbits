@@ -1,1 +1,0 @@
-export { ConceptTemplate } from './ConceptTemplate'

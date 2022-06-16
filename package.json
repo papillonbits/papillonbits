@@ -2,8 +2,8 @@
   "name": "papillonbits",
   "description": "Papillon Bits",
   "engines": {
-    "node": "18.3.0",
-    "npm": "8.11.0"
+    "node": "18.4.0",
+    "npm": "8.12.1"
   },
   "homepage": "https://github.com/papillonbits/papillonbits#readme",
   "repository": {
@@ -32,13 +32,11 @@
     "lint": "npm-run-all lint:js:jsx lint:scss",
     "lint:js:jsx": "npm-run-all lint:js:jsx:components lint:js:library",
     "lint:js:jsx:components": "eslint --ext .js --ext .jsx packages/components/src --fix",
-    "lint:js:jsx:docs": "eslint --ext .js --ext .jsx packages/docs/src --fix",
     "lint:js:library": "eslint --ext .js packages/library/src --fix",
     "lint:scss": "stylelint \"packages/components/src/**/**/*.scss\" --custom-syntax=postcss-scss --fix",
     "format": "npm-run-all format:js:jsx format:scss",
     "format:js:jsx": "npm-run-all format:js:jsx:components format:js:library",
     "format:js:jsx:components": "prettier --write \"packages/components/src/**/**/*.{js,jsx}\"",
-    "format:js:jsx:docs": "prettier --write \"packages/docs/src/**/**/*.{js,jsx}\"",
     "format:js:library": "prettier --write \"packages/library/src/**/**/*.js\"",
     "format:scss": "prettier --write \"packages/components/src/**/**/*.scss\"",
     "test": "jest -u --silent --runInBand --coverage",
@@ -49,30 +47,6 @@
     "build-acceptance": "lerna run build-acceptance --stream",
     "build-release": "lerna run build-release --stream"
   },
-  "browserslist": {
-    "production": [
-      "> 1%",
-      "last 2 versions",
-      "Firefox ESR"
-    ],
-    "legacyBrowsers": [
-      "> 1%",
-      "last 2 versions",
-      "Firefox ESR"
-    ],
-    "modernBrowsers": [
-      "last 2 Chrome versions",
-      "not Chrome < 60",
-      "last 2 Safari versions",
-      "not Safari < 10.1",
-      "last 2 iOS versions",
-      "not iOS < 10.3",
-      "last 2 Firefox versions",
-      "not Firefox < 54",
-      "last 2 Edge versions",
-      "not Edge < 15"
-    ]
-  },
   "dependencies": {
     "@axe-core/react": "^4.4.3",
     "@papillonbits/components": "^0.12.0",
@@ -80,8 +54,8 @@
     "@primer/primitives": "^7.8.3",
     "classnames": "^2.3.1",
     "prop-types": "^15.8.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
@@ -135,34 +109,27 @@
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-transform-assets": "^1.0.2",
-    "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^11.0.0",
-    "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
-    "css-minimizer-webpack-plugin": "^4.0.0",
     "dotenv-cli": "^5.1.0",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.1",
     "jest-axe": "^6.0.0",
     "jsdom": "^19.0.0",
     "jsdom-global": "^3.0.2",
-    "lerna": "^5.1.2",
+    "lerna": "^5.1.4",
     "lint-staged": "^13.0.1",
-    "mini-css-extract-plugin": "^2.6.0",
     "node-sass": "^7.0.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
@@ -170,9 +137,8 @@
     "postcss-nested": "^5.0.6",
     "postcss-preset-env": "^7.7.1",
     "postcss-scss": "^4.0.4",
-    "prettier": "^2.7.0",
+    "prettier": "^2.7.1",
     "regenerator-runtime": "^0.13.9",
-    "sass": "^1.52.3",
     "sass-loader": "^13.0.0",
     "style-loader": "^3.3.1",
     "stylelint": "^14.9.1",
@@ -181,9 +147,6 @@
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.2.0",
-    "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.9.2",
-    "webpack-merge": "^5.8.0"
+    "webpack": "^5.73.0"
   }
 }
