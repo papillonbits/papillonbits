@@ -1,13 +1,4 @@
-import {
-  defaultItems as items,
-  regular,
-  withButtonActions,
-  withTextActions,
-  withLinkActions,
-  withNavigation,
-  withMixedEnabledVisibleItems,
-  inactive,
-} from './TabNav.int.story'
+import { defaultItems as items, regular, withButtonActions, withTextActions, withLinkActions, inactive } from './TabNav.int.story'
 
 jest.mock('@papillonbits/library/array', () => ({
   getIndexItems: () => {},
@@ -54,16 +45,6 @@ describe('<TabNav />', () => {
     test('must match withLinkActions()', () => {
       mockLibraryForRegularItems()
       expect(global.renderToJSON(withLinkActions())).toMatchSnapshot()
-    })
-
-    test('must match withNavigation()', () => {
-      mockLibraryForRegularItems()
-      expect(global.renderToJSON(withNavigation())).toMatchSnapshot()
-    })
-
-    test('must match withMixedEnabledVisibleItems()', () => {
-      mockLibraryForRegularItems()
-      expect(global.renderToJSON(withMixedEnabledVisibleItems())).toMatchSnapshot()
     })
 
     test('must match inactive()', () => {

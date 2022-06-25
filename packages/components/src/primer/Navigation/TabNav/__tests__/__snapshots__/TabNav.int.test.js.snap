@@ -131,60 +131,6 @@ exports[`<TabNav /> Render must match withLinkActions() 1`] = `
 </div>
 `;
 
-exports[`<TabNav /> Render must match withMixedEnabledVisibleItems() 1`] = `
-<div>
-  <div
-    class="tabnav"
-  >
-    <nav
-      aria-label="Foo bar"
-      class="tabnav-tabs"
-    >
-      <a
-        aria-current="page"
-        class="tabnav-tab"
-        href="#url"
-      >
-        Foo tab
-      </a>
-      <a
-        class="tabnav-tab"
-        href="#url"
-      >
-        Bar tab
-      </a>
-    </nav>
-  </div>
-</div>
-`;
-
-exports[`<TabNav /> Render must match withNavigation() 1`] = `
-<div>
-  <div
-    class="tabnav"
-  >
-    <nav
-      aria-label="Foo bar"
-      class="tabnav-tabs"
-    >
-      <a
-        aria-current="page"
-        class="tabnav-tab"
-        href="#url"
-      >
-        Foo tab
-      </a>
-      <a
-        class="tabnav-tab"
-        href="#url"
-      >
-        Bar tab
-      </a>
-    </nav>
-  </div>
-</div>
-`;
-
 exports[`<TabNav /> Render must match withTextActions() 1`] = `
 <div>
   <div
