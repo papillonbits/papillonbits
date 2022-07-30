@@ -47,15 +47,16 @@ module.exports = {
       },
     },
     '@storybook/addon-viewport',
-    '@storybook/addon-postcss',
-    {
-      name: '@storybook/addon-postcss',
-      options: {
-        postcssLoaderOptions: {
-          implementation: require('postcss'),
-        },
-      },
-    },
+    // fails with @storybook/addon-postcss v3.0.0-alpha.1
+    // '@storybook/addon-postcss',
+    // {
+    //   name: '@storybook/addon-postcss',
+    //   options: {
+    //     postcssLoaderOptions: {
+    //       implementation: require('postcss'),
+    //     },
+    //   },
+    // },
   ],
   framework: '@storybook/react',
   core: {
