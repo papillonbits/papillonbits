@@ -13,6 +13,7 @@
     "keyframes-name-pattern": null,
     "prettier/prettier": true,
     "rule-empty-line-before": null,
-    "selector-class-pattern": null
+    "selector-class-pattern": null,
+    "annotation-no-unknown": null,
   }
 }
