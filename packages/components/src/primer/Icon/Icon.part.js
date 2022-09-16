@@ -1,4 +1,5 @@
 import Accessibility16 from '../SVG/icon/accessibility-16.svg'
+import AccessibilityInset16 from '../SVG/icon/accessibility-inset-16.svg'
 import Alert16 from '../SVG/icon/alert-16.svg'
 import Alert24 from '../SVG/icon/alert-24.svg'
 import AlertFill12 from '../SVG/icon/alert-fill-12.svg'
@@ -49,6 +50,7 @@ import Browser16 from '../SVG/icon/browser-16.svg'
 import Browser24 from '../SVG/icon/browser-24.svg'
 import Bug16 from '../SVG/icon/bug-16.svg'
 import Bug24 from '../SVG/icon/bug-24.svg'
+import Cache16 from '../SVG/icon/cache-16.svg'
 import Calendar16 from '../SVG/icon/calendar-16.svg'
 import Calendar24 from '../SVG/icon/calendar-24.svg'
 import Check16 from '../SVG/icon/check-16.svg'
@@ -58,6 +60,8 @@ import CheckCircle24 from '../SVG/icon/check-circle-24.svg'
 import CheckCircleFill12 from '../SVG/icon/check-circle-fill-12.svg'
 import CheckCircleFill16 from '../SVG/icon/check-circle-fill-16.svg'
 import CheckCircleFill24 from '../SVG/icon/check-circle-fill-24.svg'
+import Checkbox16 from '../SVG/icon/checkbox-16.svg'
+import Checkbox24 from '../SVG/icon/checkbox-24.svg'
 import Checklist16 from '../SVG/icon/checklist-16.svg'
 import Checklist24 from '../SVG/icon/checklist-24.svg'
 import ChevronDown16 from '../SVG/icon/chevron-down-16.svg'
@@ -94,6 +98,8 @@ import Codespaces16 from '../SVG/icon/codespaces-16.svg'
 import Codespaces24 from '../SVG/icon/codespaces-24.svg'
 import Columns16 from '../SVG/icon/columns-16.svg'
 import Columns24 from '../SVG/icon/columns-24.svg'
+import CommandPalette16 from '../SVG/icon/command-palette-16.svg'
+import CommandPalette24 from '../SVG/icon/command-palette-24.svg'
 import Comment16 from '../SVG/icon/comment-16.svg'
 import Comment24 from '../SVG/icon/comment-24.svg'
 import CommentDiscussion16 from '../SVG/icon/comment-discussion-16.svg'
@@ -208,6 +214,7 @@ import GitCompare16 from '../SVG/icon/git-compare-16.svg'
 import GitCompare24 from '../SVG/icon/git-compare-24.svg'
 import GitMerge16 from '../SVG/icon/git-merge-16.svg'
 import GitMerge24 from '../SVG/icon/git-merge-24.svg'
+import GitMergeQueue16 from '../SVG/icon/git-merge-queue-16.svg'
 import GitPullRequest16 from '../SVG/icon/git-pull-request-16.svg'
 import GitPullRequest24 from '../SVG/icon/git-pull-request-24.svg'
 import GitPullRequestClosed16 from '../SVG/icon/git-pull-request-closed-16.svg'
@@ -325,6 +332,8 @@ import PackageDependents24 from '../SVG/icon/package-dependents-24.svg'
 import Paintbrush16 from '../SVG/icon/paintbrush-16.svg'
 import PaperAirplane16 from '../SVG/icon/paper-airplane-16.svg'
 import PaperAirplane24 from '../SVG/icon/paper-airplane-24.svg'
+import Paperclip16 from '../SVG/icon/paperclip-16.svg'
+import Paperclip24 from '../SVG/icon/paperclip-24.svg'
 import Paste16 from '../SVG/icon/paste-16.svg'
 import Paste24 from '../SVG/icon/paste-24.svg'
 import Pencil16 from '../SVG/icon/pencil-16.svg'
@@ -398,6 +407,7 @@ import ShieldCheck16 from '../SVG/icon/shield-check-16.svg'
 import ShieldCheck24 from '../SVG/icon/shield-check-24.svg'
 import ShieldLock16 from '../SVG/icon/shield-lock-16.svg'
 import ShieldLock24 from '../SVG/icon/shield-lock-24.svg'
+import ShieldSlash16 from '../SVG/icon/shield-slash-16.svg'
 import ShieldX16 from '../SVG/icon/shield-x-16.svg'
 import ShieldX24 from '../SVG/icon/shield-x-24.svg'
 import SidebarCollapse16 from '../SVG/icon/sidebar-collapse-16.svg'
@@ -507,6 +517,7 @@ import Zap24 from '../SVG/icon/zap-24.svg'
 
 export const iconComponents = {
   Accessibility16,
+  AccessibilityInset16,
   Alert16,
   Alert24,
   AlertFill12,
@@ -557,6 +568,7 @@ export const iconComponents = {
   Browser24,
   Bug16,
   Bug24,
+  Cache16,
   Calendar16,
   Calendar24,
   Check16,
@@ -566,6 +578,8 @@ export const iconComponents = {
   CheckCircleFill12,
   CheckCircleFill16,
   CheckCircleFill24,
+  Checkbox16,
+  Checkbox24,
   Checklist16,
   Checklist24,
   ChevronDown16,
@@ -602,6 +616,8 @@ export const iconComponents = {
   Codespaces24,
   Columns16,
   Columns24,
+  CommandPalette16,
+  CommandPalette24,
   Comment16,
   Comment24,
   CommentDiscussion16,
@@ -716,6 +732,7 @@ export const iconComponents = {
   GitCompare24,
   GitMerge16,
   GitMerge24,
+  GitMergeQueue16,
   GitPullRequest16,
   GitPullRequest24,
   GitPullRequestClosed16,
@@ -833,6 +850,8 @@ export const iconComponents = {
   Paintbrush16,
   PaperAirplane16,
   PaperAirplane24,
+  Paperclip16,
+  Paperclip24,
   Paste16,
   Paste24,
   Pencil16,
@@ -906,6 +925,7 @@ export const iconComponents = {
   ShieldCheck24,
   ShieldLock16,
   ShieldLock24,
+  ShieldSlash16,
   ShieldX16,
   ShieldX24,
   SidebarCollapse16,
