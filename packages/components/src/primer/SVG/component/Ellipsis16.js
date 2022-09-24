@@ -1,0 +1,12 @@
+import * as React from 'react'
+
+const SvgEllipsis16 = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} {...props}>
+    <path
+      fillRule="evenodd"
+      d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 14.25 12H1.75A1.75 1.75 0 0 1 0 10.25v-4.5zM4 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm3 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm5-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+    />
+  </svg>
+)
+
+export default SvgEllipsis16
