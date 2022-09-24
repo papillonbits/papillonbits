@@ -17,15 +17,21 @@ exports[`<Button /> Render must match blueIconLeftAligned() 1`] = `
     class="btn btn-blue"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Blue icon button
   </button>
 </div>
@@ -38,15 +44,21 @@ exports[`<Button /> Render must match blueIconRightAligned() 1`] = `
     type="button"
   >
     Blue icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;
@@ -103,15 +115,21 @@ exports[`<Button /> Render must match dangerIconLeftAligned() 1`] = `
     class="btn btn-danger"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Danger icon button
   </button>
 </div>
@@ -124,15 +142,21 @@ exports[`<Button /> Render must match dangerIconRightAligned() 1`] = `
     type="button"
   >
     Danger icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;
@@ -178,15 +202,21 @@ exports[`<Button /> Render must match defaultIconLeftAligned() 1`] = `
     class="btn"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Default icon button
   </button>
 </div>
@@ -199,15 +229,21 @@ exports[`<Button /> Render must match defaultIconRightAligned() 1`] = `
     type="button"
   >
     Default icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;
@@ -287,15 +323,21 @@ exports[`<Button /> Render must match orangeIconLeftAligned() 1`] = `
     class="btn btn-orange"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Orange icon button
   </button>
 </div>
@@ -308,15 +350,21 @@ exports[`<Button /> Render must match orangeIconRightAligned() 1`] = `
     type="button"
   >
     Orange icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;
@@ -373,15 +421,21 @@ exports[`<Button /> Render must match outlineIconLeftAligned() 1`] = `
     class="btn btn-outline"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Outline icon button
   </button>
 </div>
@@ -394,15 +448,21 @@ exports[`<Button /> Render must match outlineIconRightAligned() 1`] = `
     type="button"
   >
     Outline icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;
@@ -459,15 +519,21 @@ exports[`<Button /> Render must match primaryIconLeftAligned() 1`] = `
     class="btn btn-primary"
     type="button"
   >
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
     Primary icon button
   </button>
 </div>
@@ -480,15 +546,21 @@ exports[`<Button /> Render must match primaryIconRightAligned() 1`] = `
     type="button"
   >
     Primary icon button
-    <mock-file
+    <svg
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-      viewbox="0 0 16 16"
+      viewBox="0 0 16 16"
       width="16"
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 1 1 0 1.5H8.5v4.25a.75.75 0 1 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2z"
+        fill-rule="evenodd"
+      />
+    </svg>
   </button>
 </div>
 `;

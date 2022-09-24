@@ -11,15 +11,21 @@ exports[`<SelectMenu /> Render must match regular() 1`] = `
     >
       Choose an item
        
-      <mock-file
+      <svg
         aria-hidden="true"
-        classname="ml-2"
+        class="ml-2"
         height="16"
         role="img"
         style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
-        viewbox="0 0 16 16"
+        viewBox="0 0 16 16"
         width="16"
-      />
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.78 6.22a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L3.22 7.28a.75.75 0 0 1 1.06-1.06L8 9.94l3.72-3.72a.75.75 0 0 1 1.06 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
     </summary>
     <div
       class="SelectMenu"
