@@ -32,7 +32,7 @@ export function Icon({ className, ariaLabel, icon, height, width, size, fill, ve
     verticalAlign: iconAlign[verticalAlign] || verticalAlign,
   }
 
-  const Element = () => iconComponents[icon]
+  const Element = iconComponents[icon]
 
   return <Element className={className} {...attrs} {...otherProps} />
 }
