@@ -1,6 +1,5 @@
 module.exports = {
   testMatch: ['**/?(*.)test.js?(x)'],
-  testPathIgnorePatterns: ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js'],
   roots: ['<rootDir>'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
@@ -27,9 +26,7 @@ module.exports = {
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
     '!packages/css/**',
-    '!packages/docs/**',
     '!packages/library/**',
-    '!packages/styleguide/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
