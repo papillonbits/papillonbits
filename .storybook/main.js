@@ -77,9 +77,6 @@ module.exports = {
     //     : preset
     // })
 
-    const fileLoaderRuleSVG = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.svg'))
-    fileLoaderRuleSVG.exclude = /\.svg$/
-
     // const fileLoaderRuleJSX = config.module.rules.find((rule) => !isEmpty(rule) && rule.test.test && rule.test.test('.jsx'))
     // fileLoaderRuleJSX.use[0].options.plugins.push(
     //   path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
@@ -125,11 +122,6 @@ module.exports = {
             },
           },
         ],
-      },
-      {
-        test: /\.svg$/i,
-        issuer: /\.[jt]sx?$/,
-        use: ['@svgr/webpack'],
       },
       {
         test: /\.int.story\.mdx$/,
