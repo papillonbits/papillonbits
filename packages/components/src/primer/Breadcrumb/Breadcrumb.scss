@@ -1,4 +1,6 @@
-@import '../../index.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/base';
+@import '../index.scss';
 
 .breadcrumb-item {
   display: inline-block;
@@ -33,3 +35,13 @@
 .breadcrumb-item-selected a {
   color: var(--color-fg-default);
 }
+
+// custom-style
+// .breadcrumb-inactive {
+//   @include inactive;
+
+//   li,
+//   a {
+//     color: $gray-400 !important;
+//   }
+// }

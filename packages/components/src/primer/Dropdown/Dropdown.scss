@@ -1,4 +1,7 @@
-@import '../../index.scss';
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+@import '../index.scss';
 
 // stylelint-disable no-descending-specificity
 
@@ -272,3 +275,10 @@
     left: 10px;
   }
 }
+
+// custom-style
+// .dropdown-inactive {
+//   @include inactive;
+
+//   color: $gray-400 !important;
+// }

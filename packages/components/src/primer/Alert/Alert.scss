@@ -1,4 +1,6 @@
-@import '../../index.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
 
 // stylelint-disable no-descending-specificity
 // stylelint-disable selector-max-type, no-duplicate-selectors
@@ -122,6 +124,18 @@
 //
 // Layout variations
 //
+
+// custom-style
+// .flash-consent {
+//   background-color: $purple-100;
+//   // stylelint-disable-next-line primer/borders
+//   border-color: rgba($purple-800, 0.2);
+
+//   .octicon {
+//     // stylelint-disable-next-line primer/colors
+//     color: rgba($purple-800, 1);
+//   }
+// }
 
 .flash-full {
   // stylelint-disable-next-line primer/spacing

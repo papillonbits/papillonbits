@@ -1,5 +1,7 @@
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
 @import '../../index.scss';
-@import '../../../index.scss';
 
 // Outer wrapper
 // stylelint-disable no-descending-specificity
@@ -105,4 +107,15 @@ a.tabnav-extra:hover {
 
 .tabnav-btn {
   margin-left: $spacer-2;
+}
+
+// custom-style
+.tabnav-inactive,
+.tabnav-tab-inactive {
+  @include inactive;
+}
+
+// custom-style
+.tabnav-tab-hidden {
+  display: none;
 }

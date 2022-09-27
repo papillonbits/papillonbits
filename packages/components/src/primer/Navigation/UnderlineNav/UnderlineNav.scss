@@ -1,5 +1,8 @@
+@import '~@papillonbits/css/build/primer/support/mixins/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
 @import '../../index.scss';
-@import '../../../index.scss';
 
 // stylelint-disable no-descending-specificity
 $nav-height: $spacer-3 * 3 !default; // 48px

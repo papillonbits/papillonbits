@@ -1,7 +1,11 @@
-@import '../../../index.scss';
+@import '~@papillonbits/css/build/primer/support/mixins/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '../../index.scss';
 
 // Needs refactoring
 // stylelint-disable selector-max-type
+// stylelint-disable no-descending-specificity
 .pagination {
   a,
   span,
@@ -154,3 +158,13 @@
     display: inline-block;
   }
 }
+
+// custom-style
+// .previousnext-inactive {
+//   @include inactive;
+
+//   span,
+//   a {
+//     color: $gray-400 !important;
+//   }
+// }
