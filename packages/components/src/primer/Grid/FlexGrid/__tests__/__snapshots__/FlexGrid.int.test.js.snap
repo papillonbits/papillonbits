@@ -195,21 +195,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -281,21 +275,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -367,21 +355,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -453,21 +435,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -539,21 +515,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -625,21 +595,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -711,21 +675,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -797,21 +755,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -883,21 +835,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1114,21 +1060,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1200,21 +1140,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1286,21 +1220,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1372,21 +1300,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1458,21 +1380,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1544,21 +1460,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1630,21 +1540,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1716,21 +1620,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1802,21 +1700,15 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -1999,21 +1891,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2069,21 +1955,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2139,21 +2019,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2209,21 +2083,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2279,21 +2147,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2349,21 +2211,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2419,21 +2275,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2489,21 +2339,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2559,21 +2403,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2756,21 +2594,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2826,21 +2658,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2896,21 +2722,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -2966,21 +2786,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3036,21 +2850,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3106,21 +2914,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3176,21 +2978,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3246,21 +3042,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3316,21 +3106,15 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3534,21 +3318,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3620,21 +3398,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3706,21 +3478,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3792,21 +3558,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3878,21 +3638,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -3964,21 +3718,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4050,21 +3798,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4136,21 +3878,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4222,21 +3958,15 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4440,21 +4170,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4526,21 +4250,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4612,21 +4330,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4698,21 +4410,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4784,21 +4490,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4870,21 +4570,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -4956,21 +4650,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5042,21 +4730,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5128,21 +4810,15 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5325,21 +5001,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5395,21 +5065,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5465,21 +5129,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5535,21 +5193,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5605,21 +5257,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5675,21 +5321,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5745,21 +5385,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5815,21 +5449,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -5885,21 +5513,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6082,21 +5704,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6152,21 +5768,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6222,21 +5832,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6292,21 +5896,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6362,21 +5960,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6432,21 +6024,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6502,21 +6088,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6572,21 +6152,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5c-.55 0-1.07-.26-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75zM0 2.75C0 1.784.784 1 1.75 1H5c.55 0 1.07.26 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
@@ -6642,21 +6216,15 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         <div
           class="css-truncate css-truncate-overflow"
         >
-          <svg
+          <mock-file
             aria-hidden="true"
-            class="octicon"
+            classname="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
-            viewBox="0 0 16 16"
+            viewbox="0 0 16 16"
             width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.75 1.5a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 0 0-.011-.013l-2.914-2.914a.272.272 0 0 0-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25V1.75z"
-              fill-rule="evenodd"
-            />
-          </svg>
+          />
           <span
             class="ml-2"
           >
