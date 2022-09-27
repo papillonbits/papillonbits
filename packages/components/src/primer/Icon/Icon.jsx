@@ -34,7 +34,7 @@ export function Icon({ className, ariaLabel, icon, height, width, size, fill, ve
 
   const Element = iconComponents[icon]
 
-  return <Element className={className} {...attrs} {...otherProps} />
+  return Element != null ? <Element className={className} {...attrs} {...otherProps} /> : null
 }
 
 Icon.propTypes = propTypes
