@@ -1,4 +1,5 @@
-@import '@primer/primitives/dist/scss/colors/_light_colorblind.scss';
+@import '~@primer/primitives/dist/scss/colors/_light_colorblind.scss';
+@import '../../support/mixins/color-modes.scss';
 
 @include color-mode-theme(light_colorblind) {
   @include primer-colors-light_colorblind;
