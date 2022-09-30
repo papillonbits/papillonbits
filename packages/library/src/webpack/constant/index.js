@@ -1,24 +1,3 @@
-export const monorepo = {
-  papillonbits: 'papillonbits',
-  dealer: 'dealer',
-  search: 'search',
-  quoter: 'quoter',
-  amazing: 'amazing',
-}
-
-export const microsite = {
-  core: 'core',
-  docs: 'docs',
-  styleguide: 'styleguide',
-}
-
-export const environment = {
-  development: 'development',
-  test: 'test',
-  acceptance: 'acceptance',
-  release: 'release',
-}
-
 export const coreJSVersion = '3.25.3'
 
 export const targetBrowsers = {

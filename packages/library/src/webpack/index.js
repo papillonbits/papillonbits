@@ -1,4 +1,3 @@
-export { monorepo, microsite, environment } from './constant'
 export { getBabelLoaderAdvancedSetup } from './loader/babelLoader'
 export { getCSSLoaderStandardSetup } from './loader/cssLoader'
 export { getFontLoaderStandardSetup } from './loader/fontLoader'
