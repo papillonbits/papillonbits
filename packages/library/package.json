@@ -25,6 +25,7 @@
     "sort/",
     "store/",
     "string/",
+    "webpack/",
     "README.md"
   ],
   "scripts": {
