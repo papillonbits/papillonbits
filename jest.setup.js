@@ -6,10 +6,6 @@ import { configureAxe, toHaveNoViolations } from 'jest-axe'
 
 global.renderToJSON = (component) => render(component).container
 
-global.axe = configureAxe({
-  rules: {
-    region: { enabled: false },
-  },
-})
+global.axe = configureAxe({ rules: { region: { enabled: false } } })
 
 expect.extend(toHaveNoViolations)
