@@ -1,3 +1,4 @@
+// https://github.com/webpack-contrib/html-loader
 // https://github.com/peerigon/markdown-loader
 
 export function getMarkdownLoaderStandardSetup() {
