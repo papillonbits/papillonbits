@@ -18,7 +18,7 @@ function isEmptyObject(obj) {
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
   return {
-    stories: [`${storiesBasePath}/*.int.story.@(js|mdx)`],
+    stories: [storiesBasePath],
     addons: [
       '@storybook/addon-a11y',
       '@storybook/addon-actions',
@@ -40,7 +40,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
         options: {
           rule: {
             test: [/\.int.story\.js?$/],
-            include: [`${includeBasePath}/*`],
+            include: [includeBasePath],
           },
           loaderOptions: {
             prettierConfig: {
