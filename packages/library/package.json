@@ -24,6 +24,7 @@
     "pagination/",
     "sort/",
     "store/",
+    "storybook/",
     "string/",
     "webpack/",
     "README.md"
