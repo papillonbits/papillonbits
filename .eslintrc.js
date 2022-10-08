@@ -1,3 +1,3 @@
-const eslint = require('@papillonbits/library/eslint')
+const eslintSetup = require('@papillonbits/library/eslint')
 
-module.exports = { ...eslint }
+module.exports = { ...eslintSetup }
