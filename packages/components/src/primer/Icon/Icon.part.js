@@ -3,6 +3,8 @@ import AccessibilityInset16 from '../SVG/icon/accessibility-inset-16.svg'
 import Alert16 from '../SVG/icon/alert-16.svg'
 import Alert24 from '../SVG/icon/alert-24.svg'
 import AlertFill12 from '../SVG/icon/alert-fill-12.svg'
+import AlertFill16 from '../SVG/icon/alert-fill-16.svg'
+import AlertFill24 from '../SVG/icon/alert-fill-24.svg'
 import Apps16 from '../SVG/icon/apps-16.svg'
 import Archive16 from '../SVG/icon/archive-16.svg'
 import Archive24 from '../SVG/icon/archive-24.svg'
@@ -64,10 +66,12 @@ import Checkbox16 from '../SVG/icon/checkbox-16.svg'
 import Checkbox24 from '../SVG/icon/checkbox-24.svg'
 import Checklist16 from '../SVG/icon/checklist-16.svg'
 import Checklist24 from '../SVG/icon/checklist-24.svg'
+import ChevronDown12 from '../SVG/icon/chevron-down-12.svg'
 import ChevronDown16 from '../SVG/icon/chevron-down-16.svg'
 import ChevronDown24 from '../SVG/icon/chevron-down-24.svg'
 import ChevronLeft16 from '../SVG/icon/chevron-left-16.svg'
 import ChevronLeft24 from '../SVG/icon/chevron-left-24.svg'
+import ChevronRight12 from '../SVG/icon/chevron-right-12.svg'
 import ChevronRight16 from '../SVG/icon/chevron-right-16.svg'
 import ChevronRight24 from '../SVG/icon/chevron-right-24.svg'
 import ChevronUp16 from '../SVG/icon/chevron-up-16.svg'
@@ -289,6 +293,7 @@ import Location24 from '../SVG/icon/location-24.svg'
 import Lock16 from '../SVG/icon/lock-16.svg'
 import Lock24 from '../SVG/icon/lock-24.svg'
 import Log16 from '../SVG/icon/log-16.svg'
+import Log24 from '../SVG/icon/log-24.svg'
 import LogoGist16 from '../SVG/icon/logo-gist-16.svg'
 import LogoGithub16 from '../SVG/icon/logo-github-16.svg'
 import Mail16 from '../SVG/icon/mail-16.svg'
@@ -521,6 +526,8 @@ export const iconComponents = {
   Alert16,
   Alert24,
   AlertFill12,
+  AlertFill16,
+  AlertFill24,
   Apps16,
   Archive16,
   Archive24,
@@ -582,10 +589,12 @@ export const iconComponents = {
   Checkbox24,
   Checklist16,
   Checklist24,
+  ChevronDown12,
   ChevronDown16,
   ChevronDown24,
   ChevronLeft16,
   ChevronLeft24,
+  ChevronRight12,
   ChevronRight16,
   ChevronRight24,
   ChevronUp16,
@@ -807,6 +816,7 @@ export const iconComponents = {
   Lock16,
   Lock24,
   Log16,
+  Log24,
   LogoGist16,
   LogoGithub16,
   Mail16,
