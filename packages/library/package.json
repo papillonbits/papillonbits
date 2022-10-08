@@ -17,6 +17,7 @@
     "boolean/",
     "browser/",
     "date/",
+    "eslint/",
     "event/",
     "hooks/",
     "number/",
