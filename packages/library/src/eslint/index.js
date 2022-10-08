@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   env: {
     amd: true,
     browser: true,
