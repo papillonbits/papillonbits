@@ -131,8 +131,8 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.4.5",
-    "@papillonbits/components": "^0.40.0",
-    "@papillonbits/library": "^0.40.0",
+    "@papillonbits/components": "^0.41.0",
+    "@papillonbits/library": "^0.41.0",
     "@primer/primitives": "^7.9.0",
     "classnames": "^2.3.2",
     "clean-webpack-plugin": "^4.0.0",
