@@ -17,7 +17,7 @@
     "boolean/",
     "browser/",
     "date/",
-    "eslint/",
+    "eslint-config/",
     "event/",
     "hooks/",
     "number/",
