@@ -1,48 +1,37 @@
-module.exports = {
-  testMatch: ['**/?(*.)test.js?(x)'],
-  testPathIgnorePatterns: ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js'],
-  roots: ['<rootDir>'],
-  transform: {
-    '^.+\\.jsx?$': 'babel-jest',
-    '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
-  },
-  coverageDirectory: './coverage/',
-  collectCoverage: true,
-  coverageReporters: ['lcov', 'text'],
-  collectCoverageFrom: [
-    '!**/.docs/**',
-    '!**/.mock/**',
-    '!**/.storybook/**',
-    '!**/.storybook-static-develop/**',
-    '!**/.storybook-static-release/**',
-    '!**/coverage/**',
-    '!**/node_modules/**',
-    'packages/**/*.{js,jsx}',
-    '!packages/**/index.js',
-    '!packages/**/*.part.js',
-    '!packages/**/*.prop.js',
-    '!packages/**/*.story.js',
-    '!packages/**/*.test.js',
-    '!packages/**/build/**',
-    '!packages/**/node_modules/**',
-    '!packages/**/webpack*',
-    '!packages/css/**',
-    '!packages/docs/**',
-    '!packages/library/**',
-    '!packages/styleguide/**',
-  ],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  moduleNameMapper: {
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$': '<rootDir>/.mock/file.js',
-    '^.+\\.(css|less|scss|md)$': 'identity-obj-proxy',
-  },
-  moduleFileExtensions: ['js', 'jsx'],
-  coverageThreshold: {
-    global: {
-      statements: 59,
-      branches: 68,
-      functions: 44,
-      lines: 60,
-    },
+/* eslint-disable prefer-destructuring */
+const getJestSetup = require('@papillonbits/library/jest').getJestSetup
+
+const testPathIgnorePatterns = ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js']
+const collectCoverage = true
+const collectCoverageFrom = [
+  '!**/.docs/**',
+  '!**/.mock/**',
+  '!**/.storybook/**',
+  '!**/.storybook-static-develop/**',
+  '!**/.storybook-static-release/**',
+  '!**/coverage/**',
+  '!**/node_modules/**',
+  'packages/**/*.{js,jsx}',
+  '!packages/**/index.js',
+  '!packages/**/*.part.js',
+  '!packages/**/*.prop.js',
+  '!packages/**/*.story.js',
+  '!packages/**/*.test.js',
+  '!packages/**/build/**',
+  '!packages/**/node_modules/**',
+  '!packages/**/webpack*',
+  '!packages/css/**',
+  '!packages/docs/**',
+  '!packages/library/**',
+  '!packages/styleguide/**',
+]
+const coverageThreshold = {
+  global: {
+    statements: 59,
+    branches: 68,
+    functions: 44,
+    lines: 60,
   },
 }
+
+module.exports = getJestSetup({ testPathIgnorePatterns, collectCoverage, collectCoverageFrom, coverageThreshold })
