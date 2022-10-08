@@ -1,4 +1,4 @@
-export const eslintrc = {
+module.exports = {
   env: {
     amd: true,
     browser: true,
