@@ -23,10 +23,12 @@
     "number/",
     "object/",
     "pagination/",
+    "prettier/",
     "sort/",
     "store/",
     "storybook/",
     "string/",
+    "stylelint/",
     "webpack/",
     "README.md"
   ],
