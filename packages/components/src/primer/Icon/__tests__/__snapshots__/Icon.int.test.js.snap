@@ -110,6 +110,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        AlertFill16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        AlertFill24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Apps16
       </span>
     </div>
@@ -1208,6 +1244,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        ChevronDown12
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         ChevronDown16
       </span>
     </div>
@@ -1263,6 +1317,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         ChevronLeft24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ChevronRight12
       </span>
     </div>
     <div
@@ -5241,6 +5313,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Log16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Log24
       </span>
     </div>
     <div
