@@ -7,14 +7,7 @@
 /* eslint-disable global-require */
 
 import createCompiler from '@storybook/addon-docs/mdx-compiler-plugin'
-
-function isEmptyObject(obj) {
-  for (var prop in obj) {
-    if (obj.hasOwnProperty(prop)) return false
-  }
-
-  return true
-}
+import { isEmptyObject } from '../../object'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
   return {

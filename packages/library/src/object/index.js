@@ -7,9 +7,5 @@ export function deepCloneObject(obj) {
 }
 
 export function isEmptyObject(obj) {
-  for (var prop in obj) {
-    if (obj.hasOwnProperty(prop)) return false
-  }
-
-  return true
+  return obj && Object.keys(obj).length === 0 && Object.getPrototypeOf(obj) === Object.prototype
 }
