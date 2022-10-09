@@ -1,5 +1,4 @@
 // https://docs.codecov.com/docs/codecov-uploader
-/* eslint-disable prefer-destructuring */
 const getJestSetup = require('@papillonbits/library/jest').getJestSetup
 
 const testPathIgnorePatterns = ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js']
