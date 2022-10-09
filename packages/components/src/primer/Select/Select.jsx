@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-onchange  */
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import layoutStyles from '@papillonbits/css/build/primer/utilities/layout.scss'

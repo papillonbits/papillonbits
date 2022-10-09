@@ -58,23 +58,22 @@ export function Dropdown({ className, summary, ariaAttr, items, onClick, state }
                     onClick({
                       summary: text,
                       ariaAttr,
-                      items: newIndexItems.map(
-                        (newIndexItem) =>
-                          (({
-                            id: newIndexItemId,
-                            href: newIndexItemHref,
-                            text: newIndexItemText,
-                            'date-modified': dateModified,
-                            'date-created': dateCreated,
-                            isSelected: newIndexItemIsSelected,
-                          }) => ({
-                            id: newIndexItemId,
-                            href: newIndexItemHref,
-                            text: newIndexItemText,
-                            'date-modified': dateModified,
-                            'date-created': dateCreated,
-                            isSelected: newIndexItemIsSelected,
-                          }))(newIndexItem), // eslint-disable-line
+                      items: newIndexItems.map((newIndexItem) =>
+                        (({
+                          id: newIndexItemId,
+                          href: newIndexItemHref,
+                          text: newIndexItemText,
+                          'date-modified': dateModified,
+                          'date-created': dateCreated,
+                          isSelected: newIndexItemIsSelected,
+                        }) => ({
+                          id: newIndexItemId,
+                          href: newIndexItemHref,
+                          text: newIndexItemText,
+                          'date-modified': dateModified,
+                          'date-created': dateCreated,
+                          isSelected: newIndexItemIsSelected,
+                        }))(newIndexItem),
                       ),
                     })
                     details.current.removeAttribute('open')

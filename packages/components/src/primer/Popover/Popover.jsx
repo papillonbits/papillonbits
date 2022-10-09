@@ -20,7 +20,7 @@ export function Popover({ className, variant, size, intro, heading, message, ack
       {variant === popoverVariant.default && <Button variant={buttonVariant.primary} text={intro} onClick={introOnClick} />}
       <div
         className={
-          (cx(styles.Popover, layoutStyles['position-relative']), // eslint-disable-line no-sequences
+          (cx(styles.Popover, layoutStyles['position-relative']),
           {
             [cx(layoutStyles['right-0'], layoutStyles['left-0'])]: variant === popoverVariant.default,
             [paddingStyles['pl-2']]: variant === popoverVariant.bottomLeft,

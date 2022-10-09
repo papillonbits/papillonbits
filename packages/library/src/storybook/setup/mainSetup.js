@@ -1,7 +1,3 @@
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable vars-on-top */
-/* eslint-disable no-var */
-/* eslint-disable no-prototype-builtins */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-param-reassign */
 /* eslint-disable global-require */
