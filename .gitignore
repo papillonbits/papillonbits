@@ -10,15 +10,15 @@ app.sublime-workspace
 .storybook-static-release
 
 # Test
-coverage
+.coverage
 
 # NPM Papillon Bits
+node_modules
 .env
 .npmrc
-npm-debug.log
-lerna-debug.log
-node_modules
 codecov
+lerna-debug.log
+npm-debug.log
 
 # NPM Papillon Bits Components Package
 packages/components/build

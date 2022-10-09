@@ -11,7 +11,7 @@
     "url": "git+https://github.com/papillonbits/papillonbits.git"
   },
   "scripts": {
-    "clean-up": "rm -rf node_modules package-lock.json .storybook-static-develop .storybook-static-release coverage && npm i lerna -D && lerna run clean-up --stream",
+    "clean-up": "rm -rf node_modules package-lock.json .storybook-static-develop .storybook-static-release .coverage && npm i lerna -D && lerna run clean-up --stream",
     "install-packages": "npm i && lerna run install-packages --stream",
     "install-papillonbits-latest": "npm i \"@papillonbits/components\"@latest && npm i \"@papillonbits/library\"@latest && lerna run install-papillonbits-latest --stream",
     "collect-build-folders": "mv packages/library/build/* packages/library && rm -rf packages/library/build",
