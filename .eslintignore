@@ -12,10 +12,9 @@ app.sublime-workspace
 # CI/CD
 .travis.yml
 
-# Test
-.coverage
-
 # NPM Papillon Bits
+.coverage
+.husky
 node_modules
 .env
 .npmrc

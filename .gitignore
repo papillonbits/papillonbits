@@ -9,10 +9,8 @@ app.sublime-workspace
 .storybook-static-develop
 .storybook-static-release
 
-# Test
-.coverage
-
 # NPM Papillon Bits
+.coverage
 node_modules
 .env
 .npmrc
