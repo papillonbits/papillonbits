@@ -9,9 +9,6 @@ app.sublime-workspace
 .storybook-static-develop
 .storybook-static-release
 
-# CI/CD
-.travis.yml
-
 # NPM Papillon Bits
 .coverage
 .husky
