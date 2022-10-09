@@ -1,4 +1,4 @@
-export function getJestSetup({ testPathIgnorePatterns, collectCoverage, collectCoverageFrom, coverageThreshold }) {
+export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collectCoverage, collectCoverageFrom, coverageThreshold }) {
   return {
     testMatch: ['**/?(*.)test.js?(x)'],
     testPathIgnorePatterns,
@@ -7,7 +7,7 @@ export function getJestSetup({ testPathIgnorePatterns, collectCoverage, collectC
       '^.+\\.jsx?$': 'babel-jest',
       '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
     },
-    coverageDirectory: './coverage/',
+    coverageDirectory,
     collectCoverage,
     coverageReporters: ['lcov', 'text'],
     collectCoverageFrom,
