@@ -550,13 +550,6 @@
   </blockquote>
 </details>
 
-<details id="docs-package">
-  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Docs</span></summary>
-  <blockquote style="margin: 0; padding: 0 24px">
-    To be documented soon
-  </blockquote>
-</details>
-
 <details id="library-package">
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Library</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
@@ -694,13 +687,6 @@
         </details>
       </blockquote>
     </details>
-  </blockquote>
-</details>
-
-<details id="styleguide-package">
-  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Styleguide</span></summary>
-  <blockquote style="margin: 0; padding: 0 24px">
-    To be documented soon
   </blockquote>
 </details>
 

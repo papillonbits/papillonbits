@@ -2,7 +2,7 @@
 /* eslint-disable prefer-destructuring */
 const getJestSetup = require('@papillonbits/library/jest').getJestSetup
 
-const testPathIgnorePatterns = ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js']
+const testPathIgnorePatterns = []
 const coverageDirectory = './.coverage/'
 const collectCoverage = true
 const collectCoverageFrom = [
@@ -23,9 +23,7 @@ const collectCoverageFrom = [
   '!packages/**/node_modules/**',
   '!packages/**/webpack*',
   '!packages/css/**',
-  '!packages/docs/**',
   '!packages/library/**',
-  '!packages/styleguide/**',
 ]
 const coverageThreshold = {
   global: {
