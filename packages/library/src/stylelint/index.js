@@ -11,5 +11,6 @@ module.exports = {
     'rule-empty-line-before': null,
     'selector-class-pattern': null,
     'annotation-no-unknown': null,
+    'import-notation': 'string',
   },
 }
