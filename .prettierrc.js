@@ -1,3 +1,3 @@
-const prettierSetup = require('@papillonbits/library/prettier')
+const prettierSetup = require('@papillonbits/setup/prettier')
 
 module.exports = { ...prettierSetup }
