@@ -3,7 +3,7 @@
 /* eslint-disable global-require */
 
 import createCompiler from '@storybook/addon-docs/mdx-compiler-plugin'
-import { isEmptyObject } from '../../object'
+import { isEmptyObject } from '@papillonbits/library/object'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
   return {
