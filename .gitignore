@@ -29,3 +29,7 @@ packages/CSS/node_modules
 # NPM Papillon Bits Library Package
 packages/library/build
 packages/library/node_modules
+
+# NPM Papillon Bits Setup Package
+packages/setup/build
+packages/setup/node_modules

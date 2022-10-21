@@ -24,6 +24,7 @@ const collectCoverageFrom = [
   '!packages/**/webpack*',
   '!packages/css/**',
   '!packages/library/**',
+  '!packages/setup/**',
 ]
 const coverageThreshold = {
   global: {

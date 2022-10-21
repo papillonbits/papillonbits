@@ -35,3 +35,8 @@ packages/CSS/src/primer
 packages/library/package-lock.json
 packages/library/build
 packages/library/node_modules
+
+# NPM Papillon Bits Setup Package
+packages/setup/package-lock.json
+packages/setup/build
+packages/setup/node_modules

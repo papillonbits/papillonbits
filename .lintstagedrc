@@ -9,6 +9,11 @@
     "prettier --write \"packages/library/src/**/**/*.js\"",
     "git add"
   ],
+  "packages/setup/src/**/*.js": [
+    "eslint --ext .js --ext .jsx packages/setup/src/**/**/*.js --fix",
+    "prettier --write \"packages/setup/src/**/**/*.js\"",
+    "git add"
+  ],
   "packages/components/src/**/*.scss": [
     "stylelint \"packages/components/src/**/**/*.scss\" --custom-syntax=postcss-scss --fix",
     "prettier --write \"packages/components/src/**/**/*.scss\"",
