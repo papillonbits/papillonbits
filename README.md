@@ -1,7 +1,7 @@
 <h1 id="heading" align="center">Papillon Bits</h1>
 
 <div id="logo" align="center">
-  <img width="300px" height="300px" src="https://avatars2.githubusercontent.com/u/47340326" />
+  <img width="300px" height="300px" src="https://avatars.githubusercontent.com/u/81188645" />
 </div>
 
 <div id="badges" align="center">
@@ -50,7 +50,7 @@
     </a>
     <a href="https://github.com/lerna/">
       <img src="https://img.shields.io/badge/Monorepo-Lerna-9B3DFC.svg" alt="lerna badge">
-      <img src="https://lerna.js.org/images/lerna-hero.svg" alt="lerna logo" width="30vw" height="30vh">
+      <img src=".docs/image/lerna-hero.svg" alt="lerna logo" width="30vw" height="30vh">
     </a>
     <a href="https://github.com/babel/">
       <img src="https://img.shields.io/badge/Transpile-Babel-F5DA55.svg" alt="babel badge">
@@ -171,25 +171,25 @@
       <summary style="color: #006400;">📗 Primer</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Blankslate</summary>
+          <summary style="color: #006400;">📖&nbsp; Blankslate</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Box</summary>
+          <summary style="color: #006400;">📖&nbsp; Box</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. BranchName</summary>
+          <summary style="color: #006400;">📖&nbsp; BranchName</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Breadcrumb</summary>
+          <summary style="color: #006400;">📖&nbsp; Breadcrumb</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-breadcrumb">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Breadcrumb">Implementation</a><br />
@@ -197,7 +197,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Button</summary>
+          <summary style="color: #006400;">📖&nbsp; Button</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-button">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Button">Implementation</a><br />
@@ -205,13 +205,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Concept</summary>
+          <summary style="color: #006400;">📖&nbsp; Concept</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Dropdown</summary>
+          <summary style="color: #006400;">📖&nbsp; Dropdown</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-dropdown">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Dropdown">Implementation</a><br />
@@ -219,7 +219,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Form</summary>
+          <summary style="color: #006400;">📖&nbsp; Form</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Checkbox</summary>
@@ -248,7 +248,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Grid</summary>
+          <summary style="color: #006400;">📖&nbsp; Grid</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. DisplayTable</summary>
@@ -269,7 +269,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Icon</summary>
+          <summary style="color: #006400;">📖&nbsp; Icon</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-icon">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Icon">Implementation</a><br />
@@ -277,7 +277,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Label</summary>
+          <summary style="color: #006400;">📖&nbsp; Label</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-label">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Label">Implementation</a><br />
@@ -285,7 +285,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Layout</summary>
+          <summary style="color: #006400;">📖&nbsp; Layout</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-layout">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Layout">Implementation</a><br />
@@ -293,13 +293,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Loader</summary>
+          <summary style="color: #006400;">📖&nbsp; Loader</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Navigation</summary>
+          <summary style="color: #006400;">📖&nbsp; Navigation</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Menu</summary>
@@ -328,31 +328,31 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Pagination</summary>
+          <summary style="color: #006400;">📖&nbsp; Pagination</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Popover</summary>
+          <summary style="color: #006400;">📖&nbsp; Popover</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Progress</summary>
+          <summary style="color: #006400;">📖&nbsp; Progress</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. SelectMenu</summary>
+          <summary style="color: #006400;">📖&nbsp; SelectMenu</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Subhead</summary>
+          <summary style="color: #006400;">📖&nbsp; Subhead</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonbits.github.io/papillonbits/?path=/info/primer-atom-subhead">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Subhead">Implementation</a><br />
@@ -360,7 +360,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Toast</summary>
+          <summary style="color: #006400;">📖&nbsp; Toast</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
@@ -377,7 +377,7 @@
       <summary style="color: #006400;">📗 Primer</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Base</summary>
+          <summary style="color: #006400;">📖&nbsp; Base</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Base</summary>
@@ -406,7 +406,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Support</summary>
+          <summary style="color: #006400;">📖&nbsp; Support</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Mixins</summary>
@@ -475,7 +475,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Utilities</summary>
+          <summary style="color: #006400;">📖&nbsp; Utilities</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Animations</summary>
@@ -557,7 +557,7 @@
       <summary style="color: #006400;">📗 Accessibility</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Check</summary>
+          <summary style="color: #006400;">📖&nbsp; Check</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/a11y/check.js">Implementation</a><br />
           </blockquote>
@@ -568,7 +568,7 @@
       <summary style="color: #006400;">📗 Browser</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Browser</summary>
+          <summary style="color: #006400;">📖&nbsp; Browser</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/browser/isBrowser.js">Implementation</a><br />
           </blockquote>
@@ -579,13 +579,13 @@
       <summary style="color: #006400;">📗 Environment</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. API</summary>
+          <summary style="color: #006400;">📖&nbsp; API</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/environment/api.js">Implementation</a><br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Host</summary>
+          <summary style="color: #006400;">📖&nbsp; Host</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/environment/host.js">Implementation</a><br />
           </blockquote>
@@ -596,7 +596,7 @@
       <summary style="color: #006400;">📗 Hooks</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. React</summary>
+          <summary style="color: #006400;">📖&nbsp; React</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/hooks/react.js">Implementation</a><br />
           </blockquote>
@@ -607,7 +607,7 @@
       <summary style="color: #006400;">📗 Navigation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Item</summary>
+          <summary style="color: #006400;">📖&nbsp; Item</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/navigation/item.js">Implementation</a><br />
           </blockquote>
@@ -618,7 +618,7 @@
       <summary style="color: #006400;">📗 Object</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Clone</summary>
+          <summary style="color: #006400;">📖&nbsp; Clone</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/blob/master/packages/library/src/object/clone.js">Implementation</a><br />
           </blockquote>
@@ -629,7 +629,7 @@
       <summary style="color: #006400;">📗 State</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Default</summary>
+          <summary style="color: #006400;">📖&nbsp; Default</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Context</summary>
@@ -652,7 +652,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Mock</summary>
+          <summary style="color: #006400;">📖&nbsp; Mock</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Context</summary>
@@ -680,7 +680,7 @@
       <summary style="color: #006400;">📗 Store</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Mock</summary>
+          <summary style="color: #006400;">📖&nbsp; Mock</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonbits/papillonbits/tree/master/packages/library/src/store/mock">Implementation</a><br />
           </blockquote>
@@ -701,7 +701,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. MDN</summary>
+          <summary style="color: #006400;">📖&nbsp; MDN</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Web technology for developers » Accessibility</a></summary>
@@ -714,7 +714,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Web Accessibility Initiative (WAI)</summary>
+          <summary style="color: #006400;">📖&nbsp; Web Accessibility Initiative (WAI)</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a></summary>
@@ -725,7 +725,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. World Wide Web Consortium (W3C)</summary>
+          <summary style="color: #006400;">📖&nbsp; World Wide Web Consortium (W3C)</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3.org/standards/webdesign/accessibility">W3C » Standards » Web Design and Applications » Accessibility</a></summary>
@@ -739,7 +739,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. React.JS</summary>
+          <summary style="color: #006400;">📖&nbsp; React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/docs/accessibility.html">Accessibility</a></summary>
@@ -756,7 +756,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Axe Core</summary>
+          <summary style="color: #006400;">📖&nbsp; Axe Core</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/dequelabs/axe-core">Accessibility engine for automated Web UI testing</a></summary>
@@ -773,7 +773,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. @axe-core/react</summary>
+          <summary style="color: #006400;">📖&nbsp; @axe-core/react</summary>
           <blockquote style="margin: 0; padding: 0 24px">
           <details>
             <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react">Accessibility auditing for React.js applications</a></summary>
@@ -784,7 +784,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Storybook</summary>
+          <summary style="color: #006400;">📖&nbsp; Storybook</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a></summary>
@@ -795,7 +795,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. ESLint</summary>
+          <summary style="color: #006400;">📖&nbsp; ESLint</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/evcohen/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a></summary>
@@ -813,7 +813,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -854,7 +854,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -882,7 +882,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Redux</summary>
+          <summary style="color: #006400;">📖&nbsp; Redux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://redux.js.org/">A Predictable State Container for JS Apps</a></summary>
@@ -904,7 +904,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Flux</summary>
+          <summary style="color: #006400;">📖&nbsp; Flux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://facebook.github.io/flux/">Application architecture for building user interfaces</a></summary>
@@ -922,7 +922,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Redux</summary>
+          <summary style="color: #006400;">📖&nbsp; Redux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/reduxjs/redux">Predictable state container for JavaScript apps</a></summary>
@@ -989,7 +989,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1006,7 +1006,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1048,13 +1048,13 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Install</summary>
@@ -1096,7 +1096,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Code Linting</summary>
+          <summary style="color: #006400;">📖&nbsp; Code Linting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. JavaScript</summary>
@@ -1131,7 +1131,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Code Formatting</summary>
+          <summary style="color: #006400;">📖&nbsp; Code Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. HTML, JavaScript and Sass</summary>
@@ -1142,7 +1142,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. File Formatting</summary>
+          <summary style="color: #006400;">📖&nbsp; File Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Any file type</summary>
@@ -1158,7 +1158,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Code Linting</summary>
+          <summary style="color: #006400;">📖&nbsp; Code Linting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. JavaScript</summary>
@@ -1240,7 +1240,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Code Formatting</summary>
+          <summary style="color: #006400;">📖&nbsp; Code Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. HTML, JavaScript and Sass</summary>
@@ -1282,7 +1282,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. File Formatting</summary>
+          <summary style="color: #006400;">📖&nbsp; File Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Any file type</summary>
@@ -1323,7 +1323,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1340,7 +1340,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Code Linting</summary>
@@ -1478,7 +1478,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Transpiling</summary>
+          <summary style="color: #006400;">📖&nbsp; Transpiling</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Babel</summary>
@@ -1499,7 +1499,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Bundling</summary>
+          <summary style="color: #006400;">📖&nbsp; Bundling</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Webpack</summary>
@@ -1524,7 +1524,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1541,7 +1541,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Transpiling</summary>
@@ -1621,7 +1621,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. React.JS</summary>
+          <summary style="color: #006400;">📖&nbsp; React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/docs/hooks-state.html#hooks-and-function-components">Hooks and Function Components</a></summary>
@@ -1638,7 +1638,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. React.JS</summary>
+          <summary style="color: #006400;">📖&nbsp; React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/">A JavaScript library for building user interfaces</a></summary>
@@ -1663,7 +1663,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1680,7 +1680,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Component Partitions</summary>
@@ -1729,7 +1729,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Atomic Design</summary>
+          <summary style="color: #006400;">📖&nbsp; Atomic Design</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a></summary>
@@ -1788,7 +1788,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. N/A</summary>
+          <summary style="color: #006400;">📖&nbsp; N/A</summary>
         </details>
       </blockquote>
     </details>
@@ -1796,7 +1796,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1813,7 +1813,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1853,7 +1853,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1870,7 +1870,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1898,7 +1898,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Service</summary>
+          <summary style="color: #006400;">📖&nbsp; Service</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Travis CI</summary>
@@ -1914,7 +1914,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Branching Model</summary>
+          <summary style="color: #006400;">📖&nbsp; Branching Model</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Git Flow</summary>
@@ -1950,7 +1950,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Travis CI</summary>
+          <summary style="color: #006400;">📖&nbsp; Travis CI</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/travis-ci">Continuous Integration and Deployment</a></summary>
@@ -1967,7 +1967,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -1984,7 +1984,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -2012,7 +2012,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. ES6 / ES2015</summary>
+          <summary style="color: #006400;">📖&nbsp; ES6 / ES2015</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. From var to const/let</summary>
@@ -2166,7 +2166,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. ES7 / ES2016</summary>
+          <summary style="color: #006400;">📖&nbsp; ES7 / ES2016</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Array.prototype.includes()</summary>
@@ -2237,7 +2237,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. ES8 / ES2017</summary>
+          <summary style="color: #006400;">📖&nbsp; ES8 / ES2017</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Async function</summary>
@@ -2412,7 +2412,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. ES9 / ES2018</summary>
+          <summary style="color: #006400;">📖&nbsp; ES9 / ES2018</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Spread syntax and Rest syntax (parameters)</summary>
@@ -2487,7 +2487,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. ES10 / ES2019</summary>
+          <summary style="color: #006400;">📖&nbsp; ES10 / ES2019</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Array.prototype.flat() and Array.prototype.flatMap()</summary>
@@ -2697,7 +2697,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. N/A</summary>
+          <summary style="color: #006400;">📖&nbsp; N/A</summary>
         </details>
       </blockquote>
     </details>
@@ -2705,7 +2705,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -2722,7 +2722,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -2750,7 +2750,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. ITCSS (Inverted Triangle CSS) Organization</summary>
+          <summary style="color: #006400;">📖&nbsp; ITCSS (Inverted Triangle CSS) Organization</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.youtube.com/watch?v=1OKZOV-iLj4">Harry Roberts - Managing CSS Projects with ITCSS</a></summary>
@@ -2779,7 +2779,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. CSS Modules Scoping</summary>
+          <summary style="color: #006400;">📖&nbsp; CSS Modules Scoping</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-1-need/">What are CSS Modules and why do we need them?</a></summary>
@@ -2802,7 +2802,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Desktop First Responsive Strategy</summary>
+          <summary style="color: #006400;">📖&nbsp; Desktop First Responsive Strategy</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://bradfrost.com/blog/post/responsive-strategy/">Responsive strategy</a></summary>
@@ -2821,7 +2821,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Sass preprocessor scripting language</summary>
+          <summary style="color: #006400;">📖&nbsp; Sass preprocessor scripting language</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3schools.com/sass/">Sass Tutorial</a></summary>
@@ -2858,7 +2858,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Layout</summary>
+          <summary style="color: #006400;">📖&nbsp; Layout</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">CSS Flexible Box Layout</a></summary>
@@ -2881,14 +2881,14 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
           <details>
-            <summary style="color: #006400;">📖. Sass Loader</summary>
+            <summary style="color: #006400;">📖&nbsp; Sass Loader</summary>
             <blockquote style="margin: 0; padding: 0 24px">
               🔖 <a style="color: #006400;" href="https://github.com/webpack-contrib/sass-loader">Sass Loader in Webpack Contrib</a> Compiles Sass to CSS<br />
               🔖 <a style="color: #006400;" href="https://webpack.js.org/loaders/sass-loader/"> Sass Loader in Webpack Docs</a> Loads a Sass/SCSS file and compiles it to CSS.<br />
             </blockquote>
           </details>
           <details>
-            <summary style="color: #006400;">📖. Node Sass</summary>
+            <summary style="color: #006400;">📖&nbsp; Node Sass</summary>
             <blockquote style="margin: 0; padding: 0 24px">
               🔖 <a style="color: #006400;" href="https://github.com/sass/node-sass">Node.js bindings to libsass</a> Node-sass is a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass.<br />
               🔖 It allows you to natively compile .scss files to css at incredible speed and automatically via a connect middleware.<br />
@@ -2900,7 +2900,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -2917,7 +2917,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -2945,7 +2945,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. JavaScript</summary>
+          <summary style="color: #006400;">📖&nbsp; JavaScript</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. MDN</summary>
@@ -2962,7 +2962,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. HTML</summary>
+          <summary style="color: #006400;">📖&nbsp; HTML</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. MDN</summary>
@@ -2986,7 +2986,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. CSS</summary>
+          <summary style="color: #006400;">📖&nbsp; CSS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. MDN</summary>
@@ -3008,7 +3008,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. JavaScript</summary>
+          <summary style="color: #006400;">📖&nbsp; JavaScript</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Ecma International, Technical Committee 39 - ECMAScript</summary>
@@ -3024,13 +3024,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. HTML</summary>
+          <summary style="color: #006400;">📖&nbsp; HTML</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. CSS</summary>
+          <summary style="color: #006400;">📖&nbsp; CSS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
@@ -3041,7 +3041,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3058,7 +3058,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3092,7 +3092,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Webpack DevServer</summary>
+          <summary style="color: #006400;">📖&nbsp; Webpack DevServer</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/webpack/webpack-dev-server">Webpack DevServer in Webpack</a> Serves a webpack app. Updates the browser on changes<br />
             🔖 <a style="color: #006400;" href="https://webpack.js.org/configuration/dev-server/"> Webpack DevServer in Webpack Docs</a> webpack-dev-server can be used to quickly develop an application. See the development guide to get started<br />
@@ -3104,7 +3104,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3121,7 +3121,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3161,7 +3161,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3178,7 +3178,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3212,7 +3212,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Lerna</summary>
+          <summary style="color: #006400;">📖&nbsp; Lerna</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
@@ -3223,7 +3223,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3240,7 +3240,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3274,7 +3274,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. React</summary>
+          <summary style="color: #006400;">📖&nbsp; React</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
@@ -3285,7 +3285,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3302,7 +3302,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3336,7 +3336,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. React Router</summary>
+          <summary style="color: #006400;">📖&nbsp; React Router</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
@@ -3347,7 +3347,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3364,7 +3364,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3392,7 +3392,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Client</summary>
+          <summary style="color: #006400;">📖&nbsp; Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Google Chrome</summary>
@@ -3432,7 +3432,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Server</summary>
+          <summary style="color: #006400;">📖&nbsp; Server</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Node.JS</summary>
@@ -3449,7 +3449,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Client</summary>
+          <summary style="color: #006400;">📖&nbsp; Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Google Chrome</summary>
@@ -3484,7 +3484,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Server</summary>
+          <summary style="color: #006400;">📖&nbsp; Server</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Node.JS</summary>
@@ -3500,7 +3500,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3517,7 +3517,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3545,7 +3545,7 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Unit Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; Unit Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Jest</summary>
@@ -3682,7 +3682,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Integration Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; Integration Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Jest</summary>
@@ -3738,7 +3738,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. End to end Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; End to end Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Puppeteer</summary>
@@ -3754,7 +3754,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Unit Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; Unit Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Jest</summary>
@@ -3766,7 +3766,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Integration Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; Integration Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Jest</summary>
@@ -3785,7 +3785,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. End to end Testing</summary>
+          <summary style="color: #006400;">📖&nbsp; End to end Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Puppeteer</summary>
@@ -3802,7 +3802,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -3819,7 +3819,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Unit Testing</summary>
@@ -3944,21 +3944,21 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Git</summary>
+          <summary style="color: #006400;">📖&nbsp; Git</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://git-scm.com/">Git SCM</a> Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br />
             🔖 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Git Commands</a> Learn Git with Bitbucket Cloud<br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Git Hooks</summary>
+          <summary style="color: #006400;">📖&nbsp; Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://git-scm.com/docs/githooks">Git SCM Documentation</a> Hooks are programs you can place in a hooks directory to trigger actions at certain points in git’s execution. Hooks that don’t have the executable bit set are ignored. <br />
             🔖 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/git-hooks">Atlassian Documentation</a> Git hooks are scripts that run automatically every time a particular event occurs in a Git repository. They let you customize Git’s internal behavior and trigger customizable actions at key points in the development life cycle.<br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. GitHub</summary>
+          <summary style="color: #006400;">📖&nbsp; GitHub</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://www.githubstatus.com/">Status</a><br />
             🔖 <a style="color: #006400;" href="https://guides.github.com/">Guides</a><br />
@@ -3978,7 +3978,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Git Client</summary>
+          <summary style="color: #006400;">📖&nbsp; Git Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.gitkraken.com/">Git Kraken</a><br />
@@ -4021,13 +4021,13 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Git</summary>
+          <summary style="color: #006400;">📖&nbsp; Git</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Git Hooks</summary>
+          <summary style="color: #006400;">📖&nbsp; Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Husky</summary>
@@ -4044,13 +4044,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. GitHub</summary>
+          <summary style="color: #006400;">📖&nbsp; GitHub</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Git Client</summary>
+          <summary style="color: #006400;">📖&nbsp; Git Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
@@ -4061,7 +4061,7 @@
       <summary style="color: #006400;">📗 Papillon Bits Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖. Papillon Bits</summary>
+          <summary style="color: #006400;">📖&nbsp; Papillon Bits</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Setup file(s)</summary>
@@ -4078,7 +4078,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖. Microsites</summary>
+          <summary style="color: #006400;">📖&nbsp; Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
               <summary style="color: #006400;">📃. Git</summary>
