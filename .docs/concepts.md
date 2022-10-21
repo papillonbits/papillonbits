@@ -53,6 +53,10 @@
 
 - [Component](https://papillonbits.github.io/papillonbits/?path=/story/primer-molecule-alert), [Storybook](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Alert)
 
+### 📖&nbsp; Button
+
+- [Component](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Button), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-button)
+
 ### 📖&nbsp; Dropdown
 
 - [Component](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-dropdown), [Storybook](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Dropdown)
@@ -65,6 +69,10 @@
 
 - [Component](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Grid/FlexGrid), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-molecule-grid-flexgrid)
 
+### 📖&nbsp; Icon
+
+- [Component](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Icon), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-icon--all-icons)
+
 ### 📖&nbsp; Label
 
 - [Component](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Label), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-label)
@@ -76,6 +84,10 @@
 ### 📖&nbsp; Pagination PreviousNext
 
 - [Component](https://github.com/papillonbits/papillonbits/tree/master/packages/components/src/primer/Pagination/PreviousNext), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-pagination-previousnext)
+
+### 📖&nbsp; Select
+
+- [Component](https://github.com/papillonbits/papillonbits/blob/master/packages/components/src/primer/Select), [Storybook](https://papillonbits.github.io/papillonbits/?path=/story/primer-atom-select)
 
 ### 📖&nbsp; Subhead
 
