@@ -135,7 +135,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@axe-core/react": "^4.4.5",
+    "@axe-core/react": "^4.5.0",
     "@papillonbits/components": "^0.51.0",
     "@papillonbits/library": "^0.51.0",
     "@papillonbits/setup": "^0.51.0",
@@ -159,7 +159,7 @@
     "redux-thunk": "^2.4.1",
     "uuid": "^9.0.0",
     "webpack": "^5.74.0",
-    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-bundle-analyzer": "^4.7.0",
     "webpack-manifest-plugin": "^5.0.0",
     "whatwg-fetch": "^3.6.2"
   }
