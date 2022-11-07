@@ -279,12 +279,12 @@
   // if leadingVisual is present
 
   /*
-	┌──32px──┬────────────────────┐
-	╎  ┌───┐   ┌────────────────┐ ╎
-	╎   16px    16px                ╎
-	╎  └───┘   └────────────────┘ ╎
-	└───────8px───────────────────┘
-	*/
+  ┌──32px──┬────────────────────┐
+  ╎  ┌───┐   ┌────────────────┐ ╎
+  ╎   16px    16px                ╎
+  ╎  └───┘   └────────────────┘ ╎
+  └───────8px───────────────────┘
+  */
   &.FormControl-input-wrap--leadingVisual {
     .FormControl-input {
       padding-inline-start: calc(
@@ -294,11 +294,11 @@
   }
 
   /*
-	┌──────────────────┬──32px──┐
-	╎  ┌──────────────┐  ┌────┐ ╎
-	╎   24px               24px   ╎
-	╎  └──────────────┘  └────┘ ╎
-	└──────────────────┴────────┘
+  ┌──────────────────┬──32px──┐
+  ╎  ┌──────────────┐  ┌────┐ ╎
+  ╎   24px               24px   ╎
+  ╎  └──────────────┘  └────┘ ╎
+  └──────────────────┴────────┘
   */
   // if trailingAction is present
   &.FormControl-input-wrap--trailingAction {
@@ -309,13 +309,13 @@
     }
 
     /*
-		32px + 1px border
-		┌──────────────────┬──33px──┐
-		╎  ┌──────────────┐  ┌────┐ ╎
-		╎   24px               24px   ╎
-		╎  └──────────────┘  └────┘ ╎
-		└──────────────────┴────────┘
-		*/
+    32px + 1px border
+    ┌──────────────────┬──33px──┐
+    ╎  ┌──────────────┐  ┌────┐ ╎
+    ╎   24px               24px   ╎
+    ╎  └──────────────┘  └────┘ ╎
+    └──────────────────┴────────┘
+    */
     // if trailingAction divider is present, add 1px padding to accomodate input field text
     // can be refactored to has(.FormControl-input-trailingAction--divider)
     &.FormControl-input-wrap-trailingAction--divider {
@@ -351,13 +351,13 @@
       }
 
       /*
-			28px + 1px border
-			┌──────────────────┬──29px──┐
-			╎  ┌──────────────┐  ┌────┐ ╎
-			╎   20px               20px   ╎
-			╎  └──────────────┘  └────┘ ╎
-			└──────────────────┴────────┘
-			*/
+      28px + 1px border
+      ┌──────────────────┬──29px──┐
+      ╎  ┌──────────────┐  ┌────┐ ╎
+      ╎   20px               20px   ╎
+      ╎  └──────────────┘  └────┘ ╎
+      └──────────────────┴────────┘
+      */
       &.FormControl-input-wrap-trailingAction--divider {
         .FormControl-input.FormControl-small {
           padding-inline-end: calc(
@@ -414,12 +414,12 @@
       }
 
       /*
-			┌──────────────────┬──37px──┐
-			╎  ┌──────────────┐  ┌────┐ ╎
-			╎   28px               28px   ╎
-			╎  └──────────────┘  └────┘ ╎
-			└──────────────────┴────────┘
-			*/
+      ┌──────────────────┬──37px──┐
+      ╎  ┌──────────────┐  ┌────┐ ╎
+      ╎   28px               28px   ╎
+      ╎  └──────────────┘  └────┘ ╎
+      └──────────────────┴────────┘
+      */
       &.FormControl-input-wrap-trailingAction--divider {
         .FormControl-input.FormControl-large {
           padding-inline-end: calc(
