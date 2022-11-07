@@ -12,7 +12,9 @@ import ArrowBoth16 from '../SVG/icon/arrow-both-16.svg'
 import ArrowBoth24 from '../SVG/icon/arrow-both-24.svg'
 import ArrowDown16 from '../SVG/icon/arrow-down-16.svg'
 import ArrowDown24 from '../SVG/icon/arrow-down-24.svg'
+import ArrowDownLeft16 from '../SVG/icon/arrow-down-left-16.svg'
 import ArrowDownLeft24 from '../SVG/icon/arrow-down-left-24.svg'
+import ArrowDownRight16 from '../SVG/icon/arrow-down-right-16.svg'
 import ArrowDownRight24 from '../SVG/icon/arrow-down-right-24.svg'
 import ArrowLeft16 from '../SVG/icon/arrow-left-16.svg'
 import ArrowLeft24 from '../SVG/icon/arrow-left-24.svg'
@@ -22,7 +24,9 @@ import ArrowSwitch16 from '../SVG/icon/arrow-switch-16.svg'
 import ArrowSwitch24 from '../SVG/icon/arrow-switch-24.svg'
 import ArrowUp16 from '../SVG/icon/arrow-up-16.svg'
 import ArrowUp24 from '../SVG/icon/arrow-up-24.svg'
+import ArrowUpLeft16 from '../SVG/icon/arrow-up-left-16.svg'
 import ArrowUpLeft24 from '../SVG/icon/arrow-up-left-24.svg'
+import ArrowUpRight16 from '../SVG/icon/arrow-up-right-16.svg'
 import ArrowUpRight24 from '../SVG/icon/arrow-up-right-24.svg'
 import Beaker16 from '../SVG/icon/beaker-16.svg'
 import Beaker24 from '../SVG/icon/beaker-24.svg'
@@ -82,6 +86,8 @@ import CircleSlash16 from '../SVG/icon/circle-slash-16.svg'
 import CircleSlash24 from '../SVG/icon/circle-slash-24.svg'
 import Clock16 from '../SVG/icon/clock-16.svg'
 import Clock24 from '../SVG/icon/clock-24.svg'
+import ClockFill16 from '../SVG/icon/clock-fill-16.svg'
+import ClockFill24 from '../SVG/icon/clock-fill-24.svg'
 import Cloud16 from '../SVG/icon/cloud-16.svg'
 import Cloud24 from '../SVG/icon/cloud-24.svg'
 import CloudOffline16 from '../SVG/icon/cloud-offline-16.svg'
@@ -267,6 +273,10 @@ import IssueOpened16 from '../SVG/icon/issue-opened-16.svg'
 import IssueOpened24 from '../SVG/icon/issue-opened-24.svg'
 import IssueReopened16 from '../SVG/icon/issue-reopened-16.svg'
 import IssueReopened24 from '../SVG/icon/issue-reopened-24.svg'
+import IssueTrackedBy16 from '../SVG/icon/issue-tracked-by-16.svg'
+import IssueTrackedBy24 from '../SVG/icon/issue-tracked-by-24.svg'
+import IssueTrackedIn16 from '../SVG/icon/issue-tracked-in-16.svg'
+import IssueTrackedIn24 from '../SVG/icon/issue-tracked-in-24.svg'
 import Italic16 from '../SVG/icon/italic-16.svg'
 import Italic24 from '../SVG/icon/italic-24.svg'
 import Iterations16 from '../SVG/icon/iterations-16.svg'
@@ -363,6 +373,10 @@ import PlusCircle16 from '../SVG/icon/plus-circle-16.svg'
 import PlusCircle24 from '../SVG/icon/plus-circle-24.svg'
 import Project16 from '../SVG/icon/project-16.svg'
 import Project24 from '../SVG/icon/project-24.svg'
+import ProjectRoadmap16 from '../SVG/icon/project-roadmap-16.svg'
+import ProjectRoadmap24 from '../SVG/icon/project-roadmap-24.svg'
+import ProjectSymlink16 from '../SVG/icon/project-symlink-16.svg'
+import ProjectSymlink24 from '../SVG/icon/project-symlink-24.svg'
 import Pulse16 from '../SVG/icon/pulse-16.svg'
 import Pulse24 from '../SVG/icon/pulse-24.svg'
 import Question16 from '../SVG/icon/question-16.svg'
@@ -427,6 +441,8 @@ import SingleSelect16 from '../SVG/icon/single-select-16.svg'
 import SingleSelect24 from '../SVG/icon/single-select-24.svg'
 import Skip16 from '../SVG/icon/skip-16.svg'
 import Skip24 from '../SVG/icon/skip-24.svg'
+import SkipFill16 from '../SVG/icon/skip-fill-16.svg'
+import SkipFill24 from '../SVG/icon/skip-fill-24.svg'
 import Sliders16 from '../SVG/icon/sliders-16.svg'
 import Smiley16 from '../SVG/icon/smiley-16.svg'
 import Smiley24 from '../SVG/icon/smiley-24.svg'
@@ -535,7 +551,9 @@ export const iconComponents = {
   ArrowBoth24,
   ArrowDown16,
   ArrowDown24,
+  ArrowDownLeft16,
   ArrowDownLeft24,
+  ArrowDownRight16,
   ArrowDownRight24,
   ArrowLeft16,
   ArrowLeft24,
@@ -545,7 +563,9 @@ export const iconComponents = {
   ArrowSwitch24,
   ArrowUp16,
   ArrowUp24,
+  ArrowUpLeft16,
   ArrowUpLeft24,
+  ArrowUpRight16,
   ArrowUpRight24,
   Beaker16,
   Beaker24,
@@ -605,6 +625,8 @@ export const iconComponents = {
   CircleSlash24,
   Clock16,
   Clock24,
+  ClockFill16,
+  ClockFill24,
   Cloud16,
   Cloud24,
   CloudOffline16,
@@ -790,6 +812,10 @@ export const iconComponents = {
   IssueOpened24,
   IssueReopened16,
   IssueReopened24,
+  IssueTrackedBy16,
+  IssueTrackedBy24,
+  IssueTrackedIn16,
+  IssueTrackedIn24,
   Italic16,
   Italic24,
   Iterations16,
@@ -886,6 +912,10 @@ export const iconComponents = {
   PlusCircle24,
   Project16,
   Project24,
+  ProjectRoadmap16,
+  ProjectRoadmap24,
+  ProjectSymlink16,
+  ProjectSymlink24,
   Pulse16,
   Pulse24,
   Question16,
@@ -950,6 +980,8 @@ export const iconComponents = {
   SingleSelect24,
   Skip16,
   Skip24,
+  SkipFill16,
+  SkipFill24,
   Sliders16,
   Smiley16,
   Smiley24,
