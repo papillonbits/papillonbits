@@ -52,7 +52,7 @@
     "build-release": "lerna run build-release --stream"
   },
   "dependencies": {
-    "@axe-core/react": "^4.5.1",
+    "@axe-core/react": "^4.5.2",
     "@papillonbits/components": "^0.54.0",
     "@papillonbits/library": "^0.54.0",
     "@papillonbits/setup": "^0.54.0",
