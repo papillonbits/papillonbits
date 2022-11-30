@@ -1,4 +1,4 @@
 {
   "packages": ["packages/components", "packages/css", "packages/library", "packages/setup"],
-  "version": "0.55.0"
+  "version": "0.56.0"
 }
