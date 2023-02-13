@@ -78,6 +78,7 @@ import ChevronLeft24 from '../SVG/icon/chevron-left-24.svg'
 import ChevronRight12 from '../SVG/icon/chevron-right-12.svg'
 import ChevronRight16 from '../SVG/icon/chevron-right-16.svg'
 import ChevronRight24 from '../SVG/icon/chevron-right-24.svg'
+import ChevronUp12 from '../SVG/icon/chevron-up-12.svg'
 import ChevronUp16 from '../SVG/icon/chevron-up-16.svg'
 import ChevronUp24 from '../SVG/icon/chevron-up-24.svg'
 import Circle16 from '../SVG/icon/circle-16.svg'
@@ -204,6 +205,7 @@ import FileZip16 from '../SVG/icon/file-zip-16.svg'
 import FileZip24 from '../SVG/icon/file-zip-24.svg'
 import Filter16 from '../SVG/icon/filter-16.svg'
 import Filter24 from '../SVG/icon/filter-24.svg'
+import FiscalHost16 from '../SVG/icon/fiscal-host-16.svg'
 import Flame16 from '../SVG/icon/flame-16.svg'
 import Flame24 from '../SVG/icon/flame-24.svg'
 import Fold16 from '../SVG/icon/fold-16.svg'
@@ -225,6 +227,7 @@ import GitCompare24 from '../SVG/icon/git-compare-24.svg'
 import GitMerge16 from '../SVG/icon/git-merge-16.svg'
 import GitMerge24 from '../SVG/icon/git-merge-24.svg'
 import GitMergeQueue16 from '../SVG/icon/git-merge-queue-16.svg'
+import GitMergeQueue24 from '../SVG/icon/git-merge-queue-24.svg'
 import GitPullRequest16 from '../SVG/icon/git-pull-request-16.svg'
 import GitPullRequest24 from '../SVG/icon/git-pull-request-24.svg'
 import GitPullRequestClosed16 from '../SVG/icon/git-pull-request-closed-16.svg'
@@ -233,6 +236,8 @@ import GitPullRequestDraft16 from '../SVG/icon/git-pull-request-draft-16.svg'
 import GitPullRequestDraft24 from '../SVG/icon/git-pull-request-draft-24.svg'
 import Globe16 from '../SVG/icon/globe-16.svg'
 import Globe24 from '../SVG/icon/globe-24.svg'
+import Goal16 from '../SVG/icon/goal-16.svg'
+import Goal24 from '../SVG/icon/goal-24.svg'
 import Grabber16 from '../SVG/icon/grabber-16.svg'
 import Grabber24 from '../SVG/icon/grabber-24.svg'
 import Graph16 from '../SVG/icon/graph-16.svg'
@@ -323,6 +328,14 @@ import Moon16 from '../SVG/icon/moon-16.svg'
 import Moon24 from '../SVG/icon/moon-24.svg'
 import MortarBoard16 from '../SVG/icon/mortar-board-16.svg'
 import MortarBoard24 from '../SVG/icon/mortar-board-24.svg'
+import MovetoBottom16 from '../SVG/icon/move-to-bottom-16.svg'
+import MovetoBottom24 from '../SVG/icon/move-to-bottom-24.svg'
+import MovetoEnd16 from '../SVG/icon/move-to-end-16.svg'
+import MovetoEnd24 from '../SVG/icon/move-to-end-24.svg'
+import MovetoStart16 from '../SVG/icon/move-to-start-16.svg'
+import MovetoStart24 from '../SVG/icon/move-to-start-24.svg'
+import MovetoTop16 from '../SVG/icon/move-to-top-16.svg'
+import MovetoTop24 from '../SVG/icon/move-to-top-24.svg'
 import MultiSelect16 from '../SVG/icon/multi-select-16.svg'
 import MultiSelect24 from '../SVG/icon/multi-select-24.svg'
 import Mute16 from '../SVG/icon/mute-16.svg'
@@ -383,6 +396,10 @@ import Question16 from '../SVG/icon/question-16.svg'
 import Question24 from '../SVG/icon/question-24.svg'
 import Quote16 from '../SVG/icon/quote-16.svg'
 import Quote24 from '../SVG/icon/quote-24.svg'
+import Read16 from '../SVG/icon/read-16.svg'
+import Read24 from '../SVG/icon/read-24.svg'
+import RelFilePath16 from '../SVG/icon/rel-file-path-16.svg'
+import RelFilePath24 from '../SVG/icon/rel-file-path-24.svg'
 import Reply16 from '../SVG/icon/reply-16.svg'
 import Reply24 from '../SVG/icon/reply-24.svg'
 import Repo16 from '../SVG/icon/repo-16.svg'
@@ -450,6 +467,9 @@ import SortAsc16 from '../SVG/icon/sort-asc-16.svg'
 import SortAsc24 from '../SVG/icon/sort-asc-24.svg'
 import SortDesc16 from '../SVG/icon/sort-desc-16.svg'
 import SortDesc24 from '../SVG/icon/sort-desc-24.svg'
+import SparkleFill16 from '../SVG/icon/sparkle-fill-16.svg'
+import Sponsortiers16 from '../SVG/icon/sponsor-tiers-16.svg'
+import Sponsortiers24 from '../SVG/icon/sponsor-tiers-24.svg'
 import Square16 from '../SVG/icon/square-16.svg'
 import Square24 from '../SVG/icon/square-24.svg'
 import SquareFill16 from '../SVG/icon/square-fill-16.svg'
@@ -509,10 +529,14 @@ import Typography16 from '../SVG/icon/typography-16.svg'
 import Typography24 from '../SVG/icon/typography-24.svg'
 import Unfold16 from '../SVG/icon/unfold-16.svg'
 import Unfold24 from '../SVG/icon/unfold-24.svg'
+import Unlink16 from '../SVG/icon/unlink-16.svg'
+import Unlink24 from '../SVG/icon/unlink-24.svg'
 import Unlock16 from '../SVG/icon/unlock-16.svg'
 import Unlock24 from '../SVG/icon/unlock-24.svg'
 import Unmute16 from '../SVG/icon/unmute-16.svg'
 import Unmute24 from '../SVG/icon/unmute-24.svg'
+import Unread16 from '../SVG/icon/unread-16.svg'
+import Unread24 from '../SVG/icon/unread-24.svg'
 import Unverified16 from '../SVG/icon/unverified-16.svg'
 import Unverified24 from '../SVG/icon/unverified-24.svg'
 import Upload16 from '../SVG/icon/upload-16.svg'
@@ -617,6 +641,7 @@ export const iconComponents = {
   ChevronRight12,
   ChevronRight16,
   ChevronRight24,
+  ChevronUp12,
   ChevronUp16,
   ChevronUp24,
   Circle16,
@@ -743,6 +768,7 @@ export const iconComponents = {
   FileZip24,
   Filter16,
   Filter24,
+  FiscalHost16,
   Flame16,
   Flame24,
   Fold16,
@@ -764,6 +790,7 @@ export const iconComponents = {
   GitMerge16,
   GitMerge24,
   GitMergeQueue16,
+  GitMergeQueue24,
   GitPullRequest16,
   GitPullRequest24,
   GitPullRequestClosed16,
@@ -772,6 +799,8 @@ export const iconComponents = {
   GitPullRequestDraft24,
   Globe16,
   Globe24,
+  Goal16,
+  Goal24,
   Grabber16,
   Grabber24,
   Graph16,
@@ -862,6 +891,14 @@ export const iconComponents = {
   Moon24,
   MortarBoard16,
   MortarBoard24,
+  MovetoBottom16,
+  MovetoBottom24,
+  MovetoEnd16,
+  MovetoEnd24,
+  MovetoStart16,
+  MovetoStart24,
+  MovetoTop16,
+  MovetoTop24,
   MultiSelect16,
   MultiSelect24,
   Mute16,
@@ -922,6 +959,10 @@ export const iconComponents = {
   Question24,
   Quote16,
   Quote24,
+  Read16,
+  Read24,
+  RelFilePath16,
+  RelFilePath24,
   Reply16,
   Reply24,
   Repo16,
@@ -989,6 +1030,9 @@ export const iconComponents = {
   SortAsc24,
   SortDesc16,
   SortDesc24,
+  SparkleFill16,
+  Sponsortiers16,
+  Sponsortiers24,
   Square16,
   Square24,
   SquareFill16,
@@ -1048,10 +1092,14 @@ export const iconComponents = {
   Typography24,
   Unfold16,
   Unfold24,
+  Unlink16,
+  Unlink24,
   Unlock16,
   Unlock24,
   Unmute16,
   Unmute24,
+  Unread16,
+  Unread24,
   Unverified16,
   Unverified24,
   Upload16,
