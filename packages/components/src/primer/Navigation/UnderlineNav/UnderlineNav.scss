@@ -1,7 +1,7 @@
-@import 'node_modules/@papillonbits/css/build/primer/support/mixins/misc.scss';
-@import 'node_modules/@papillonbits/css/build/primer/support/variables/misc.scss';
-@import 'node_modules/@papillonbits/css/build/primer/support/variables/layout.scss';
-@import 'node_modules/@papillonbits/css/build/primer/support/variables/typography.scss';
+@import '~@papillonbits/css/build/primer/support/mixins/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
 
 // stylelint-disable no-descending-specificity
 $nav-height: $spacer-3 * 3 !default; // 48px
