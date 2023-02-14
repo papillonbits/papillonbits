@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.6.0",
-    "@papillonbits/components": "^0.64.0",
-    "@papillonbits/library": "^0.64.0",
-    "@papillonbits/setup": "^0.64.0",
+    "@papillonbits/components": "^0.66.0",
+    "@papillonbits/library": "^0.66.0",
+    "@papillonbits/setup": "^0.66.0",
     "@primer/primitives": "^7.11.1",
     "classnames": "^2.3.2",
     "clean-webpack-plugin": "^4.0.0",
