@@ -75,7 +75,7 @@
     "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.4.2",
     "uuid": "^9.0.0",
-    "webpack": "^5.75.0",
+    "webpack": "^5.76.0",
     "webpack-bundle-analyzer": "^4.8.0",
     "webpack-manifest-plugin": "^5.0.0",
     "whatwg-fetch": "^3.6.2"
