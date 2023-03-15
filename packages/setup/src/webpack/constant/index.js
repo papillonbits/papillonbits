@@ -1,4 +1,4 @@
-export const coreJSVersion = '3.29.0'
+export const coreJSVersion = '3.29.1'
 
 export const targetBrowsers = {
   production: ['> 1%', 'last 2 versions', 'Firefox ESR'],
