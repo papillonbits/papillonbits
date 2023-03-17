@@ -2,7 +2,7 @@
   "name": "papillonbits",
   "description": "Papillon Bits",
   "engines": {
-    "node": "19.8.0",
+    "node": "19.8.1",
     "npm": "9.5.1"
   },
   "homepage": "https://github.com/papillonbits/papillonbits#readme",
@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.6.0",
-    "@papillonbits/components": "^0.72.0",
-    "@papillonbits/library": "^0.72.0",
-    "@papillonbits/setup": "^0.72.0",
+    "@papillonbits/components": "^0.73.0",
+    "@papillonbits/library": "^0.73.0",
+    "@papillonbits/setup": "^0.73.0",
     "@primer/primitives": "^7.11.1",
     "classnames": "^2.3.2",
     "clean-webpack-plugin": "^4.0.0",
@@ -63,7 +63,7 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "dotenv-webpack": "^8.0.1",
     "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -75,7 +75,7 @@
     "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.4.2",
     "uuid": "^9.0.0",
-    "webpack": "^5.76.1",
+    "webpack": "^5.76.2",
     "webpack-bundle-analyzer": "^4.8.0",
     "webpack-manifest-plugin": "^5.0.0",
     "whatwg-fetch": "^3.6.2"
@@ -146,7 +146,7 @@
     "lint-staged": "^13.2.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
-    "postcss-loader": "^7.0.2",
+    "postcss-loader": "^7.1.0",
     "postcss-nested": "^6.0.1",
     "postcss-preset-env": "^8.0.1",
     "postcss-scss": "^4.0.6",
