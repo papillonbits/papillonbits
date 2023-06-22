@@ -2,7 +2,6 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable global-require */
 
-import createCompiler from '@storybook/addon-docs/mdx-compiler-plugin'
 import { isEmptyObject } from '@papillonbits/library/object'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
@@ -17,9 +16,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
         options: {
           configureJSX: true,
           babelOptions: {},
-          sourceLoaderOptions: {
-            injectStoryParameters: false,
-          },
+          csfPluginOptions: null,
         },
       },
       '@storybook/addon-controls',
@@ -54,10 +51,12 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       //   },
       // },
     ],
-    framework: '@storybook/react',
-    core: {
-      builder: 'webpack5',
+
+    framework: {
+      name: '@storybook/react-webpack5',
+      options: {},
     },
+    core: {},
     webpackFinal: async (config, { configType }) => {
       // to be activated when storybook catches up with react/babel new jsx transform
       // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
@@ -138,9 +137,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
             },
             {
               loader: '@mdx-js/loader',
-              options: {
-                compilers: [createCompiler({})],
-              },
+              options: {},
             },
           ],
         },
@@ -151,8 +148,8 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
           enforce: 'pre',
         },
       ])
-
       return config
     },
+    docs: { autodocs: true },
   }
 }
