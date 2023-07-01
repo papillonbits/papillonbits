@@ -1,26 +1,100 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-param-reassign */
 /* eslint-disable global-require */
-
 import { isEmptyObject } from '@papillonbits/library/object'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
+  // https://storybook.js.org/docs/react/api/main-config
   return {
-    stories: [storiesBasePath],
-    addons: [
-      '@storybook/addon-a11y',
-      '@storybook/addon-actions',
-      '@storybook/addon-backgrounds',
-      {
-        name: '@storybook/addon-docs',
-        options: {
-          configureJSX: true,
-          babelOptions: {},
-          csfPluginOptions: null,
-        },
+    // https://storybook.js.org/docs/react/configure/frameworks
+    framework: {
+      name: '@storybook/react-webpack5',
+      options: {
+        fastRefresh: false,
+        strictMode: false,
+        legacyRootApi: false,
       },
-      '@storybook/addon-controls',
+    },
+
+    // https://storybook.js.org/docs/react/api/main-config-stories
+    stories: [storiesBasePath],
+
+    // https://storybook.js.org/docs/react/api/main-config-addons
+    // https://storybook.js.org/docs/react/addons/introduction
+    // https://storybook.js.org/integrations
+    addons: [
+      // https://storybook.js.org/addons/@storybook/addon-a11y
+      '@storybook/addon-a11y',
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/actions
+      // https://storybook.js.org/addons/@storybook/addon-actions
+      // '@storybook/addon-actions',
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/backgrounds
+      // https://storybook.js.org/addons/@storybook/addon-backgrounds
+      // '@storybook/addon-backgrounds',
+
+      // https://storybook.js.org/addons/chromatic
+      // chromatic
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/controls
+      // https://storybook.js.org/addons/@storybook/addon-controls
+      // '@storybook/addon-controls',
+
+      // https://storybook.js.org/addons/storybook-addon-designs
+      // storybook-addon-designs
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/docs (404)
+      // https://storybook.js.org/addons/@storybook/addon-docs
+      // {
+      //   name: '@storybook/addon-docs',
+      //   options: {
+      //     jsxOptions: {},
+      //     csfPluginOptions: null,
+      //     mdxPluginOptions: {},
+      //     transcludeMarkdown: true,
+      //   },
+      // },
+
+      // https://storybook.js.org/docs/react/essentials/introduction
+      // https://storybook.js.org/integrations/tag/essentials
+      '@storybook/addon-essentials',
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/highlight (404)
+      // https://storybook.js.org/addons/@storybook/addon-highlight
+      // '@storybook/addon-highlight',
+
+      // https://storybook.js.org/addons/@storybook/addon-interactions
+      '@storybook/addon-interactions',
+
+      // https://storybook.js.org/addons/@storybook/addon-jest
       '@storybook/addon-jest',
+
+      // https://storybook.js.org/addons/@storybook/addon-links
+      '@storybook/addon-links',
+
+      // https://storybook.js.org/addons/msw-storybook-addon
+      // msw-storybook-addon
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/measure-and-outline
+      // https://storybook.js.org/addons/@storybook/addon-measure
+      // https://storybook.js.org/addons/@storybook/addon-outline
+      // '@storybook/addon-measure',
+      // '@storybook/addon-outline',
+
+      // https://storybook.js.org/addons/@storybook/addon-storyshots
+      '@storybook/addon-storyshots',
+
+      // https://storybook.js.org/addons/@storybook/addon-storyshots-puppeteer
+      '@storybook/addon-storyshots-puppeteer',
+
+      // https://storybook.js.org/addons/@storybook/addon-storysource
       {
         name: '@storybook/addon-storysource',
         options: {
@@ -39,50 +113,69 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
           },
         },
       },
-      '@storybook/addon-viewport',
-      // fails with @storybook/addon-postcss v3.0.0-alpha.1
-      // '@storybook/addon-postcss',
-      // {
-      //   name: '@storybook/addon-postcss',
-      //   options: {
-      //     postcssLoaderOptions: {
-      //       implementation: require('postcss'),
-      //     },
-      //   },
-      // },
+
+      // https://storybook.js.org/addons/@storybook/addon-styling
+      '@storybook/addon-styling',
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/toolbars-and-globals
+      // https://storybook.js.org/addons/@storybook/addon-toolbars
+      // '@storybook/addon-toolbars',
+
+      // included by default in @storybook/addon-essentials
+      // https://storybook.js.org/docs/react/essentials/viewport
+      // https://storybook.js.org/addons/@storybook/addon-viewport
+      // '@storybook/addon-viewport',
     ],
 
-    framework: {
-      name: '@storybook/react-webpack5',
-      options: {},
-    },
-    core: {},
-    webpackFinal: async (config, { configType }) => {
-      // to be activated when storybook catches up with react/babel new jsx transform
-      // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
-      // const babelLoaderRule = config.module.rules.find((rule) => rule.test.test && rule.test.test('.jsx'))
-      // babelLoaderRule.use[0].options.presets = babelLoaderRule.use[0].options.presets.map((preset) => {
-      //   return preset === path.resolve(__dirname, '../node_modules/@babel/preset-react/lib/index.js')
-      //     ? [
-      //         path.resolve(__dirname, '../node_modules/@babel/preset-react/lib/index.js'),
-      //         {
-      //           runtime: 'automatic',
-      //         },
-      //       ]
-      //     : preset
-      // })
+    // https://storybook.js.org/docs/react/api/main-config-babel
+    // ...
 
+    // https://storybook.js.org/docs/react/api/main-config-babel-default
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-core
+    core: { builder: { name: '@storybook/builder-webpack5' } },
+
+    // https://storybook.js.org/docs/react/api/main-config-docs
+    // https://storybook.js.org/docs/react/writing-docs/autodocs
+    // https://storybook.js.org/docs/react/writing-docs/mdx
+    docs: { autodocs: true, defaultName: 'Documentation', docsMode: false },
+
+    // https://storybook.js.org/docs/react/api/main-config-env
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-features
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-log-level
+    logLevel: { logLevel: 'debug' },
+
+    // https://storybook.js.org/docs/react/api/main-config-manager-head
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-preview-annotations
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-preview-body
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-preview-head
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-refs
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-static-dirs
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-typescript
+    // ...
+
+    // https://storybook.js.org/docs/react/api/main-config-webpack-final
+    webpackFinal: async (config, { configType }) => {
       const fileLoaderRuleSVG = config.module.rules.find((rule) => !isEmptyObject(rule) && rule.test.test && rule.test.test('.svg'))
       fileLoaderRuleSVG.exclude = /\.svg$/
-
-      // const fileLoaderRuleJSX = config.module.rules.find((rule) => !isEmptyObject(rule) && rule.test.test && rule.test.test('.jsx'))
-      // fileLoaderRuleJSX.use[0].options.plugins.push(
-      //   path.resolve(__dirname, '../node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js'),
-      // )
-
-      // fileLoaderRuleJSX.use[0].options.plugins.push(
-      //   path.resolve(__dirname, '../node_modules/babel-plugin-syntax-async-functions/lib/index.js'),
-      // )
 
       config.module.rules = config.module.rules.concat([
         {
@@ -150,6 +243,5 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       ])
       return config
     },
-    docs: { autodocs: true },
   }
 }
