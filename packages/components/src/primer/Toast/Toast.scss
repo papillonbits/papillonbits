@@ -10,7 +10,9 @@
   color: var(--color-fg-default);
   background-color: var(--color-canvas-default);
   border-radius: $border-radius;
-  box-shadow: inset 0 0 0 1px var(--color-border-default), var(--color-shadow-large);
+  box-shadow:
+    inset 0 0 0 1px var(--color-border-default),
+    var(--color-shadow-large);
 
   @include breakpoint(sm) {
     width: max-content;
@@ -57,7 +59,9 @@
 
 .Toast--loading {
   color: var(--color-fg-default);
-  box-shadow: inset 0 0 0 1px var(--color-border-default), var(--color-shadow-large);
+  box-shadow:
+    inset 0 0 0 1px var(--color-border-default),
+    var(--color-shadow-large);
 
   .Toast-icon {
     background-color: var(--color-neutral-emphasis);
@@ -66,7 +70,9 @@
 
 .Toast--error {
   color: var(--color-fg-default);
-  box-shadow: inset 0 0 0 1px var(--color-border-default), var(--color-shadow-large);
+  box-shadow:
+    inset 0 0 0 1px var(--color-border-default),
+    var(--color-shadow-large);
 
   .Toast-icon {
     background-color: var(--color-danger-emphasis);
@@ -75,7 +81,9 @@
 
 .Toast--warning {
   color: var(--color-fg-default);
-  box-shadow: inset 0 0 0 1px var(--color-border-default), var(--color-shadow-large);
+  box-shadow:
+    inset 0 0 0 1px var(--color-border-default),
+    var(--color-shadow-large);
 
   .Toast-icon {
     background-color: var(--color-attention-emphasis);
@@ -84,7 +92,9 @@
 
 .Toast--success {
   color: var(--color-fg-default);
-  box-shadow: inset 0 0 0 1px var(--color-border-default), var(--color-shadow-large);
+  box-shadow:
+    inset 0 0 0 1px var(--color-border-default),
+    var(--color-shadow-large);
 
   .Toast-icon {
     background-color: var(--color-success-emphasis);

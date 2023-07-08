@@ -1,3 +1,5 @@
+// stylelint-disable media-query-no-invalid
+
 @import '~@papillonbits/css/build/primer/support/variables/layout.scss';
 @import '~@papillonbits/css/build/primer/support/variables/misc.scss';
 @import '~@papillonbits/css/build/primer/support/mixins/layout.scss';
@@ -203,17 +205,11 @@
 @media (max-width: ($width-md - 0.02px)) {
   .Popover {
     position: fixed;
-    top: auto !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: 0 !important;
+    inset: auto 0 0 !important;
   }
 
   .Popover-message {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+    inset: auto;
     width: auto !important;
     margin: $spacer-2;
   }

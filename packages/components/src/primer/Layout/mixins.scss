@@ -102,5 +102,7 @@
   height: #{$spacer-2}; // 8px
   content: '';
   background-color: var(--color-canvas-inset);
-  box-shadow: inset 0 1px $Layout-divider-color, inset 0 -1px $Layout-divider-color;
+  box-shadow:
+    inset 0 1px $Layout-divider-color,
+    inset 0 -1px $Layout-divider-color;
 }
