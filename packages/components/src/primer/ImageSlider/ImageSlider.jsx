@@ -2,10 +2,9 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
 import { useEffect, useRef } from 'react'
 import { propTypes, defaultProps } from './ImageSlider.prop'
-import { images } from './ImageSlider.images'
 import styles from './ImageSlider.scss'
 
-export function ImageSlider() {
+export function ImageSlider({ images }) {
   let isDown = false
   let startX
   let scrollLeft
@@ -57,7 +56,7 @@ export function ImageSlider() {
   })
 
   return (
-    <div ref={sliderRef} className={styles.items}>
+    <div ref={sliderRef} className={styles.slider}>
       <canvas width="3050" height="400" ref={canvasRef} className={styles.canvas} />
     </div>
   )

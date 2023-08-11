@@ -1,7 +1,7 @@
-import image1 from './images/0.jpg'
-import image2 from './images/1.jpg'
-import image3 from './images/2.jpg'
-import image4 from './images/3.jpg'
+import image1 from './image/0.jpg'
+import image2 from './image/1.jpg'
+import image3 from './image/2.jpg'
+import image4 from './image/3.jpg'
 
 export const images = [
   {

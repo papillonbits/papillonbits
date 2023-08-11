@@ -1,4 +1,5 @@
 import { withTests } from '@storybook/addon-jest'
+import { images } from './ImageSlider.int.image'
 import results from '../../../../../../.jest-test-results.json'
 
 const ImageSlider =
@@ -15,5 +16,5 @@ export default {
 }
 
 export function regular() {
-  return <ImageSlider />
+  return <ImageSlider images={images} />
 }
