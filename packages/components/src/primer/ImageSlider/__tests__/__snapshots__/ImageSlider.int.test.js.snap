@@ -3,7 +3,7 @@
 exports[`<ImageSlider /> Render must match regular() 1`] = `
 <div>
   <div
-    class="items"
+    class="slider"
   >
     <canvas
       class="canvas"
