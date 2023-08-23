@@ -7,7 +7,6 @@ import { ErrorBoundary } from './ErrorBoundary'
 import { Form } from './Form'
 import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
-import { ImageSlider } from './ImageSlider'
 import { Label } from './Label'
 import { Loader, loaderVariant } from './Loader'
 import { Navigation } from './Navigation'
@@ -54,7 +53,6 @@ export const primer = {
     iconName,
     iconSize,
   },
-  ImageSlider,
   Label,
   Loader: {
     Loader,
