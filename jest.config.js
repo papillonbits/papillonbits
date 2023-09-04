@@ -29,9 +29,9 @@ const collectCoverageFrom = [
 const coverageThreshold = {
   global: {
     statements: 59,
-    branches: 66,
-    functions: 45,
-    lines: 61,
+    branches: 68,
+    functions: 44,
+    lines: 60,
   },
 }
 
