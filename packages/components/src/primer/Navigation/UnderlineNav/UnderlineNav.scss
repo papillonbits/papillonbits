@@ -9,8 +9,7 @@ $nav-height: $spacer-3 * 3 !default; // 48px
 .UnderlineNav {
   display: flex;
   min-height: $nav-height;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: auto hidden;
   // stylelint-disable-next-line primer/box-shadow
   box-shadow: inset 0 -1px 0 var(--color-border-muted);
   -webkit-overflow-scrolling: auto;
