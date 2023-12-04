@@ -1,6 +1,6 @@
 {
   "name": "@papillonbits/components",
-  "version": "0.94.0",
+  "version": "0.95.0",
   "description": "Papillon Bits Components",
   "homepage": "https://github.com/papillonbits/papillonbits/tree/master/packages/components",
   "repository": {
@@ -29,7 +29,7 @@
     "build-release": "npm run build"
   },
   "dependencies": {
-    "@papillonbits/css": "^0.94.0",
-    "@papillonbits/library": "^0.94.0"
+    "@papillonbits/css": "^0.95.0",
+    "@papillonbits/library": "^0.95.0"
   }
 }
