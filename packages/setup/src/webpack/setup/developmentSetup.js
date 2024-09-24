@@ -31,7 +31,16 @@ export function getWebpackDevelopmentSetup({
             include: includedSourceFilePaths,
             use: [
               'style-loader',
-              getCSSLoaderStandardSetup({ sourceMap: false, modules: { localIdentName: '[name]_[local]_[hash:base64:5]' } }),
+              getCSSLoaderStandardSetup({
+                sourceMap: false,
+                modules: {
+                  localIdentName: '[name]_[local]_[hash:base64:5]',
+                  /* https://webpack.js.org/loaders/css-loader/#exportlocalsconvention */
+                  exportLocalsConvention: 'as-is',
+                },
+                /* https://stackoverflow.com/questions/78589664/style-loader-does-not-recoginize-default-imports-of-css-modules-in-storybooks */
+                esModule: false,
+              }),
               getPostCSSLoaderStandardSetup(),
               getSassLoaderStandardSetup({ includedSourceFilePaths }),
             ],
