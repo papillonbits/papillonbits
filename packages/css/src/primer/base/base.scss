@@ -2,7 +2,7 @@
 @import "../support/variables/typography.scss";
 @import "../support/variables/misc.scss";
 
-// stylelint-disable selector-max-type, selector-no-qualifying-type
+// stylelint-disable selector-max-type, selector-no-qualifying-type, primer/typography
 * {
   box-sizing: border-box;
 }
@@ -20,12 +20,12 @@ body {
   font-family: $body-font;
   font-size: var(--body-font-size, $body-font-size);
   line-height: $body-line-height;
-  color: var(--color-fg-default);
-  background-color: var(--color-canvas-default);
+  color: var(--fgColor-default, var(--color-fg-default));
+  background-color: var(--bgColor-default, var(--color-canvas-default));
 }
 
 a {
-  color: var(--color-accent-fg);
+  color: var(--fgColor-accent, var(--color-accent-fg));
   text-decoration: none;
 
   &:hover {
@@ -50,7 +50,7 @@ label {
 
 // Custom styling for HTML5 validation bubbles (WebKit only)
 ::placeholder {
-  color: var(--color-fg-subtle);
+  color: var(--fgColor-muted, var(--color-fg-subtle));
   opacity: 1; // override opacity in normalize.css
 }
 
@@ -65,7 +65,8 @@ hr,
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   @include clearfix();
 }
@@ -76,6 +77,7 @@ hr,
 
 table {
   border-spacing: 0;
+  // stylelint-disable-next-line primer/borders
   border-collapse: collapse;
 }
 
@@ -99,13 +101,6 @@ button {
 details {
   summary {
     cursor: pointer;
-  }
-
-  &:not([open]) {
-    // Set details content hidden by default for browsers that don't do this
-    > *:not(summary) {
-      display: none !important;
-    }
   }
 }
 

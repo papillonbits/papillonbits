@@ -3,6 +3,7 @@
 @import '~@papillonbits/css/build/primer/support/variables/typography.scss';
 @import '~@papillonbits/css/build/primer/support/mixins/layout.scss';
 
+// stylelint-disable custom-property-pattern
 // stylelint-disable no-descending-specificity
 // stylelint-disable selector-max-type
 // selector-max-type is needed for body:not(.intent-mouse) to target keyboard only styles.
@@ -18,7 +19,7 @@ $SelectMenu-max-height: 480px !default;
   inset: 0;
   z-index: 99;
   display: flex;
-  padding: $spacer-3;
+  padding: var(--base-size-16);
   pointer-events: none;
   flex-direction: column;
 
@@ -38,7 +39,7 @@ $SelectMenu-max-height: 480px !default;
   inset: 0;
   pointer-events: none;
   content: '';
-  background-color: var(--color-primer-canvas-backdrop);
+  background-color: var(--overlay-backdrop-bgColor, var(--color-primer-canvas-backdrop));
 
   @include breakpoint(sm) {
     display: none;
@@ -58,11 +59,12 @@ $SelectMenu-max-height: 480px !default;
   overflow: hidden; // Enables border radius on scrollable child elements
   pointer-events: auto;
   flex-direction: column;
-  background-color: var(--color-canvas-overlay);
-  border: $border-width $border-style var(--color-select-menu-backdrop-border);
+  background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
+  // stylelint-disable-next-line primer/borders
+  border: $border-width $border-style var(--selectMenu-borderColor, var(--color-select-menu-backdrop-border));
   // stylelint-disable-next-line primer/borders
   border-radius: $border-radius * 2;
-  box-shadow: var(--color-shadow-large);
+  box-shadow: var(--shadow-floating-legacy, var(--color-overlay-shadow));
   animation: SelectMenu-modal-animation 0.12s cubic-bezier(0, 0.1, 0.1, 1) backwards;
 
   @keyframes SelectMenu-modal-animation {
@@ -75,7 +77,7 @@ $SelectMenu-max-height: 480px !default;
   @keyframes SelectMenu-modal-animation--sm {
     0% {
       opacity: 0;
-      transform: translateY(-$spacer-3);
+      transform: translateY(calc(var(--base-size-16) * -1));
     }
   }
 
@@ -83,11 +85,13 @@ $SelectMenu-max-height: 480px !default;
     width: 300px;
     height: auto;
     max-height: $SelectMenu-max-height;
-    margin: $spacer-2 0 $spacer-3 0;
+    margin: var(--base-size-8) 0 var(--base-size-16) 0;
+    // stylelint-disable-next-line primer/typography
     font-size: $font-size-small;
-    border-color: var(--color-border-default);
+    border-color: var(--borderColor-default, var(--color-border-default));
+    // stylelint-disable-next-line primer/borders
     border-radius: $border-radius;
-    box-shadow: var(--color-shadow-large);
+    box-shadow: var(--shadow-floating-legacy, var(--color-overlay-shadow));
     animation-name: SelectMenu-modal-animation--sm;
   }
 }
@@ -98,20 +102,23 @@ $SelectMenu-max-height: 480px !default;
 
 .SelectMenu-header {
   display: flex;
-  padding: $spacer-3;
+  padding: var(--base-size-16);
   flex: none; // fixes header from getting squeezed in Safari iOS
   align-items: center;
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   @include breakpoint(sm) {
     // stylelint-disable-next-line primer/spacing
-    padding: 7px 7px 7px $spacer-3;
+    padding: 7px 7px 7px var(--base-size-16);
   }
 }
 
 .SelectMenu-title {
   flex: 1;
+  // stylelint-disable-next-line primer/typography
   font-size: $body-font-size;
+  // stylelint-disable-next-line primer/typography
   font-weight: $font-weight-bold;
 
   @include breakpoint(sm) {
@@ -120,17 +127,18 @@ $SelectMenu-max-height: 480px !default;
 }
 
 .SelectMenu-closeButton {
-  padding: $spacer-3;
-  margin: -$spacer-3;
+  padding: var(--base-size-16);
+  margin: calc(var(--base-size-16) * -1);
+  // stylelint-disable-next-line primer/typography
   line-height: 1;
-  color: var(--color-fg-muted);
+  color: var(--fgColor-muted, var(--color-fg-muted));
   background-color: transparent;
   border: 0;
 
   @include breakpoint(sm) {
-    padding: $spacer-2;
+    padding: var(--base-size-8);
     // stylelint-disable-next-line primer/spacing
-    margin: (-$spacer-2) (-7px); // Using -7px fixes a :focus glitch
+    margin: calc(var(--base-size-8) * -1) (-7px); // Using -7px fixes a :focus glitch
   }
 }
 
@@ -139,12 +147,13 @@ $SelectMenu-max-height: 480px !default;
 // An input to filter a large list
 
 .SelectMenu-filter {
-  padding: $spacer-3;
+  padding: var(--base-size-16);
   margin: 0;
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   @include breakpoint(sm) {
-    padding: $spacer-2;
+    padding: var(--base-size-8);
   }
 }
 
@@ -153,6 +162,7 @@ $SelectMenu-max-height: 480px !default;
   width: 100%;
 
   @include breakpoint(sm) {
+    // stylelint-disable-next-line primer/typography
     font-size: $h5-size;
   }
 }
@@ -169,7 +179,7 @@ $SelectMenu-max-height: 480px !default;
   margin-bottom: -$border-width; // Hides the last border in the list
   flex: auto;
   overflow: hidden auto;
-  background-color: var(--color-canvas-overlay);
+  background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
   -webkit-overflow-scrolling: touch; // Adds momentum + bouncy scrolling
 }
 
@@ -181,14 +191,15 @@ $SelectMenu-max-height: 480px !default;
   display: flex;
   align-items: center;
   width: 100%;
-  padding: $spacer-3;
+  padding: var(--base-size-16);
   overflow: hidden;
-  color: var(--color-fg-default);
+  color: var(--fgColor-default, var(--color-fg-default));
   text-align: left;
   cursor: pointer;
-  background-color: var(--color-canvas-overlay);
+  background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
   border: 0;
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   @include breakpoint(sm) {
     // stylelint-disable-next-line primer/spacing
@@ -208,8 +219,8 @@ $SelectMenu-max-height: 480px !default;
 // Icon shown on the left of a list item.
 
 .SelectMenu-icon {
-  width: $spacer-3; // fixed width to make sure following content aligns
-  margin-right: $spacer-2;
+  width: var(--base-size-16); // fixed width to make sure following content aligns
+  margin-right: var(--base-size-8);
   flex-shrink: 0;
 }
 
@@ -231,7 +242,7 @@ $SelectMenu-max-height: 480px !default;
   flex-shrink: 0;
   overflow: auto hidden;
   // stylelint-disable-next-line primer/box-shadow
-  box-shadow: inset 0 -1px 0 var(--color-border-muted);
+  box-shadow: inset 0 -1px 0 var(--borderColor-muted, var(--color-border-muted));
   -webkit-overflow-scrolling: touch;
 
   // Hide scrollbar so it doesn't cover the text
@@ -240,41 +251,46 @@ $SelectMenu-max-height: 480px !default;
   }
 
   @include breakpoint(sm) {
-    padding: $spacer-2 $spacer-2 0 $spacer-2;
+    padding: var(--base-size-8) var(--base-size-8) 0 var(--base-size-8);
   }
 }
 
 .SelectMenu-tab {
   flex: 1;
-  padding: $spacer-2 $spacer-3;
+  padding: var(--base-size-8) var(--base-size-16);
+  // stylelint-disable-next-line primer/typography
   font-size: $font-size-small;
+  // stylelint-disable-next-line primer/typography
   font-weight: $font-weight-semibold;
-  color: var(--color-fg-muted);
+  color: var(--fgColor-muted, var(--color-fg-muted));
   text-align: center;
   background-color: transparent;
   border: 0;
   // stylelint-disable-next-line primer/box-shadow
-  box-shadow: inset 0 -1px 0 var(--color-border-muted);
+  box-shadow: inset 0 -1px 0 var(--borderColor-muted, var(--color-border-muted));
 
   @include breakpoint(sm) {
     flex: none;
-    padding: $spacer-1 $spacer-3;
+    padding: var(--base-size-4) var(--base-size-16);
+    // stylelint-disable-next-line primer/borders
     border: $border-width $border-style transparent;
     border-bottom-width: 0;
+    // stylelint-disable-next-line primer/borders
     border-top-left-radius: $border-radius;
+    // stylelint-disable-next-line primer/borders
     border-top-right-radius: $border-radius;
   }
 
   &[aria-selected='true'] {
     z-index: 1; // Keeps box-shadow visible when hovering
-    color: var(--color-fg-default);
+    color: var(--fgColor-default, var(--color-fg-default));
     cursor: default;
-    background-color: var(--color-canvas-overlay);
+    background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
     // stylelint-disable-next-line primer/box-shadow
-    box-shadow: 0 0 0 1px var(--color-border-muted);
+    box-shadow: 0 0 0 1px var(--borderColor-muted, var(--color-border-muted));
 
     @include breakpoint(sm) {
-      border-color: var(--color-border-muted);
+      border-color: var(--borderColor-muted, var(--color-border-muted));
       box-shadow: none;
     }
   }
@@ -286,10 +302,11 @@ $SelectMenu-max-height: 480px !default;
 
 .SelectMenu-message {
   // stylelint-disable-next-line primer/spacing
-  padding: 7px $spacer-3;
+  padding: 7px var(--base-size-16);
   text-align: center;
-  background-color: var(--color-canvas-overlay);
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 }
 
 // Blankslate and Loading
@@ -298,9 +315,9 @@ $SelectMenu-max-height: 480px !default;
 
 .SelectMenu-blankslate,
 .SelectMenu-loading {
-  padding: $spacer-4 $spacer-3;
+  padding: var(--base-size-24) var(--base-size-16);
   text-align: center;
-  background-color: var(--color-canvas-overlay);
+  background-color: var(--overlay-bgColor, var(--color-canvas-overlay));
 }
 
 // Divider
@@ -308,17 +325,21 @@ $SelectMenu-max-height: 480px !default;
 // Can be used to divide the list into multiple groups
 
 .SelectMenu-divider {
-  padding: $spacer-1 $spacer-3;
+  padding: var(--base-size-4) var(--base-size-16);
   margin: 0;
+  // stylelint-disable-next-line primer/typography
   font-size: $font-size-small;
+  // stylelint-disable-next-line primer/typography
   font-weight: $font-weight-semibold;
-  color: var(--color-fg-muted);
-  background-color: var(--color-canvas-subtle);
-  border-bottom: $border-width $border-style var(--color-border-muted);
+  color: var(--fgColor-muted, var(--color-fg-muted));
+  background-color: var(--bgColor-muted, var(--color-canvas-subtle));
+  // stylelint-disable-next-line primer/borders
+  border-bottom: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   // Borderless
   .SelectMenu-list--borderless & {
-    border-top: $border-width $border-style var(--color-border-muted);
+    // stylelint-disable-next-line primer/borders
+    border-top: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
     &:empty {
       padding: 0;
@@ -333,15 +354,17 @@ $SelectMenu-max-height: 480px !default;
 
 .SelectMenu-footer {
   z-index: 0; // Avoid top border from getting covered by the negative margin of the list
-  padding: $spacer-2 $spacer-3;
+  padding: var(--base-size-8) var(--base-size-16);
+  // stylelint-disable-next-line primer/typography
   font-size: $font-size-small;
-  color: var(--color-fg-muted);
+  color: var(--fgColor-muted, var(--color-fg-muted));
   text-align: center;
-  border-top: $border-width $border-style var(--color-border-muted);
+  // stylelint-disable-next-line primer/borders
+  border-top: $border-width $border-style var(--borderColor-muted, var(--color-border-muted));
 
   @include breakpoint(sm) {
     // stylelint-disable-next-line primer/spacing
-    padding: 7px $spacer-3;
+    padding: 7px var(--base-size-16);
   }
 }
 
@@ -358,7 +381,7 @@ $SelectMenu-max-height: 480px !default;
     @include breakpoint(sm) {
       height: auto;
       max-height: $SelectMenu-max-height;
-      margin-top: $spacer-2;
+      margin-top: var(--base-size-8);
     }
   }
 }
@@ -383,8 +406,9 @@ $SelectMenu-max-height: 480px !default;
 // Visible when a user clicks/taps on a list item
 
 .SelectMenu-item[aria-checked='true'] {
+  // stylelint-disable-next-line primer/typography
   font-weight: $font-weight-semibold;
-  color: var(--color-fg-default);
+  color: var(--fgColor-default, var(--color-fg-default));
 
   .SelectMenu-icon--check {
     visibility: visible;
@@ -401,7 +425,7 @@ $SelectMenu-max-height: 480px !default;
 
 .SelectMenu-item:disabled,
 .SelectMenu-item[aria-disabled='true'] {
-  color: var(--color-primer-fg-disabled);
+  color: var(--fgColor-disabled, var(--color-primer-fg-disabled));
   pointer-events: none;
 }
 
@@ -412,33 +436,33 @@ $SelectMenu-max-height: 480px !default;
 @media (hover: hover) {
   body:not(.intent-mouse) .SelectMenu-closeButton:focus,
   .SelectMenu-closeButton:hover {
-    color: var(--color-fg-default);
+    color: var(--fgColor-default, var(--color-fg-default));
   }
 
   .SelectMenu-closeButton:active {
-    color: var(--color-fg-muted);
+    color: var(--fgColor-muted, var(--color-fg-muted));
   }
 
   body:not(.intent-mouse) .SelectMenu-item:focus,
   .SelectMenu-item:hover {
-    background-color: var(--color-neutral-subtle);
+    background-color: var(--bgColor-neutral-muted, var(--color-neutral-subtle));
   }
 
   .SelectMenu-item:active {
-    background-color: var(--color-canvas-subtle);
+    background-color: var(--bgColor-muted, var(--color-canvas-subtle));
   }
 
   body:not(.intent-mouse) .SelectMenu-tab:focus {
-    background-color: var(--color-select-menu-tap-focus-bg);
+    background-color: var(--selectMenu-bgColor-active, var(--color-select-menu-tap-focus-bg));
   }
 
   .SelectMenu-tab:hover {
-    color: var(--color-fg-default);
+    color: var(--fgColor-default, var(--color-fg-default));
   }
 
   .SelectMenu-tab:not([aria-selected='true']):active {
-    color: var(--color-fg-default);
-    background-color: var(--color-canvas-subtle);
+    color: var(--fgColor-default, var(--color-fg-default));
+    background-color: var(--bgColor-muted, var(--color-canvas-subtle));
   }
 }
 
@@ -450,13 +474,13 @@ $SelectMenu-max-height: 480px !default;
   // Android
   .SelectMenu-item:focus,
   .SelectMenu-item:active {
-    background-color: var(--color-canvas-subtle);
+    background-color: var(--bgColor-muted, var(--color-canvas-subtle));
   }
 
   // iOS Safari
   // :active would work if ontouchstart is added to the button
   // Instead this tweaks the "native" highlight color
   .SelectMenu-item {
-    -webkit-tap-highlight-color: var(--color-select-menu-tap-highlight);
+    -webkit-tap-highlight-color: var(--control-bgColor-active, var(--color-select-menu-tap-highlight));
   }
 }

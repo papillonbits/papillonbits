@@ -2,6 +2,8 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable global-require */
 import { isEmptyObject } from '@papillonbits/library/object'
+// import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack'
+import { getBabelLoaderAdvancedSetup } from '../../webpack/loader/babelLoader'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
   // https://storybook.js.org/docs/react/api/main-config
@@ -114,9 +116,6 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
         },
       },
 
-      // https://storybook.js.org/addons/@storybook/addon-styling
-      '@storybook/addon-styling',
-
       // included by default in @storybook/addon-essentials
       // https://storybook.js.org/docs/react/essentials/toolbars-and-globals
       // https://storybook.js.org/addons/@storybook/addon-toolbars
@@ -126,6 +125,16 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       // https://storybook.js.org/docs/react/essentials/viewport
       // https://storybook.js.org/addons/@storybook/addon-viewport
       // '@storybook/addon-viewport',
+
+      '@chromatic-com/storybook',
+
+      'storybook-addon-root-attributes',
+
+      // https://storybook.js.org/addons/@storybook/addon-styling-webpack
+      '@storybook/addon-styling-webpack',
+
+      // https://storybook.js.org/addons/@storybook/addon-themes
+      '@storybook/addon-themes',
     ],
 
     // https://storybook.js.org/docs/react/api/main-config-babel
@@ -191,7 +200,11 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
                 sourceMap: true,
                 modules: {
                   localIdentName: '[name]__[local]___[hash:base64:5]',
+                  /* https://webpack.js.org/loaders/css-loader/#exportlocalsconvention */
+                  exportLocalsConvention: 'as-is',
                 },
+                /* https://stackoverflow.com/questions/78589664/style-loader-does-not-recoginize-default-imports-of-css-modules-in-storybooks */
+                esModule: false,
               },
             },
             {
@@ -240,8 +253,12 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
           exclude: [/node_modules/],
           enforce: 'pre',
         },
+        getBabelLoaderAdvancedSetup(),
       ])
       return config
+    },
+    typescript: {
+      reactDocgen: 'react-docgen-typescript',
     },
   }
 }

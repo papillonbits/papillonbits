@@ -1,6 +1,7 @@
 // stylelint-disable custom-property-pattern
-// Stack layout helper component
 // stylelint-disable media-query-no-invalid
+
+// Stack layout helper component
 
 .Stack {
   // A Stack component lays elements horizontally or vertically on the page.
@@ -26,12 +27,12 @@
   // │  ├─ &.Stack-item--expand-[ whenNarrow | whenRegular | whenWide ]
   // │  ├─ &.Stack-item--keepSize-[ whenNarrow | whenRegular | whenWide ]
 
-  $Stack-gap-default: var(--primer-stack-gap-normal, 16px);
+  $Stack-gap-default: var(--stack-gap-normal, 16px);
 
   --Stack-gap-whenRegular: #{$Stack-gap-default};
   --Stack-gap-whenNarrow: #{$Stack-gap-default};
   --Stack-gap-whenWide: var(--Stack-gap-whenRegular);
-  --Stack-divider-color: var(--color-border-default);
+  --Stack-divider-color: var(--borderColor-default, var(--color-border-default));
 
   display: flex;
   flex-flow: column;
@@ -66,18 +67,18 @@
   }
 
   .Stack--gap-condensed#{$viewportRange} {
-    --Stack-gap#{$viewportRange}: var(--primer-stack-gap-condensed, 8px);
+    --Stack-gap#{$viewportRange}: var(--stack-gap-condensed, 8px);
   }
 
   .Stack--gap-normal#{$viewportRange} {
-    --Stack-gap#{$viewportRange}: var(--primer-stack-gap-normal, 16px);
+    --Stack-gap#{$viewportRange}: var(--stack-gap-normal, 16px);
   }
 
   // There's no .Stack--gap-spacious-whenNarrow
   // Narrow viewports render `spacious` gap as `normal`
   @if $viewportRange != '-whenNarrow' {
     .Stack--gap-spacious#{$viewportRange} {
-      --Stack-gap#{$viewportRange}: var(--primer-stack-gap-spacious, 24px);
+      --Stack-gap#{$viewportRange}: var(--stack-gap-spacious, 24px);
     }
   }
 
@@ -162,14 +163,14 @@
 
   :not(.Stack--dir-inline#{$viewportRange}) > .Stack-divider,
   :not(.Stack--dir-inline#{$viewportRange}) > .Stack-item > .Stack-divider {
-    border-block-end: var(--primer-borderWidth-thin, 1px) solid var(--Stack-divider-color);
+    border-block-end: var(--borderWidth-thin, var(--borderWidth-thin)) solid var(--Stack-divider-color);
     inline-size: auto;
     block-size: 0;
   }
 
   .Stack--dir-inline#{$viewportRange} > .Stack-divider,
   .Stack--dir-inline#{$viewportRange} > .Stack-item > .Stack-divider {
-    border-inline-end: var(--primer-borderWidth-thin, 1px) solid var(--Stack-divider-color);
+    border-inline-end: var(--borderWidth-thin, var(--borderWidth-thin)) solid var(--Stack-divider-color);
     inline-size: 0;
     block-size: auto;
   }
