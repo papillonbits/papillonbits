@@ -1,7 +1,6 @@
 @import "../support/mixins/layout.scss";
 
 // Flex utility classes
-// stylelint-disable block-opening-brace-space-before
 @each $breakpoint, $variant in $responsive-variants {
   @include breakpoint($breakpoint) {
     // Flexbox classes

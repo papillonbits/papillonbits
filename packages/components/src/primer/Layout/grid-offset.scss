@@ -1,11 +1,11 @@
+// stylelint-disable number-max-precision
+
 @import '~@papillonbits/css/build/primer/support/variables/layout.scss';
 
 // Optional offset options to work with grid.scss
 
 // Offset Columns
 
-// stylelint-disable number-max-precision
-// stylelint-disable primer/spacing
 @each $breakpoint, $variant in $responsive-variants {
   @include breakpoint($breakpoint) {
     .offset#{$variant}-1 {

@@ -3,10 +3,7 @@ export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collec
     testMatch: ['**/?(*.)test.js?(x)'],
     testPathIgnorePatterns,
     roots: ['<rootDir>'],
-    transform: {
-      '^.+\\.jsx?$': 'babel-jest',
-      '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
-    },
+    transform: { '^.+\\.jsx?$': 'babel-jest' },
     coverageDirectory,
     collectCoverage,
     coverageReporters: ['lcov', 'text'],

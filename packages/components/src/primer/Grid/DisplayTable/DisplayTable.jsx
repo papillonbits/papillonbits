@@ -50,7 +50,7 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
                     key={uuidv1()}
                     className={cx(gridStyles['col-2'], displayStyles['d-table-cell'], borderStyles.border, paddingStyles['p-2'])}
                   >
-                    {isSelectedColumn ? '' : value?.value ?? value}
+                    {isSelectedColumn ? '' : (value?.value ?? value)}
                   </div>
                 )}
               </Fragment>

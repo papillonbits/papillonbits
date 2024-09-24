@@ -1,3 +1,5 @@
+// stylelint-disable custom-property-pattern
+
 .item {
   &:hover {
     cursor: pointer;
@@ -7,7 +9,7 @@
 
 .row {
   &:nth-of-type(odd) {
-    background-color: var(--color-scale-blue-0);
+    background-color: var(--bgColor-accent-muted, var(--color-accent-subtle)); // custom-style
   }
 }
 

@@ -1,6 +1,1 @@
-@import '~@primer/primitives/dist/scss/colors/_light_tritanopia.scss';
-@import '../../support/mixins/color-modes.scss';
-
-@include color-mode-theme(light_tritanopia) {
-  @include primer-colors-light_tritanopia;
-}
+@import '~@primer/primitives/dist/internalCss/light-tritanopia.css';

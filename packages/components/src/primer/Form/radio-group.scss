@@ -1,3 +1,5 @@
+// stylelint-disable custom-property-pattern
+
 // Tab like radio group
 
 .radio-group {
@@ -7,36 +9,42 @@
 .radio-label {
   float: left;
   // stylelint-disable-next-line primer/spacing
-  padding: 6px $spacer-3 6px ($spacer-3 + 12px + $spacer-2); // 12px is the size of the radio-input
+  padding: 6px var(--base-size-16) 6px calc(var(--base-size-16) + 12px + var(--base-size-8)); // 12px is the size of the radio-input
   // stylelint-disable-next-line primer/spacing
   margin-left: -1px;
+  // stylelint-disable-next-line primer/typography
   font-size: $body-font-size;
   // stylelint-disable-next-line primer/typography
   line-height: 20px; // Specifically not inherit our `<body>` default
-  color: var(--color-fg-default);
+  color: var(--fgColor-default, var(--color-fg-default));
   cursor: pointer;
-  border: $border-width $border-style var(--color-border-default);
+  // stylelint-disable-next-line primer/borders
+  border: $border-width $border-style var(--borderColor-default, var(--color-border-default));
 
   :checked + & {
     position: relative;
     z-index: 1;
-    border-color: var(--color-accent-emphasis);
+    border-color: var(--borderColor-accent-emphasis, var(--color-accent-emphasis));
   }
 
   &:first-of-type {
     margin-left: 0;
+    // stylelint-disable-next-line primer/borders
     border-top-left-radius: $border-radius;
+    // stylelint-disable-next-line primer/borders
     border-bottom-left-radius: $border-radius;
   }
 
   &:last-of-type {
+    // stylelint-disable-next-line primer/borders
     border-top-right-radius: $border-radius;
+    // stylelint-disable-next-line primer/borders
     border-bottom-right-radius: $border-radius;
   }
 
   .octicon {
-    margin-left: $spacer-1;
-    color: var(--color-fg-subtle);
+    margin-left: var(--base-size-4);
+    color: var(--fgColor-muted, var(--color-fg-subtle));
   }
 }
 
@@ -44,15 +52,15 @@
   z-index: 3;
   float: left;
   // stylelint-disable-next-line primer/spacing
-  margin: 10px (-$spacer-5) 0 $spacer-3;
+  margin: 10px calc(var(--base-size-32) * -1) 0 var(--base-size-16);
 
   &:disabled {
     position: relative; // enables z-index
 
     + .radio-label {
-      color: var(--color-primer-fg-disabled);
+      color: var(--fgColor-disabled, var(--color-primer-fg-disabled));
       cursor: default;
-      background-color: var(--color-neutral-subtle);
+      background-color: var(--bgColor-neutral-muted, var(--color-neutral-subtle));
 
       .octicon {
         color: inherit;

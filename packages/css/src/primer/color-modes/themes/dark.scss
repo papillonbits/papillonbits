@@ -1,6 +1,1 @@
-@import '~@primer/primitives/dist/scss/colors/_dark.scss';
-@import '../../support/mixins/color-modes.scss';
-
-@include color-mode-theme(dark) {
-  @include primer-colors-dark;
-}
+@import '~@primer/primitives/dist/internalCss/dark.css';
