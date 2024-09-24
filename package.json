@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.10.0",
-    "@papillonbits/components": "^1.2.3",
+    "@papillonbits/components": "^1.2.4",
     "@papillonbits/library": "^1.2.2",
     "@papillonbits/setup": "^1.2.3",
     "@primer/primitives": "^9.1.2",
