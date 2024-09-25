@@ -1,12 +1,11 @@
-import { addons } from '@storybook/manager-api'
-import { create } from '@storybook/theming'
+const setStorybookManagerSetup = require('@papillonbits/setup/storybook').setStorybookManagerSetup
 
-addons.setConfig({
+setStorybookManagerSetup({
   panelPosition: 'right',
-  theme: create({
+  theme: {
     base: 'light',
     brandTitle: 'Papillon Bits Components',
     brandUrl: 'https://github.com/papillonbits/papillonbits',
     brandImage: 'https://avatars.githubusercontent.com/u/81188645',
-  }),
+  },
 })
