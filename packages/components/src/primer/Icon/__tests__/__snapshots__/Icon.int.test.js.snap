@@ -38,7 +38,79 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Accessibility24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         AccessibilityInset16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        AccessibilityInset24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        AIModel16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        AIModel24
       </span>
     </div>
     <div
@@ -147,6 +219,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Apps16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Apps24
       </span>
     </div>
     <div
@@ -866,6 +956,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        BookmarkFilled16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         BookmarkSlash16
       </span>
     </div>
@@ -885,6 +993,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         BookmarkSlash24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        BookmarkSlashFill16
       </span>
     </div>
     <div
@@ -1065,6 +1191,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Cache16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Cache24
       </span>
     </div>
     <div
@@ -1353,6 +1497,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         ChevronDown24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ChevronLeft12
       </span>
     </div>
     <div
@@ -2126,24 +2288,6 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
-        Commit24
-      </span>
-    </div>
-    <div
-      style="padding: 4px; font-size: 14px; line-height: 21px;"
-    >
-      <mock-file
-        aria-hidden="true"
-        classname="octicon"
-        height="16"
-        role="img"
-        style="margin-right: 4px; vertical-align: middle;"
-        viewbox="0 0 16 16"
-        width="16"
-      />
-      <span
-        style="display: inline-block; vertical-align: middle;"
-      >
         Container16
       </span>
     </div>
@@ -2594,6 +2738,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        DeviceCamera24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         DeviceCameraVideo16
       </span>
     </div>
@@ -2702,6 +2864,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Devices16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Devices24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Diamond16
       </span>
     </div>
@@ -2792,7 +2990,43 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        DiffAdded24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         DiffIgnored16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiffIgnored24
       </span>
     </div>
     <div
@@ -2828,6 +3062,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        DiffModified24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         DiffRemoved16
       </span>
     </div>
@@ -2846,7 +3098,151 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        DiffRemoved24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         DiffRenamed16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiffRenamed24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionClosed16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionClosed24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionDuplicate16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionDuplicate24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionOutdated16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        DiscussionOutdated24
       </span>
     </div>
     <div
@@ -3026,6 +3422,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Ellipsis24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Eye16
       </span>
     </div>
@@ -3152,6 +3566,78 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        FeedIssueClosed16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedIssueDraft16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedIssueOpen16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedIssueReopen16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         FeedMerged16
       </span>
     </div>
@@ -3171,6 +3657,96 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         FeedPerson16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedPlus16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedPublic16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedPullRequestClosed16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedPullRequestDraft16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FeedPullRequestOpen16
       </span>
     </div>
     <div
@@ -3332,7 +3908,43 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        FileAdded24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         FileBadge16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FileBadge24
       </span>
     </div>
     <div
@@ -3548,6 +4160,78 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        FileDirectoryOpenFill24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FileDirectorySymlink16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FileDirectorySymlink24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FileMedia16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         FileMedia24
       </span>
     </div>
@@ -3584,7 +4268,43 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        FileMoved24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         FileRemoved16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FileRemoved24
       </span>
     </div>
     <div
@@ -3746,7 +4466,61 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        FilterRemove16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FilterRemove24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         FiscalHost16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        FiscalHost24
       </span>
     </div>
     <div
@@ -4628,6 +5402,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        HomeFill16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         HomeFill24
       </span>
     </div>
@@ -4755,6 +5547,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         IdBadge16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        IdBadge24
       </span>
     </div>
     <div
@@ -5096,7 +5906,7 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
-        IssueTrackedIn16
+        IssueTracks16
       </span>
     </div>
     <div
@@ -5114,7 +5924,7 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
-        IssueTrackedIn24
+        IssueTracks24
       </span>
     </div>
     <div
@@ -5277,6 +6087,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         KeyAsterisk16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        KeyAsterisk24
       </span>
     </div>
     <div
@@ -5636,7 +6464,43 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        LogoGist24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         LogoGithub16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        LogoGithub24
       </span>
     </div>
     <div
@@ -5708,7 +6572,43 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        MarkGithub24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Markdown16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Markdown24
       </span>
     </div>
     <div
@@ -5799,6 +6699,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Meter16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Meter24
       </span>
     </div>
     <div
@@ -6500,6 +7418,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Paintbrush24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         PaperAirplane16
       </span>
     </div>
@@ -6555,6 +7491,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Paperclip24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        PasskeyFill16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        PasskeyFill24
       </span>
     </div>
     <div
@@ -6824,6 +7796,78 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        PinSlash16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        PinSlash24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        PivotColumn16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        PivotColumn24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Play16
       </span>
     </div>
@@ -7076,6 +8120,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        ProjectTemplate16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ProjectTemplate24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Pulse16
       </span>
     </div>
@@ -7220,6 +8300,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Redo16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Redo24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         RelFilePath16
       </span>
     </div>
@@ -7346,6 +8462,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        RepoClone24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        RepoDelete24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         RepoDeleted16
       </span>
     </div>
@@ -7437,6 +8589,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         RepoPull16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        RepoPull24
       </span>
     </div>
     <div
@@ -8048,6 +9218,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        ShieldSlash24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         ShieldX16
       </span>
     </div>
@@ -8354,6 +9542,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Sliders24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Smiley16
       </span>
     </div>
@@ -8463,6 +9669,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         SparkleFill16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        SparkleFill24
       </span>
     </div>
     <div
@@ -8912,6 +10136,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        Tab16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Tab24
       </span>
     </div>
@@ -8931,6 +10173,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         TabExternal16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        TabExternal24
       </span>
     </div>
     <div
@@ -9182,6 +10442,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        ThreeBars24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         Thumbsdown16
       </span>
     </div>
@@ -9273,6 +10551,78 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Tools24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        TrackedByClosedCompleted16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        TrackedByClosedCompleted24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        TrackedByClosedNotPlanned16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        TrackedByClosedNotPlanned24
       </span>
     </div>
     <div
@@ -9525,6 +10875,42 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Typography24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Undo16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        Undo24
       </span>
     </div>
     <div
@@ -9956,6 +11342,24 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       <span
         style="display: inline-block; vertical-align: middle;"
       >
+        X12
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
         X16
       </span>
     </div>
@@ -10101,6 +11505,78 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         style="display: inline-block; vertical-align: middle;"
       >
         Zap24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ZoomIn16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ZoomIn24
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ZoomOut16
+      </span>
+    </div>
+    <div
+      style="padding: 4px; font-size: 14px; line-height: 21px;"
+    >
+      <mock-file
+        aria-hidden="true"
+        classname="octicon"
+        height="16"
+        role="img"
+        style="margin-right: 4px; vertical-align: middle;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+      <span
+        style="display: inline-block; vertical-align: middle;"
+      >
+        ZoomOut24
       </span>
     </div>
   </div>
