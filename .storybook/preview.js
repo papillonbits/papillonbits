@@ -7,7 +7,7 @@ const storybookPreviewSetup = getStorybookPreviewSetup({
     docs: true,
     rootAttributesDefaults: true,
   },
-  tagsDefaults: true,
+  tagsDefaults: ['autodocs'],
 })
 
 export default {

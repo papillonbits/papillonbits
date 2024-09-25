@@ -108,7 +108,7 @@ export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs,
   let tags = []
 
   if (tagsDefaults) {
-    tags = ['autodocs']
+    tags = tagsDefaults
   }
 
   function clearLocalStorage() {
