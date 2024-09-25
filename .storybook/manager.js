@@ -1,4 +1,4 @@
-import { setStorybookManagerSetup } from '@papillonbits/setup/storybook'
+import { setStorybookManagerSetup } from '@papillonbits/setup/storybook/managerSetup'
 
 setStorybookManagerSetup({
   panelPosition: 'right',

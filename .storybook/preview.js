@@ -1,4 +1,4 @@
-import { getStorybookPreviewSetup } from '@papillonbits/setup/storybook'
+import { getStorybookPreviewSetup } from '@papillonbits/setup/storybook/previewSetup'
 
 const storybookPreviewSetup = getStorybookPreviewSetup({
   parameters: {
@@ -10,7 +10,9 @@ const storybookPreviewSetup = getStorybookPreviewSetup({
   tagsDefaults: true,
 })
 
-export const parameters = storybookPreviewSetup.parameters
-export const tags = storybookPreviewSetup.tags
+export default {
+  parameters: storybookPreviewSetup.parameters,
+  tags: storybookPreviewSetup.tags,
+}
 
 storybookPreviewSetup.clearLocalStorage()
