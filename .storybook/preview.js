@@ -1,4 +1,4 @@
-const getStorybookPreviewSetup = require('@papillonbits/setup/storybook').getStorybookPreviewSetup
+import { getStorybookPreviewSetup } from '@papillonbits/setup/storybook'
 
 const storybookPreviewSetup = getStorybookPreviewSetup({
   parameters: {

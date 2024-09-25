@@ -1,4 +1,4 @@
-const setStorybookManagerSetup = require('@papillonbits/setup/storybook').setStorybookManagerSetup
+import { setStorybookManagerSetup } from '@papillonbits/setup/storybook'
 
 setStorybookManagerSetup({
   panelPosition: 'right',

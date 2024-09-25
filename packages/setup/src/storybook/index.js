@@ -1,3 +1,3 @@
-export { getStorybookMainSetup } from './setup/mainSetup'
-export { setStorybookManagerSetup } from './setup/managerSetup'
-export { getStorybookPreviewSetup } from './setup/previewSetup'
+export { getStorybookMainSetup } from './mainSetup'
+export { setStorybookManagerSetup } from './managerSetup'
+export { getStorybookPreviewSetup } from './previewSetup'
