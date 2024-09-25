@@ -1,11 +1,16 @@
 import Accessibility16 from '../SVG/icon/accessibility-16.svg'
+import Accessibility24 from '../SVG/icon/accessibility-24.svg'
 import AccessibilityInset16 from '../SVG/icon/accessibility-inset-16.svg'
+import AccessibilityInset24 from '../SVG/icon/accessibility-inset-24.svg'
+import AIModel16 from '../SVG/icon/ai-model-16.svg'
+import AIModel24 from '../SVG/icon/ai-model-24.svg'
 import Alert16 from '../SVG/icon/alert-16.svg'
 import Alert24 from '../SVG/icon/alert-24.svg'
 import AlertFill12 from '../SVG/icon/alert-fill-12.svg'
 import AlertFill16 from '../SVG/icon/alert-fill-16.svg'
 import AlertFill24 from '../SVG/icon/alert-fill-24.svg'
 import Apps16 from '../SVG/icon/apps-16.svg'
+import Apps24 from '../SVG/icon/apps-24.svg'
 import Archive16 from '../SVG/icon/archive-16.svg'
 import Archive24 from '../SVG/icon/archive-24.svg'
 import ArrowBoth16 from '../SVG/icon/arrow-both-16.svg'
@@ -45,8 +50,10 @@ import Book24 from '../SVG/icon/book-24.svg'
 import Bookmark16 from '../SVG/icon/bookmark-16.svg'
 import Bookmark24 from '../SVG/icon/bookmark-24.svg'
 import BookmarkFill24 from '../SVG/icon/bookmark-fill-24.svg'
+import BookmarkFilled16 from '../SVG/icon/bookmark-filled-16.svg'
 import BookmarkSlash16 from '../SVG/icon/bookmark-slash-16.svg'
 import BookmarkSlash24 from '../SVG/icon/bookmark-slash-24.svg'
+import BookmarkSlashFill16 from '../SVG/icon/bookmark-slash-fill-16.svg'
 import BookmarkSlashFill24 from '../SVG/icon/bookmark-slash-fill-24.svg'
 import Briefcase16 from '../SVG/icon/briefcase-16.svg'
 import Briefcase24 from '../SVG/icon/briefcase-24.svg'
@@ -57,6 +64,7 @@ import Browser24 from '../SVG/icon/browser-24.svg'
 import Bug16 from '../SVG/icon/bug-16.svg'
 import Bug24 from '../SVG/icon/bug-24.svg'
 import Cache16 from '../SVG/icon/cache-16.svg'
+import Cache24 from '../SVG/icon/cache-24.svg'
 import Calendar16 from '../SVG/icon/calendar-16.svg'
 import Calendar24 from '../SVG/icon/calendar-24.svg'
 import Check16 from '../SVG/icon/check-16.svg'
@@ -73,6 +81,7 @@ import Checklist24 from '../SVG/icon/checklist-24.svg'
 import ChevronDown12 from '../SVG/icon/chevron-down-12.svg'
 import ChevronDown16 from '../SVG/icon/chevron-down-16.svg'
 import ChevronDown24 from '../SVG/icon/chevron-down-24.svg'
+import ChevronLeft12 from '../SVG/icon/chevron-left-12.svg'
 import ChevronLeft16 from '../SVG/icon/chevron-left-16.svg'
 import ChevronLeft24 from '../SVG/icon/chevron-left-24.svg'
 import ChevronRight12 from '../SVG/icon/chevron-right-12.svg'
@@ -115,7 +124,6 @@ import Comment16 from '../SVG/icon/comment-16.svg'
 import Comment24 from '../SVG/icon/comment-24.svg'
 import CommentDiscussion16 from '../SVG/icon/comment-discussion-16.svg'
 import CommentDiscussion24 from '../SVG/icon/comment-discussion-24.svg'
-import Commit24 from '../SVG/icon/commit-24.svg'
 import Container16 from '../SVG/icon/container-16.svg'
 import Container24 from '../SVG/icon/container-24.svg'
 import Copilot16 from '../SVG/icon/copilot-16.svg'
@@ -141,21 +149,35 @@ import Dependabot24 from '../SVG/icon/dependabot-24.svg'
 import DesktopDownload16 from '../SVG/icon/desktop-download-16.svg'
 import DesktopDownload24 from '../SVG/icon/desktop-download-24.svg'
 import DeviceCamera16 from '../SVG/icon/device-camera-16.svg'
+import DeviceCamera24 from '../SVG/icon/device-camera-24.svg'
 import DeviceCameraVideo16 from '../SVG/icon/device-camera-video-16.svg'
 import DeviceCameraVideo24 from '../SVG/icon/device-camera-video-24.svg'
 import DeviceDesktop16 from '../SVG/icon/device-desktop-16.svg'
 import DeviceDesktop24 from '../SVG/icon/device-desktop-24.svg'
 import DeviceMobile16 from '../SVG/icon/device-mobile-16.svg'
 import DeviceMobile24 from '../SVG/icon/device-mobile-24.svg'
+import Devices16 from '../SVG/icon/devices-16.svg'
+import Devices24 from '../SVG/icon/devices-24.svg'
 import Diamond16 from '../SVG/icon/diamond-16.svg'
 import Diamond24 from '../SVG/icon/diamond-24.svg'
 import Diff16 from '../SVG/icon/diff-16.svg'
 import Diff24 from '../SVG/icon/diff-24.svg'
 import DiffAdded16 from '../SVG/icon/diff-added-16.svg'
+import DiffAdded24 from '../SVG/icon/diff-added-24.svg'
 import DiffIgnored16 from '../SVG/icon/diff-ignored-16.svg'
+import DiffIgnored24 from '../SVG/icon/diff-ignored-24.svg'
 import DiffModified16 from '../SVG/icon/diff-modified-16.svg'
+import DiffModified24 from '../SVG/icon/diff-modified-24.svg'
 import DiffRemoved16 from '../SVG/icon/diff-removed-16.svg'
+import DiffRemoved24 from '../SVG/icon/diff-removed-24.svg'
 import DiffRenamed16 from '../SVG/icon/diff-renamed-16.svg'
+import DiffRenamed24 from '../SVG/icon/diff-renamed-24.svg'
+import DiscussionClosed16 from '../SVG/icon/discussion-closed-16.svg'
+import DiscussionClosed24 from '../SVG/icon/discussion-closed-24.svg'
+import DiscussionDuplicate16 from '../SVG/icon/discussion-duplicate-16.svg'
+import DiscussionDuplicate24 from '../SVG/icon/discussion-duplicate-24.svg'
+import DiscussionOutdated16 from '../SVG/icon/discussion-outdated-16.svg'
+import DiscussionOutdated24 from '../SVG/icon/discussion-outdated-24.svg'
 import Dot16 from '../SVG/icon/dot-16.svg'
 import Dot24 from '../SVG/icon/dot-24.svg'
 import DotFill16 from '../SVG/icon/dot-fill-16.svg'
@@ -165,6 +187,7 @@ import Download24 from '../SVG/icon/download-24.svg'
 import Duplicate16 from '../SVG/icon/duplicate-16.svg'
 import Duplicate24 from '../SVG/icon/duplicate-24.svg'
 import Ellipsis16 from '../SVG/icon/ellipsis-16.svg'
+import Ellipsis24 from '../SVG/icon/ellipsis-24.svg'
 import Eye16 from '../SVG/icon/eye-16.svg'
 import Eye24 from '../SVG/icon/eye-24.svg'
 import EyeClosed16 from '../SVG/icon/eye-closed-16.svg'
@@ -172,8 +195,17 @@ import EyeClosed24 from '../SVG/icon/eye-closed-24.svg'
 import FeedDiscussion16 from '../SVG/icon/feed-discussion-16.svg'
 import FeedForked16 from '../SVG/icon/feed-forked-16.svg'
 import FeedHeart16 from '../SVG/icon/feed-heart-16.svg'
+import FeedIssueClosed16 from '../SVG/icon/feed-issue-closed-16.svg'
+import FeedIssueDraft16 from '../SVG/icon/feed-issue-draft-16.svg'
+import FeedIssueOpen16 from '../SVG/icon/feed-issue-open-16.svg'
+import FeedIssueReopen16 from '../SVG/icon/feed-issue-reopen-16.svg'
 import FeedMerged16 from '../SVG/icon/feed-merged-16.svg'
 import FeedPerson16 from '../SVG/icon/feed-person-16.svg'
+import FeedPlus16 from '../SVG/icon/feed-plus-16.svg'
+import FeedPublic16 from '../SVG/icon/feed-public-16.svg'
+import FeedPullRequestClosed16 from '../SVG/icon/feed-pull-request-closed-16.svg'
+import FeedPullRequestDraft16 from '../SVG/icon/feed-pull-request-draft-16.svg'
+import FeedPullRequestOpen16 from '../SVG/icon/feed-pull-request-open-16.svg'
 import FeedRepo16 from '../SVG/icon/feed-repo-16.svg'
 import FeedRocket16 from '../SVG/icon/feed-rocket-16.svg'
 import FeedStar16 from '../SVG/icon/feed-star-16.svg'
@@ -182,7 +214,9 @@ import FeedTrophy16 from '../SVG/icon/feed-trophy-16.svg'
 import File16 from '../SVG/icon/file-16.svg'
 import File24 from '../SVG/icon/file-24.svg'
 import FileAdded16 from '../SVG/icon/file-added-16.svg'
+import FileAdded24 from '../SVG/icon/file-added-24.svg'
 import FileBadge16 from '../SVG/icon/file-badge-16.svg'
+import FileBadge24 from '../SVG/icon/file-badge-24.svg'
 import FileBinary16 from '../SVG/icon/file-binary-16.svg'
 import FileBinary24 from '../SVG/icon/file-binary-24.svg'
 import FileCode16 from '../SVG/icon/file-code-16.svg'
@@ -194,9 +228,15 @@ import FileDirectory24 from '../SVG/icon/file-directory-24.svg'
 import FileDirectoryFill16 from '../SVG/icon/file-directory-fill-16.svg'
 import FileDirectoryFill24 from '../SVG/icon/file-directory-fill-24.svg'
 import FileDirectoryOpenFill16 from '../SVG/icon/file-directory-open-fill-16.svg'
+import FileDirectoryOpenFill24 from '../SVG/icon/file-directory-open-fill-24.svg'
+import FileDirectorySymlink16 from '../SVG/icon/file-directory-symlink-16.svg'
+import FileDirectorySymlink24 from '../SVG/icon/file-directory-symlink-24.svg'
+import FileMedia16 from '../SVG/icon/file-media-16.svg'
 import FileMedia24 from '../SVG/icon/file-media-24.svg'
 import FileMoved16 from '../SVG/icon/file-moved-16.svg'
+import FileMoved24 from '../SVG/icon/file-moved-24.svg'
 import FileRemoved16 from '../SVG/icon/file-removed-16.svg'
+import FileRemoved24 from '../SVG/icon/file-removed-24.svg'
 import FileSubmodule16 from '../SVG/icon/file-submodule-16.svg'
 import FileSubmodule24 from '../SVG/icon/file-submodule-24.svg'
 import FileSymlinkFile16 from '../SVG/icon/file-symlink-file-16.svg'
@@ -205,7 +245,10 @@ import FileZip16 from '../SVG/icon/file-zip-16.svg'
 import FileZip24 from '../SVG/icon/file-zip-24.svg'
 import Filter16 from '../SVG/icon/filter-16.svg'
 import Filter24 from '../SVG/icon/filter-24.svg'
+import FilterRemove16 from '../SVG/icon/filter-remove-16.svg'
+import FilterRemove24 from '../SVG/icon/filter-remove-24.svg'
 import FiscalHost16 from '../SVG/icon/fiscal-host-16.svg'
+import FiscalHost24 from '../SVG/icon/fiscal-host-24.svg'
 import Flame16 from '../SVG/icon/flame-16.svg'
 import Flame24 from '../SVG/icon/flame-24.svg'
 import Fold16 from '../SVG/icon/fold-16.svg'
@@ -254,6 +297,7 @@ import History16 from '../SVG/icon/history-16.svg'
 import History24 from '../SVG/icon/history-24.svg'
 import Home16 from '../SVG/icon/home-16.svg'
 import Home24 from '../SVG/icon/home-24.svg'
+import HomeFill16 from '../SVG/icon/home-fill-16.svg'
 import HomeFill24 from '../SVG/icon/home-fill-24.svg'
 import HorizontalRule16 from '../SVG/icon/horizontal-rule-16.svg'
 import HorizontalRule24 from '../SVG/icon/horizontal-rule-24.svg'
@@ -262,6 +306,7 @@ import Hourglass24 from '../SVG/icon/hourglass-24.svg'
 import Hubot16 from '../SVG/icon/hubot-16.svg'
 import Hubot24 from '../SVG/icon/hubot-24.svg'
 import IdBadge16 from '../SVG/icon/id-badge-16.svg'
+import IdBadge24 from '../SVG/icon/id-badge-24.svg'
 import Image16 from '../SVG/icon/image-16.svg'
 import Image24 from '../SVG/icon/image-24.svg'
 import Inbox16 from '../SVG/icon/inbox-16.svg'
@@ -280,8 +325,8 @@ import IssueReopened16 from '../SVG/icon/issue-reopened-16.svg'
 import IssueReopened24 from '../SVG/icon/issue-reopened-24.svg'
 import IssueTrackedBy16 from '../SVG/icon/issue-tracked-by-16.svg'
 import IssueTrackedBy24 from '../SVG/icon/issue-tracked-by-24.svg'
-import IssueTrackedIn16 from '../SVG/icon/issue-tracked-in-16.svg'
-import IssueTrackedIn24 from '../SVG/icon/issue-tracked-in-24.svg'
+import IssueTracks16 from '../SVG/icon/issue-tracks-16.svg'
+import IssueTracks24 from '../SVG/icon/issue-tracks-24.svg'
 import Italic16 from '../SVG/icon/italic-16.svg'
 import Italic24 from '../SVG/icon/italic-24.svg'
 import Iterations16 from '../SVG/icon/iterations-16.svg'
@@ -291,6 +336,7 @@ import KebabHorizontal24 from '../SVG/icon/kebab-horizontal-24.svg'
 import Key16 from '../SVG/icon/key-16.svg'
 import Key24 from '../SVG/icon/key-24.svg'
 import KeyAsterisk16 from '../SVG/icon/key-asterisk-16.svg'
+import KeyAsterisk24 from '../SVG/icon/key-asterisk-24.svg'
 import Law16 from '../SVG/icon/law-16.svg'
 import Law24 from '../SVG/icon/law-24.svg'
 import LightBulb16 from '../SVG/icon/light-bulb-16.svg'
@@ -310,16 +356,21 @@ import Lock24 from '../SVG/icon/lock-24.svg'
 import Log16 from '../SVG/icon/log-16.svg'
 import Log24 from '../SVG/icon/log-24.svg'
 import LogoGist16 from '../SVG/icon/logo-gist-16.svg'
+import LogoGist24 from '../SVG/icon/logo-gist-24.svg'
 import LogoGithub16 from '../SVG/icon/logo-github-16.svg'
+import LogoGithub24 from '../SVG/icon/logo-github-24.svg'
 import Mail16 from '../SVG/icon/mail-16.svg'
 import Mail24 from '../SVG/icon/mail-24.svg'
 import MarkGithub16 from '../SVG/icon/mark-github-16.svg'
+import MarkGithub24 from '../SVG/icon/mark-github-24.svg'
 import Markdown16 from '../SVG/icon/markdown-16.svg'
+import Markdown24 from '../SVG/icon/markdown-24.svg'
 import Megaphone16 from '../SVG/icon/megaphone-16.svg'
 import Megaphone24 from '../SVG/icon/megaphone-24.svg'
 import Mention16 from '../SVG/icon/mention-16.svg'
 import Mention24 from '../SVG/icon/mention-24.svg'
 import Meter16 from '../SVG/icon/meter-16.svg'
+import Meter24 from '../SVG/icon/meter-24.svg'
 import Milestone16 from '../SVG/icon/milestone-16.svg'
 import Milestone24 from '../SVG/icon/milestone-24.svg'
 import Mirror16 from '../SVG/icon/mirror-16.svg'
@@ -358,10 +409,13 @@ import PackageDependencies24 from '../SVG/icon/package-dependencies-24.svg'
 import PackageDependents16 from '../SVG/icon/package-dependents-16.svg'
 import PackageDependents24 from '../SVG/icon/package-dependents-24.svg'
 import Paintbrush16 from '../SVG/icon/paintbrush-16.svg'
+import Paintbrush24 from '../SVG/icon/paintbrush-24.svg'
 import PaperAirplane16 from '../SVG/icon/paper-airplane-16.svg'
 import PaperAirplane24 from '../SVG/icon/paper-airplane-24.svg'
 import Paperclip16 from '../SVG/icon/paperclip-16.svg'
 import Paperclip24 from '../SVG/icon/paperclip-24.svg'
+import PasskeyFill16 from '../SVG/icon/passkey-fill-16.svg'
+import PasskeyFill24 from '../SVG/icon/passkey-fill-24.svg'
 import Paste16 from '../SVG/icon/paste-16.svg'
 import Paste24 from '../SVG/icon/paste-24.svg'
 import Pencil16 from '../SVG/icon/pencil-16.svg'
@@ -376,6 +430,10 @@ import PersonFill16 from '../SVG/icon/person-fill-16.svg'
 import PersonFill24 from '../SVG/icon/person-fill-24.svg'
 import Pin16 from '../SVG/icon/pin-16.svg'
 import Pin24 from '../SVG/icon/pin-24.svg'
+import PinSlash16 from '../SVG/icon/pin-slash-16.svg'
+import PinSlash24 from '../SVG/icon/pin-slash-24.svg'
+import PivotColumn16 from '../SVG/icon/pivot-column-16.svg'
+import PivotColumn24 from '../SVG/icon/pivot-column-24.svg'
 import Play16 from '../SVG/icon/play-16.svg'
 import Play24 from '../SVG/icon/play-24.svg'
 import Plug16 from '../SVG/icon/plug-16.svg'
@@ -390,6 +448,8 @@ import ProjectRoadmap16 from '../SVG/icon/project-roadmap-16.svg'
 import ProjectRoadmap24 from '../SVG/icon/project-roadmap-24.svg'
 import ProjectSymlink16 from '../SVG/icon/project-symlink-16.svg'
 import ProjectSymlink24 from '../SVG/icon/project-symlink-24.svg'
+import ProjectTemplate16 from '../SVG/icon/project-template-16.svg'
+import ProjectTemplate24 from '../SVG/icon/project-template-24.svg'
 import Pulse16 from '../SVG/icon/pulse-16.svg'
 import Pulse24 from '../SVG/icon/pulse-24.svg'
 import Question16 from '../SVG/icon/question-16.svg'
@@ -398,6 +458,8 @@ import Quote16 from '../SVG/icon/quote-16.svg'
 import Quote24 from '../SVG/icon/quote-24.svg'
 import Read16 from '../SVG/icon/read-16.svg'
 import Read24 from '../SVG/icon/read-24.svg'
+import Redo16 from '../SVG/icon/redo-16.svg'
+import Redo24 from '../SVG/icon/redo-24.svg'
 import RelFilePath16 from '../SVG/icon/rel-file-path-16.svg'
 import RelFilePath24 from '../SVG/icon/rel-file-path-24.svg'
 import Reply16 from '../SVG/icon/reply-16.svg'
@@ -405,12 +467,15 @@ import Reply24 from '../SVG/icon/reply-24.svg'
 import Repo16 from '../SVG/icon/repo-16.svg'
 import Repo24 from '../SVG/icon/repo-24.svg'
 import RepoClone16 from '../SVG/icon/repo-clone-16.svg'
+import RepoClone24 from '../SVG/icon/repo-clone-24.svg'
+import RepoDelete24 from '../SVG/icon/repo-delete-24.svg'
 import RepoDeleted16 from '../SVG/icon/repo-deleted-16.svg'
 import RepoForked16 from '../SVG/icon/repo-forked-16.svg'
 import RepoForked24 from '../SVG/icon/repo-forked-24.svg'
 import RepoLocked16 from '../SVG/icon/repo-locked-16.svg'
 import RepoLocked24 from '../SVG/icon/repo-locked-24.svg'
 import RepoPull16 from '../SVG/icon/repo-pull-16.svg'
+import RepoPull24 from '../SVG/icon/repo-pull-24.svg'
 import RepoPush16 from '../SVG/icon/repo-push-16.svg'
 import RepoPush24 from '../SVG/icon/repo-push-24.svg'
 import RepoTemplate16 from '../SVG/icon/repo-template-16.svg'
@@ -444,6 +509,7 @@ import ShieldCheck24 from '../SVG/icon/shield-check-24.svg'
 import ShieldLock16 from '../SVG/icon/shield-lock-16.svg'
 import ShieldLock24 from '../SVG/icon/shield-lock-24.svg'
 import ShieldSlash16 from '../SVG/icon/shield-slash-16.svg'
+import ShieldSlash24 from '../SVG/icon/shield-slash-24.svg'
 import ShieldX16 from '../SVG/icon/shield-x-16.svg'
 import ShieldX24 from '../SVG/icon/shield-x-24.svg'
 import SidebarCollapse16 from '../SVG/icon/sidebar-collapse-16.svg'
@@ -461,6 +527,7 @@ import Skip24 from '../SVG/icon/skip-24.svg'
 import SkipFill16 from '../SVG/icon/skip-fill-16.svg'
 import SkipFill24 from '../SVG/icon/skip-fill-24.svg'
 import Sliders16 from '../SVG/icon/sliders-16.svg'
+import Sliders24 from '../SVG/icon/sliders-24.svg'
 import Smiley16 from '../SVG/icon/smiley-16.svg'
 import Smiley24 from '../SVG/icon/smiley-24.svg'
 import SortAsc16 from '../SVG/icon/sort-asc-16.svg'
@@ -468,6 +535,7 @@ import SortAsc24 from '../SVG/icon/sort-asc-24.svg'
 import SortDesc16 from '../SVG/icon/sort-desc-16.svg'
 import SortDesc24 from '../SVG/icon/sort-desc-24.svg'
 import SparkleFill16 from '../SVG/icon/sparkle-fill-16.svg'
+import SparkleFill24 from '../SVG/icon/sparkle-fill-24.svg'
 import Sponsortiers16 from '../SVG/icon/sponsor-tiers-16.svg'
 import Sponsortiers24 from '../SVG/icon/sponsor-tiers-24.svg'
 import Square16 from '../SVG/icon/square-16.svg'
@@ -492,8 +560,10 @@ import Sun16 from '../SVG/icon/sun-16.svg'
 import Sun24 from '../SVG/icon/sun-24.svg'
 import Sync16 from '../SVG/icon/sync-16.svg'
 import Sync24 from '../SVG/icon/sync-24.svg'
+import Tab16 from '../SVG/icon/tab-16.svg'
 import Tab24 from '../SVG/icon/tab-24.svg'
 import TabExternal16 from '../SVG/icon/tab-external-16.svg'
+import TabExternal24 from '../SVG/icon/tab-external-24.svg'
 import Table16 from '../SVG/icon/table-16.svg'
 import Table24 from '../SVG/icon/table-24.svg'
 import Tag16 from '../SVG/icon/tag-16.svg'
@@ -507,12 +577,17 @@ import TelescopeFill24 from '../SVG/icon/telescope-fill-24.svg'
 import Terminal16 from '../SVG/icon/terminal-16.svg'
 import Terminal24 from '../SVG/icon/terminal-24.svg'
 import ThreeBars16 from '../SVG/icon/three-bars-16.svg'
+import ThreeBars24 from '../SVG/icon/three-bars-24.svg'
 import Thumbsdown16 from '../SVG/icon/thumbsdown-16.svg'
 import Thumbsdown24 from '../SVG/icon/thumbsdown-24.svg'
 import Thumbsup16 from '../SVG/icon/thumbsup-16.svg'
 import Thumbsup24 from '../SVG/icon/thumbsup-24.svg'
 import Tools16 from '../SVG/icon/tools-16.svg'
 import Tools24 from '../SVG/icon/tools-24.svg'
+import TrackedByClosedCompleted16 from '../SVG/icon/tracked-by-closed-completed-16.svg'
+import TrackedByClosedCompleted24 from '../SVG/icon/tracked-by-closed-completed-24.svg'
+import TrackedByClosedNotPlanned16 from '../SVG/icon/tracked-by-closed-not-planned-16.svg'
+import TrackedByClosedNotPlanned24 from '../SVG/icon/tracked-by-closed-not-planned-24.svg'
 import Trash16 from '../SVG/icon/trash-16.svg'
 import Trash24 from '../SVG/icon/trash-24.svg'
 import TriangleDown16 from '../SVG/icon/triangle-down-16.svg'
@@ -527,6 +602,8 @@ import Trophy16 from '../SVG/icon/trophy-16.svg'
 import Trophy24 from '../SVG/icon/trophy-24.svg'
 import Typography16 from '../SVG/icon/typography-16.svg'
 import Typography24 from '../SVG/icon/typography-24.svg'
+import Undo16 from '../SVG/icon/undo-16.svg'
+import Undo24 from '../SVG/icon/undo-24.svg'
 import Unfold16 from '../SVG/icon/unfold-16.svg'
 import Unfold24 from '../SVG/icon/unfold-24.svg'
 import Unlink16 from '../SVG/icon/unlink-16.svg'
@@ -550,6 +627,7 @@ import Video24 from '../SVG/icon/video-24.svg'
 import Webhook16 from '../SVG/icon/webhook-16.svg'
 import Workflow16 from '../SVG/icon/workflow-16.svg'
 import Workflow24 from '../SVG/icon/workflow-24.svg'
+import X12 from '../SVG/icon/x-12.svg'
 import X16 from '../SVG/icon/x-16.svg'
 import X24 from '../SVG/icon/x-24.svg'
 import XCircle16 from '../SVG/icon/x-circle-16.svg'
@@ -559,16 +637,25 @@ import XCircleFill16 from '../SVG/icon/x-circle-fill-16.svg'
 import XCircleFill24 from '../SVG/icon/x-circle-fill-24.svg'
 import Zap16 from '../SVG/icon/zap-16.svg'
 import Zap24 from '../SVG/icon/zap-24.svg'
+import ZoomIn16 from '../SVG/icon/zoom-in-16.svg'
+import ZoomIn24 from '../SVG/icon/zoom-in-24.svg'
+import ZoomOut16 from '../SVG/icon/zoom-out-16.svg'
+import ZoomOut24 from '../SVG/icon/zoom-out-24.svg'
 
 export const iconComponents = {
   Accessibility16,
+  Accessibility24,
   AccessibilityInset16,
+  AccessibilityInset24,
+  AIModel16,
+  AIModel24,
   Alert16,
   Alert24,
   AlertFill12,
   AlertFill16,
   AlertFill24,
   Apps16,
+  Apps24,
   Archive16,
   Archive24,
   ArrowBoth16,
@@ -608,8 +695,10 @@ export const iconComponents = {
   Bookmark16,
   Bookmark24,
   BookmarkFill24,
+  BookmarkFilled16,
   BookmarkSlash16,
   BookmarkSlash24,
+  BookmarkSlashFill16,
   BookmarkSlashFill24,
   Briefcase16,
   Briefcase24,
@@ -620,6 +709,7 @@ export const iconComponents = {
   Bug16,
   Bug24,
   Cache16,
+  Cache24,
   Calendar16,
   Calendar24,
   Check16,
@@ -636,6 +726,7 @@ export const iconComponents = {
   ChevronDown12,
   ChevronDown16,
   ChevronDown24,
+  ChevronLeft12,
   ChevronLeft16,
   ChevronLeft24,
   ChevronRight12,
@@ -678,7 +769,6 @@ export const iconComponents = {
   Comment24,
   CommentDiscussion16,
   CommentDiscussion24,
-  Commit24,
   Container16,
   Container24,
   Copilot16,
@@ -704,21 +794,35 @@ export const iconComponents = {
   DesktopDownload16,
   DesktopDownload24,
   DeviceCamera16,
+  DeviceCamera24,
   DeviceCameraVideo16,
   DeviceCameraVideo24,
   DeviceDesktop16,
   DeviceDesktop24,
   DeviceMobile16,
   DeviceMobile24,
+  Devices16,
+  Devices24,
   Diamond16,
   Diamond24,
   Diff16,
   Diff24,
   DiffAdded16,
+  DiffAdded24,
   DiffIgnored16,
+  DiffIgnored24,
   DiffModified16,
+  DiffModified24,
   DiffRemoved16,
+  DiffRemoved24,
   DiffRenamed16,
+  DiffRenamed24,
+  DiscussionClosed16,
+  DiscussionClosed24,
+  DiscussionDuplicate16,
+  DiscussionDuplicate24,
+  DiscussionOutdated16,
+  DiscussionOutdated24,
   Dot16,
   Dot24,
   DotFill16,
@@ -728,6 +832,7 @@ export const iconComponents = {
   Duplicate16,
   Duplicate24,
   Ellipsis16,
+  Ellipsis24,
   Eye16,
   Eye24,
   EyeClosed16,
@@ -735,8 +840,17 @@ export const iconComponents = {
   FeedDiscussion16,
   FeedForked16,
   FeedHeart16,
+  FeedIssueClosed16,
+  FeedIssueDraft16,
+  FeedIssueOpen16,
+  FeedIssueReopen16,
   FeedMerged16,
   FeedPerson16,
+  FeedPlus16,
+  FeedPublic16,
+  FeedPullRequestClosed16,
+  FeedPullRequestDraft16,
+  FeedPullRequestOpen16,
   FeedRepo16,
   FeedRocket16,
   FeedStar16,
@@ -745,7 +859,9 @@ export const iconComponents = {
   File16,
   File24,
   FileAdded16,
+  FileAdded24,
   FileBadge16,
+  FileBadge24,
   FileBinary16,
   FileBinary24,
   FileCode16,
@@ -757,9 +873,15 @@ export const iconComponents = {
   FileDirectoryFill16,
   FileDirectoryFill24,
   FileDirectoryOpenFill16,
+  FileDirectoryOpenFill24,
+  FileDirectorySymlink16,
+  FileDirectorySymlink24,
+  FileMedia16,
   FileMedia24,
   FileMoved16,
+  FileMoved24,
   FileRemoved16,
+  FileRemoved24,
   FileSubmodule16,
   FileSubmodule24,
   FileSymlinkFile16,
@@ -768,7 +890,10 @@ export const iconComponents = {
   FileZip24,
   Filter16,
   Filter24,
+  FilterRemove16,
+  FilterRemove24,
   FiscalHost16,
+  FiscalHost24,
   Flame16,
   Flame24,
   Fold16,
@@ -817,6 +942,7 @@ export const iconComponents = {
   History24,
   Home16,
   Home24,
+  HomeFill16,
   HomeFill24,
   HorizontalRule16,
   HorizontalRule24,
@@ -825,6 +951,7 @@ export const iconComponents = {
   Hubot16,
   Hubot24,
   IdBadge16,
+  IdBadge24,
   Image16,
   Image24,
   Inbox16,
@@ -843,8 +970,8 @@ export const iconComponents = {
   IssueReopened24,
   IssueTrackedBy16,
   IssueTrackedBy24,
-  IssueTrackedIn16,
-  IssueTrackedIn24,
+  IssueTracks16,
+  IssueTracks24,
   Italic16,
   Italic24,
   Iterations16,
@@ -854,6 +981,7 @@ export const iconComponents = {
   Key16,
   Key24,
   KeyAsterisk16,
+  KeyAsterisk24,
   Law16,
   Law24,
   LightBulb16,
@@ -873,16 +1001,21 @@ export const iconComponents = {
   Log16,
   Log24,
   LogoGist16,
+  LogoGist24,
   LogoGithub16,
+  LogoGithub24,
   Mail16,
   Mail24,
   MarkGithub16,
+  MarkGithub24,
   Markdown16,
+  Markdown24,
   Megaphone16,
   Megaphone24,
   Mention16,
   Mention24,
   Meter16,
+  Meter24,
   Milestone16,
   Milestone24,
   Mirror16,
@@ -921,10 +1054,13 @@ export const iconComponents = {
   PackageDependents16,
   PackageDependents24,
   Paintbrush16,
+  Paintbrush24,
   PaperAirplane16,
   PaperAirplane24,
   Paperclip16,
   Paperclip24,
+  PasskeyFill16,
+  PasskeyFill24,
   Paste16,
   Paste24,
   Pencil16,
@@ -939,6 +1075,10 @@ export const iconComponents = {
   PersonFill24,
   Pin16,
   Pin24,
+  PinSlash16,
+  PinSlash24,
+  PivotColumn16,
+  PivotColumn24,
   Play16,
   Play24,
   Plug16,
@@ -953,6 +1093,8 @@ export const iconComponents = {
   ProjectRoadmap24,
   ProjectSymlink16,
   ProjectSymlink24,
+  ProjectTemplate16,
+  ProjectTemplate24,
   Pulse16,
   Pulse24,
   Question16,
@@ -961,6 +1103,8 @@ export const iconComponents = {
   Quote24,
   Read16,
   Read24,
+  Redo16,
+  Redo24,
   RelFilePath16,
   RelFilePath24,
   Reply16,
@@ -968,12 +1112,15 @@ export const iconComponents = {
   Repo16,
   Repo24,
   RepoClone16,
+  RepoClone24,
+  RepoDelete24,
   RepoDeleted16,
   RepoForked16,
   RepoForked24,
   RepoLocked16,
   RepoLocked24,
   RepoPull16,
+  RepoPull24,
   RepoPush16,
   RepoPush24,
   RepoTemplate16,
@@ -1007,6 +1154,7 @@ export const iconComponents = {
   ShieldLock16,
   ShieldLock24,
   ShieldSlash16,
+  ShieldSlash24,
   ShieldX16,
   ShieldX24,
   SidebarCollapse16,
@@ -1024,6 +1172,7 @@ export const iconComponents = {
   SkipFill16,
   SkipFill24,
   Sliders16,
+  Sliders24,
   Smiley16,
   Smiley24,
   SortAsc16,
@@ -1031,6 +1180,7 @@ export const iconComponents = {
   SortDesc16,
   SortDesc24,
   SparkleFill16,
+  SparkleFill24,
   Sponsortiers16,
   Sponsortiers24,
   Square16,
@@ -1055,8 +1205,10 @@ export const iconComponents = {
   Sun24,
   Sync16,
   Sync24,
+  Tab16,
   Tab24,
   TabExternal16,
+  TabExternal24,
   Table16,
   Table24,
   Tag16,
@@ -1070,12 +1222,17 @@ export const iconComponents = {
   Terminal16,
   Terminal24,
   ThreeBars16,
+  ThreeBars24,
   Thumbsdown16,
   Thumbsdown24,
   Thumbsup16,
   Thumbsup24,
   Tools16,
   Tools24,
+  TrackedByClosedCompleted16,
+  TrackedByClosedCompleted24,
+  TrackedByClosedNotPlanned16,
+  TrackedByClosedNotPlanned24,
   Trash16,
   Trash24,
   TriangleDown16,
@@ -1090,6 +1247,8 @@ export const iconComponents = {
   Trophy24,
   Typography16,
   Typography24,
+  Undo16,
+  Undo24,
   Unfold16,
   Unfold24,
   Unlink16,
@@ -1113,6 +1272,7 @@ export const iconComponents = {
   Webhook16,
   Workflow16,
   Workflow24,
+  X12,
   X16,
   X24,
   XCircle16,
@@ -1122,4 +1282,8 @@ export const iconComponents = {
   XCircleFill24,
   Zap16,
   Zap24,
+  ZoomIn16,
+  ZoomIn24,
+  ZoomOut16,
+  ZoomOut24,
 }
