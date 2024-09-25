@@ -7,12 +7,9 @@ const storybookPreviewSetup = getStorybookPreviewSetup({
     docs: true,
     rootAttributesDefaults: true,
   },
-  tagsDefaults: ['autodocs'],
 })
 
-export default {
-  parameters: storybookPreviewSetup.parameters,
-  tags: storybookPreviewSetup.tags,
-}
+export const parameters = storybookPreviewSetup.parameters
+export const tags = ['autodocs']
 
-storybookPreviewSetup.clearLocalStorage()
+localStorage.clear()

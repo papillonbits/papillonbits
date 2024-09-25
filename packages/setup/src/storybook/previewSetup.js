@@ -1,7 +1,7 @@
 import { MemoryRouter } from 'react-router-dom'
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks'
 
-export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs, rootAttributesDefaults }, tagsDefaults }) {
+export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs, rootAttributesDefaults } }) {
   let parameters = {}
 
   if (a11y) {
@@ -105,19 +105,5 @@ export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs,
     }
   }
 
-  let tags = []
-
-  if (tagsDefaults) {
-    tags = tagsDefaults
-  }
-
-  function clearLocalStorage() {
-    localStorage.clear()
-  }
-
-  return {
-    parameters,
-    tags,
-    clearLocalStorage,
-  }
+  return { parameters }
 }
