@@ -86,7 +86,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
 
       // https://storybook.js.org/docs/react/essentials/introduction
       // https://storybook.js.org/integrations/tag/essentials
-      '@storybook/addon-essentials',
+      // '@storybook/addon-essentials',
 
       // included by default in @storybook/addon-essentials
       // https://storybook.js.org/docs/react/essentials/highlight (404)
@@ -248,6 +248,12 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
           process: 'process/browser',
         }),
       )
+
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        tty: require.resolve('tty-browserify'),
+      }
+
       return config
     },
     typescript: {

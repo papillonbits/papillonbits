@@ -15,7 +15,7 @@ export function getBabelLoaderAdvancedSetup() {
             {
               modules: false,
               useBuiltIns: 'entry',
-              corejs: coreJSVersion,
+              corejs: { version: coreJSVersion, proposals: true },
               targets: { browsers: Object.values(targetBrowsers.modernBrowsers) },
             },
           ],
@@ -28,7 +28,7 @@ export function getBabelLoaderAdvancedSetup() {
               runtime: 'automatic',
             },
           ],
-          '@babel/plugin-transform-runtime',
+          ['@babel/plugin-transform-runtime', { corejs: { version: 3, proposals: true } }],
           'syntax-async-functions',
         ],
       },
