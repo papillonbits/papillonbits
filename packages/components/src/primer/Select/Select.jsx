@@ -1,8 +1,7 @@
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-// import layoutStyles from '@papillonbits/css/build/primer/utilities/layout.scss'
+import layoutStyles from '@papillonbits/css/build/primer/utilities/layout.scss'
 import { getIndexItems, getIndexItemsWithSelected } from '@papillonbits/library/array'
-import layoutStyles from '../../../../css/src/primer/utilities/layout.scss'
 import { propTypes, defaultProps, selectState } from './Select.prop'
 import styles from './Select.scss'
 

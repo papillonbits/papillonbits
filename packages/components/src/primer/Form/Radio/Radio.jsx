@@ -1,6 +1,5 @@
 import cx from 'classnames'
-// import marginStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
-import marginStyles from '../../../../../css/src/primer/utilities/margin.scss'
+import marginStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
 import { propTypes, defaultProps, radioState } from './Radio.prop'
 import styles from './Radio.scss'
 import formStyles from '../index.scss'

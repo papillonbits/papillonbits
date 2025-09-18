@@ -1,6 +1,5 @@
 import cx from 'classnames'
-// import colorStyles from '@papillonbits/css/build/primer/utilities/colors.scss'
-import colorStyles from '../../../../css/src/primer/utilities/colors.scss'
+import colorStyles from '@papillonbits/css/build/primer/utilities/colors.scss'
 import { propTypes, defaultProps, labelVariant, labelBackgroundColor, labelTextColor } from './Label.prop'
 import labelsStyles from './labels.scss'
 import issueLabelsStyles from './issue-labels.scss'

@@ -1,6 +1,5 @@
 import cx from 'classnames'
-// import marginStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
-import marginStyles from '../../../../../css/src/primer/utilities/margin.scss'
+import marginStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
 import { propTypes, defaultProps, checkboxState } from './Checkbox.prop'
 import styles from './Checkbox.scss'
 import formStyles from '../index.scss'
