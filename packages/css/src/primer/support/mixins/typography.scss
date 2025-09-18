@@ -1,5 +1,3 @@
-@import "../variables/typography.scss";
-
 // Text hiding for image based text replacement.
 // Higher performance than -9999px because it only renders
 // the size of the actual text, not a full 9999px box.

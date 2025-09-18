@@ -1,5 +1,9 @@
-@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
-@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+@import '../../../../css/src/primer/support/variables/misc.scss';
+@import '../../../../css/src/primer/support/variables/layout.scss';
+
+// stylelint-disable declaration-property-value-no-unknown
 
 .select {
   position: relative;
@@ -29,7 +33,7 @@
 
   &::before {
     border: $spacer-2 $border-style transparent;
-    border-bottom-color: rgba(var(--color-scale-black), 0.15);
+    border-bottom-color: rgb(var(--color-scale-black), 0.15);
   }
 
   &::after {

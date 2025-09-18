@@ -1,7 +1,7 @@
 import { MemoryRouter } from 'react-router-dom'
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks'
 
-export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs, rootAttributesDefaults } }) {
+export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs } }) {
   let parameters = {}
 
   if (a11y) {
@@ -43,65 +43,6 @@ export function getStorybookPreviewSetup({ parameters: { a11y, decorators, docs,
       docs: {
         ...{ container: DocsContainer, page: DocsPage },
       },
-    }
-  }
-
-  // https://primer.style/foundations/primitives/getting-started
-  // https://storybook.js.org/addons/storybook-addon-root-attributes
-  if (rootAttributesDefaults) {
-    parameters = {
-      ...parameters,
-      rootAttributesTooltip: true,
-      rootAttributes: [
-        ...[
-          {
-            root: 'body',
-            attribute: 'data-color-mode',
-            defaultState: {
-              name: 'Light',
-              value: 'light',
-            },
-            states: [
-              {
-                name: 'Light',
-                value: 'light',
-              },
-              {
-                name: 'Dark',
-                value: 'dark',
-              },
-            ],
-          },
-          {
-            root: 'body',
-            attribute: 'data-light-theme',
-            defaultState: {
-              name: 'Light',
-              value: 'light',
-            },
-            states: [
-              {
-                name: 'Light',
-                value: 'light',
-              },
-            ],
-          },
-          {
-            root: 'body',
-            attribute: 'data-dark-theme',
-            defaultState: {
-              name: 'Dark',
-              value: 'dark',
-            },
-            states: [
-              {
-                name: 'Dark',
-                value: 'dark',
-              },
-            ],
-          },
-        ],
-      ],
     }
   }
 

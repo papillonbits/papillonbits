@@ -1,7 +1,11 @@
 // @import '@primer/view-components/app/components/primer/beta/subhead';
-@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
-@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
-@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+
+// @import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+@import '../../../../css/src/primer/support/variables/layout.scss';
+@import '../../../../css/src/primer/support/variables/misc.scss';
+@import '../../../../css/src/primer/support/variables/typography.scss';
 
 // Subhead styles
 .Subhead {

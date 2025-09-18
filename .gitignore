@@ -8,6 +8,7 @@ app.sublime-workspace
 # Storybook
 .storybook-static-develop
 .storybook-static-release
+debug-storybook.log
 .cache
 
 # NPM Papillon Bits

@@ -18,7 +18,8 @@ import { SelectMenu } from './SelectMenu'
 import { Subhead } from './Subhead'
 import { Toast, toastVariant } from './Toast'
 
-import '@papillonbits/css/build/primer/index.scss'
+// import '@papillonbits/css/build/primer/index.scss'
+import '../../../css/src/primer/index.scss'
 
 export const primer = {
   Alert: {

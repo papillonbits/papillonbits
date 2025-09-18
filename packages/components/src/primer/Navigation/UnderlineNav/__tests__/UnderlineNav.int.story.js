@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { v1 as uuidv1 } from 'uuid'
-import { action } from '@storybook/addon-actions'
+import { action } from 'storybook/actions'
 import { withTests } from '@storybook/addon-jest'
 import buttonStyles from '../../../Button/Button.scss'
 import counterStyles from '../../../Label/counters.scss'

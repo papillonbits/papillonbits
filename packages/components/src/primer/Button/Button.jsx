@@ -1,6 +1,7 @@
 import cx from 'classnames'
 import { useRef } from '@papillonbits/library/hooks'
-import utilityStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
+// import utilityStyles from '@papillonbits/css/build/primer/utilities/margin.scss'
+import utilityStyles from '../../../../css/src/primer/utilities/margin.scss'
 import {
   propTypes,
   defaultProps,

@@ -1,4 +1,5 @@
-@import "../support/mixins/layout.scss";
+@import '../support/mixins/layout.scss';
+@import '../support/variables/layout.scss';
 
 // Flex utility classes
 @each $breakpoint, $variant in $responsive-variants {

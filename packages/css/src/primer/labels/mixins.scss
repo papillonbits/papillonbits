@@ -1,0 +1,44 @@
+// Label mixins
+
+// Default: 20px
+// Large: 24px
+// Inline: em based
+
+@mixin labels-base {
+  display: inline-block;
+  // stylelint-disable-next-line primer/spacing
+  padding: 0 7px;
+  // stylelint-disable-next-line primer/typography
+  font-size: $font-size-small;
+  // stylelint-disable-next-line primer/typography
+  font-weight: $font-weight-semibold;
+  // stylelint-disable-next-line primer/typography
+  line-height: 18px;
+  white-space: nowrap;
+  // stylelint-disable-next-line primer/borders, primer/colors
+  border: $border-width $border-style transparent;
+  // stylelint-disable-next-line primer/borders
+  border-radius: 2em;
+}
+
+@mixin labels-large {
+  // stylelint-disable-next-line primer/spacing
+  padding-right: 10px;
+  // stylelint-disable-next-line primer/spacing
+  padding-left: 10px;
+  // stylelint-disable-next-line primer/typography
+  line-height: 22px;
+}
+
+// Inline
+//
+// Doesn't increase height of parent element
+// Can be used with different font-sizes
+
+@mixin labels--inline {
+  display: inline;
+  // stylelint-disable-next-line primer/spacing
+  padding: 0.12em $em-spacer-5;
+  // stylelint-disable-next-line primer/typography
+  font-size: 85%;
+}

@@ -1,8 +1,11 @@
-@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
-@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+@import '../../../../css/src/primer/support/variables/typography.scss';
+@import '../../../../css/src/primer/support/variables/misc.scss';
 
 // stylelint-disable custom-property-pattern
 // stylelint-disable selector-max-type, selector-no-qualifying-type
+// stylelint-disable declaration-property-value-no-unknown
 
 // A nice way to display branch names inside the UI. Can be a link or not.
 

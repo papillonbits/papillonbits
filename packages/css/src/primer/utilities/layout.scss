@@ -1,7 +1,7 @@
-@import "../support/mixins/layout.scss";
+@import '../support/mixins/layout.scss';
+@import '../support/variables/layout.scss';
 
 // Layout
-// stylelint-disable comment-empty-line-before
 
 /* Position */
 @each $breakpoint, $variant in $responsive-variants {

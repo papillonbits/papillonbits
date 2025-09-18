@@ -3,7 +3,7 @@ export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collec
     testMatch: ['**/?(*.)test.js?(x)'],
     testPathIgnorePatterns,
     roots: ['<rootDir>'],
-    transform: { '^.+\\.jsx?$': 'babel-jest' },
+    transform: { '^.+\\.(js|jsx)$': 'babel-jest' },
     coverageDirectory,
     collectCoverage,
     coverageReporters: ['lcov', 'text'],
@@ -13,6 +13,7 @@ export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collec
       '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$': '<rootDir>/.mock/file.js',
       '^.+\\.(css|less|scss|md)$': 'identity-obj-proxy',
     },
+    transformIgnorePatterns: ['node_modules/(?!uuid)'],
     moduleFileExtensions: ['js', 'jsx'],
     coverageThreshold,
   }

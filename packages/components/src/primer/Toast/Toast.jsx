@@ -1,5 +1,6 @@
 import cx from 'classnames'
-import paddingStyles from '@papillonbits/css/build/primer/utilities/padding.scss'
+// import paddingStyles from '@papillonbits/css/build/primer/utilities/padding.scss'
+import paddingStyles from '../../../../css/src/primer/utilities/padding.scss'
 import { propTypes, defaultProps, toastVariant } from './Toast.prop'
 import styles from './Toast.scss'
 import { Icon, iconName, iconSize } from '../Icon'

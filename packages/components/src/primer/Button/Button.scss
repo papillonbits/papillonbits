@@ -1,7 +1,11 @@
-@import '~@papillonbits/css/build/primer/support/variables/typography.scss';
-@import '~@papillonbits/css/build/primer/support/variables/misc.scss';
-@import '~@papillonbits/css/build/primer/support/variables/layout.scss';
-@import '~@papillonbits/css/build/primer/support/mixins/misc.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/typography.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/misc.scss';
+// @import '~@papillonbits/css/build/primer/support/variables/layout.scss';
+// @import '~@papillonbits/css/build/primer/support/mixins/misc.scss';
+@import '../../../../css/src/primer/support/variables/typography.scss';
+@import '../../../../css/src/primer/support/variables/misc.scss';
+@import '../../../../css/src/primer/support/variables/layout.scss';
+@import '../../../../css/src/primer/support/mixins/misc.scss';
 
 // stylelint-disable custom-property-pattern
 // stylelint-disable no-descending-specificity
@@ -77,8 +81,8 @@
   color: var(--button-default-fgColor-rest, var(--color-btn-text));
   background-color: var(--button-default-bgColor-rest, var(--color-btn-bg));
   border-color: var(--button-default-borderColor-rest, var(--color-btn-border));
-  box-shadow: var(--button-default-shadow-resting, var(--color-btn-shadow)),
-    var(--button-default-shadow-inset, var(--color-btn-inset-shadow));
+  box-shadow:
+    var(--button-default-shadow-resting, var(--color-btn-shadow)), var(--button-default-shadow-inset, var(--color-btn-inset-shadow));
   transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
   transition-property: color, background-color, box-shadow, border-color;
 
@@ -205,7 +209,8 @@ a.btn-primary {
     color: var(--button-outline-fgColor-hover, var(--color-btn-outline-hover-text));
     background-color: var(--button-outline-bgColor-hover, var(--color-btn-outline-hover-bg));
     border-color: var(--button-outline-borderColor-hover, var(--color-btn-outline-hover-border));
-    box-shadow: var(--shadow-resting-small, var(--color-btn-outline-hover-shadow)),
+    box-shadow:
+      var(--shadow-resting-small, var(--color-btn-outline-hover-shadow)),
       var(--shadow-highlight, var(--color-btn-outline-hover-inset-shadow));
 
     .Counter {
@@ -275,8 +280,8 @@ a.btn-primary {
     color: var(--button-danger-fgColor-hover, var(--color-btn-danger-hover-text));
     background-color: var(--button-danger-bgColor-hover, var(--color-btn-danger-hover-bg));
     border-color: var(--button-danger-borderColor-hover, var(--color-btn-danger-hover-border));
-    box-shadow: var(--shadow-resting-small, var(--color-btn-danger-hover-shadow)),
-      var(--shadow-highlight, var(--color-btn-danger-hover-inset-shadow));
+    box-shadow:
+      var(--shadow-resting-small, var(--color-btn-danger-hover-shadow)), var(--shadow-highlight, var(--color-btn-danger-hover-inset-shadow));
 
     .Counter {
       background-color: var(--buttonCounter-danger-bgColor-hover, var(--color-btn-danger-hover-counter-bg));

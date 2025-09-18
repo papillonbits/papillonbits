@@ -1,4 +1,4 @@
-import { action } from '@storybook/addon-actions'
+import { action } from 'storybook/actions'
 import { withTests } from '@storybook/addon-jest'
 import { sortDefault } from '@papillonbits/library/sort'
 import { flexGridSelection, flexGridState } from '../FlexGrid.prop'

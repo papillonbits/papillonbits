@@ -1,4 +1,4 @@
-import { action } from '@storybook/addon-actions'
+import { action } from 'storybook/actions'
 import { withTests } from '@storybook/addon-jest'
 import { previousNextState } from '../PreviousNext.prop'
 import results from '../../../../../../../.jest-test-results.json'

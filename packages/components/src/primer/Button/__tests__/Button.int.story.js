@@ -1,4 +1,4 @@
-import { action } from '@storybook/addon-actions'
+import { action } from 'storybook/actions'
 import { withTests } from '@storybook/addon-jest'
 import { buttonElement, buttonVariant, buttonSize, buttonState, iconAlignment } from '../Button.prop'
 import { iconName } from '../../Icon/Icon.prop'

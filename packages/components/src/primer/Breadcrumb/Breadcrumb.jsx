@@ -2,8 +2,9 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-import utilityStyles from '@papillonbits/css/build/primer/utilities/typography.scss'
+// import utilityStyles from '@papillonbits/css/build/primer/utilities/typography.scss'
 import { getIndexItems, getIndexItemsWithSelected } from '@papillonbits/library/array'
+import utilityStyles from '../../../../css/src/primer/utilities/typography.scss'
 import { propTypes, defaultProps, breadcrumbState } from './Breadcrumb.prop'
 import styles from './Breadcrumb.scss'
 

@@ -1,6 +1,7 @@
 import cx from 'classnames'
-import displayStyles from '@papillonbits/css/build/primer/utilities/visibility-display.scss'
+// import displayStyles from '@papillonbits/css/build/primer/utilities/visibility-display.scss'
 import { paginationActionTypes } from '@papillonbits/library/pagination'
+import displayStyles from '../../../../../css/src/primer/utilities/visibility-display.scss'
 import { propTypes, defaultProps, previousNextState } from './PreviousNext.prop'
 import styles from './PreviousNext.scss'
 

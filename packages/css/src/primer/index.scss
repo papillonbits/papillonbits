@@ -1,6 +1,11 @@
+// CSS color variables
 @import './color-modes/index.scss';
 @import './primitives/index.scss';
-@import './support/index.scss';
-@import './base/index.scss';
+
+// mts-primer-legacy
 @import './truncate/index.scss';
-@import './utilities/index.scss';
+
+// Global requirements
+@import './core/index.scss';
+@import './product/index.scss';
+@import './marketing/index.scss';

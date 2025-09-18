@@ -1,12 +1,35 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-param-reassign */
 /* eslint-disable global-require */
+import webpack from 'webpack'
 import { isEmptyObject } from '@papillonbits/library/object'
 import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack'
 
-export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath }) {
+export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath, rootAttributesDefaults }) {
   // https://storybook.js.org/docs/react/api/main-config
   return {
+    // https://storybook.js.org/docs/api/main-config/main-config-preview-body
+    previewBody: (body) => {
+      if (rootAttributesDefaults) {
+        // https://github.com/storybookjs/storybook/issues/24429
+        return `
+          ${body}
+          <script type="text/javascript">
+          (() => {
+            document.addEventListener('DOMContentLoaded', function() {
+              const storybookRootElement = document.getElementById("storybook-root")
+
+              // https://primer.style/foundations/primitives/getting-started
+              storybookRootElement.setAttribute("data-color-mode", "light")
+              storybookRootElement.setAttribute("data-light-theme", "light")
+              storybookRootElement.setAttribute("data-dark-theme", "dark")
+            });
+          })()
+          </script>
+        `
+      }
+      return `${body}`
+    },
     // https://storybook.js.org/docs/react/configure/frameworks
     framework: {
       name: '@storybook/react-webpack5',
@@ -71,7 +94,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       // '@storybook/addon-highlight',
 
       // https://storybook.js.org/addons/@storybook/addon-interactions
-      '@storybook/addon-interactions',
+      // '@storybook/addon-interactions',
 
       // https://storybook.js.org/addons/@storybook/addon-jest
       '@storybook/addon-jest',
@@ -89,32 +112,6 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       // '@storybook/addon-measure',
       // '@storybook/addon-outline',
 
-      // https://storybook.js.org/addons/@storybook/addon-storyshots
-      '@storybook/addon-storyshots',
-
-      // https://storybook.js.org/addons/@storybook/addon-storyshots-puppeteer
-      '@storybook/addon-storyshots-puppeteer',
-
-      // https://storybook.js.org/addons/@storybook/addon-storysource
-      {
-        name: '@storybook/addon-storysource',
-        options: {
-          rule: {
-            test: [/\.int.story\.js?$/],
-            include: [includeBasePath],
-          },
-          loaderOptions: {
-            prettierConfig: {
-              tabWidth: 2,
-              semi: false,
-              singleQuote: true,
-              printWidth: 140,
-              trailingComma: 'all',
-            },
-          },
-        },
-      },
-
       // included by default in @storybook/addon-essentials
       // https://storybook.js.org/docs/react/essentials/toolbars-and-globals
       // https://storybook.js.org/addons/@storybook/addon-toolbars
@@ -126,8 +123,6 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
       // '@storybook/addon-viewport',
 
       '@chromatic-com/storybook',
-
-      'storybook-addon-root-attributes',
 
       // https://storybook.js.org/addons/@storybook/addon-styling-webpack
       '@storybook/addon-styling-webpack',
@@ -246,14 +241,13 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
             },
           ],
         },
-        {
-          test: /\.int.story\.jsx?$/,
-          loader: require.resolve('@storybook/source-loader'),
-          exclude: [/node_modules/],
-          enforce: 'pre',
-        },
         getBabelLoaderAdvancedSetup(),
       ])
+      config.plugins.push(
+        new webpack.ProvidePlugin({
+          process: 'process/browser',
+        }),
+      )
       return config
     },
     typescript: {
