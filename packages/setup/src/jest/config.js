@@ -13,7 +13,8 @@ export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collec
       '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$': '<rootDir>/.mock/file.js',
       '^.+\\.(css|less|scss|md)$': 'identity-obj-proxy',
     },
-    transformIgnorePatterns: ['node_modules/(?!uuid)'],
+    // https://jestjs.io/docs/tutorial-react-native#transformignorepatterns-customization
+    transformIgnorePatterns: ['node_modules/(?!uuid|parse5)'],
     moduleFileExtensions: ['js', 'jsx'],
     coverageThreshold,
   }
