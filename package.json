@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.10.2",
-    "@papillonbits/components": "^1.5.4",
-    "@papillonbits/library": "^1.5.0",
-    "@papillonbits/setup": "^1.5.4",
+    "@papillonbits/components": "^1.6.0",
+    "@papillonbits/library": "^1.6.0",
+    "@papillonbits/setup": "^1.6.0",
     "@primer/primitives": "^11.2.1",
     "@primer/view-components": "^0.46.0",
     "classnames": "^2.5.1",
