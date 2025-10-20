@@ -14,7 +14,7 @@ export function getJestSetup({ testPathIgnorePatterns, coverageDirectory, collec
       '^.+\\.(css|less|scss|md)$': 'identity-obj-proxy',
     },
     // https://jestjs.io/docs/tutorial-react-native#transformignorepatterns-customization
-    transformIgnorePatterns: ['node_modules/(?!uuid|parse5)'],
+    transformIgnorePatterns: ['node_modules/(?!((@)?uuid|parse5|jsdom/node_modules/parse5)/)'],
     moduleFileExtensions: ['js', 'jsx'],
     coverageThreshold,
   }
