@@ -6,7 +6,7 @@ import { propTypes, defaultProps } from './Menu.prop'
 import styles from './Menu.scss'
 import { Icon, iconSize } from '../../Icon'
 
-export function Menu({ className, heading, ariaAttr, items, onClick }) {
+export function Menu({ className = defaultProps.className, heading = defaultProps.heading, ariaAttr, items, onClick }) {
   const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { label, labelledBy, current } = ariaAttr
 
@@ -42,5 +42,3 @@ export function Menu({ className, heading, ariaAttr, items, onClick }) {
 }
 
 Menu.propTypes = propTypes
-
-Menu.defaultProps = defaultProps

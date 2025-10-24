@@ -7,7 +7,7 @@ import { getIndexItems, getIndexItemsWithSelected } from '@papillonbits/library/
 import { propTypes, defaultProps, breadcrumbState } from './Breadcrumb.prop'
 import styles from './Breadcrumb.scss'
 
-export function Breadcrumb({ className, ariaAttr, items, onClick, state }) {
+export function Breadcrumb({ className = defaultProps.className, ariaAttr, items, onClick, state = defaultProps.state }) {
   const indexItems = getIndexItems(items)
   const { label, current } = ariaAttr
 
@@ -56,5 +56,3 @@ export function Breadcrumb({ className, ariaAttr, items, onClick, state }) {
 }
 
 Breadcrumb.propTypes = propTypes
-
-Breadcrumb.defaultProps = defaultProps

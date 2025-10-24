@@ -19,7 +19,7 @@ exports[`<Button /> Render must match blueIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -40,7 +40,7 @@ exports[`<Button /> Render must match blueIconRightAligned() 1`] = `
     Blue icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -105,7 +105,7 @@ exports[`<Button /> Render must match dangerIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -126,7 +126,7 @@ exports[`<Button /> Render must match dangerIconRightAligned() 1`] = `
     Danger icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -180,7 +180,7 @@ exports[`<Button /> Render must match defaultIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -201,7 +201,7 @@ exports[`<Button /> Render must match defaultIconRightAligned() 1`] = `
     Default icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -289,7 +289,7 @@ exports[`<Button /> Render must match orangeIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -310,7 +310,7 @@ exports[`<Button /> Render must match orangeIconRightAligned() 1`] = `
     Orange icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -375,7 +375,7 @@ exports[`<Button /> Render must match outlineIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -396,7 +396,7 @@ exports[`<Button /> Render must match outlineIconRightAligned() 1`] = `
     Outline icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -461,7 +461,7 @@ exports[`<Button /> Render must match primaryIconLeftAligned() 1`] = `
   >
     <mock-file
       aria-hidden="true"
-      classname="mr-2"
+      class="mr-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -482,7 +482,7 @@ exports[`<Button /> Render must match primaryIconRightAligned() 1`] = `
     Primary icon button
     <mock-file
       aria-hidden="true"
-      classname="ml-2"
+      class="ml-2"
       height="16"
       role="img"
       style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"

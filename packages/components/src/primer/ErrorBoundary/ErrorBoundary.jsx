@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars, no-console */
 import { Component } from 'react'
-import { propTypes, defaultProps } from './ErrorBoundary.prop'
+import { propTypes } from './ErrorBoundary.prop'
 
 export class ErrorBoundary extends Component {
   constructor(props) {
@@ -33,5 +33,3 @@ export class ErrorBoundary extends Component {
 }
 
 ErrorBoundary.propTypes = propTypes
-
-ErrorBoundary.defaultProps = defaultProps

@@ -4,7 +4,15 @@ import { paginationActionTypes } from '@papillonbits/library/pagination'
 import { propTypes, defaultProps, previousNextState } from './PreviousNext.prop'
 import styles from './PreviousNext.scss'
 
-export function PreviousNext({ className, ariaAttr, currentPage, previous, next, onClick, state }) {
+export function PreviousNext({
+  className = defaultProps.className,
+  ariaAttr,
+  currentPage,
+  previous = defaultProps.previous,
+  next = defaultProps.next,
+  onClick,
+  state = defaultProps.state,
+}) {
   const { label } = ariaAttr
 
   const { indexItems, currentIndex, canMoveBackwards, canMoveForward } = currentPage
@@ -60,5 +68,3 @@ export function PreviousNext({ className, ariaAttr, currentPage, previous, next,
 }
 
 PreviousNext.propTypes = propTypes
-
-PreviousNext.defaultProps = defaultProps

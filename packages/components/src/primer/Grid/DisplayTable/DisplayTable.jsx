@@ -9,7 +9,12 @@ import colorStyles from '@papillonbits/css/build/primer/utilities/colors.scss'
 import gridStyles from '../../Layout/grid.scss'
 import { propTypes, defaultProps } from './DisplayTable.prop'
 
-export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
+export function DisplayTable({
+  className = defaultProps.className,
+  items,
+  idIndex = defaultProps.idIndex,
+  isSelectedIndex = defaultProps.isSelectedIndex,
+}) {
   return (
     <Fragment>
       <div className={cx(className, displayStyles['d-table'], gridStyles['col-12'], colorStyles['bg-blue-light'])}>
@@ -63,5 +68,3 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
 }
 
 DisplayTable.propTypes = propTypes
-
-DisplayTable.defaultProps = defaultProps

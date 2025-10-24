@@ -7,7 +7,7 @@ import branchNameStyles from '../BranchName/branch-name.scss'
 import buttonStyles from '../Button/Button.scss'
 import labelStyles from '../Label/labels.scss'
 
-export function Loader({ className, variant, text }) {
+export function Loader({ className = defaultProps.className, variant, text }) {
   switch (variant) {
     case loaderVariant.heading:
       return (
@@ -43,5 +43,3 @@ export function Loader({ className, variant, text }) {
 }
 
 Loader.propTypes = propTypes
-
-Loader.defaultProps = defaultProps

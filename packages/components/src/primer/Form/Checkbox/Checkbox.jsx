@@ -4,7 +4,17 @@ import { propTypes, defaultProps, checkboxState } from './Checkbox.prop'
 import styles from './Checkbox.scss'
 import formStyles from '../index.scss'
 
-export function Checkbox({ dataTest, className, htmlFor, ariaAttr, inputType, isChecked, text, onChange, state }) {
+export function Checkbox({
+  dataTest = defaultProps.dataTest,
+  className = defaultProps.className,
+  htmlFor = defaultProps.htmlFor,
+  ariaAttr,
+  inputType = defaultProps.inputType,
+  isChecked = defaultProps.isChecked,
+  text = defaultProps.text,
+  onChange,
+  state = defaultProps.state,
+}) {
   const { describedBy } = ariaAttr
 
   return (
@@ -30,5 +40,3 @@ export function Checkbox({ dataTest, className, htmlFor, ariaAttr, inputType, is
 }
 
 Checkbox.propTypes = propTypes
-
-Checkbox.defaultProps = defaultProps

@@ -15,7 +15,7 @@ exports[`<Alert /> Render must match consent() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="mr-2"
+            class="mr-2"
             height="16"
             role="img"
             style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -30,7 +30,7 @@ exports[`<Alert /> Render must match consent() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="mr-2"
+            class="mr-2"
             height="16"
             role="img"
             style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -41,7 +41,7 @@ exports[`<Alert /> Render must match consent() 1`] = `
         </button>
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -70,7 +70,7 @@ exports[`<Alert /> Render must match consentWithInput() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="mr-2"
+            class="mr-2"
             height="16"
             role="img"
             style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -85,7 +85,7 @@ exports[`<Alert /> Render must match consentWithInput() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="mr-2"
+            class="mr-2"
             height="16"
             role="img"
             style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -96,7 +96,7 @@ exports[`<Alert /> Render must match consentWithInput() 1`] = `
         </button>
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -127,7 +127,7 @@ exports[`<Alert /> Render must match error() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -152,7 +152,7 @@ exports[`<Alert /> Render must match info() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -214,7 +214,7 @@ exports[`<Alert /> Render must match success() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -239,7 +239,7 @@ exports[`<Alert /> Render must match warning() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="mr-2"
+          class="mr-2"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"

@@ -2,7 +2,7 @@ import cx from 'classnames'
 import { propTypes, defaultProps } from './Subhead.prop'
 import styles from './Subhead.scss'
 
-export function Subhead({ className, heading, isSpacious }) {
+export function Subhead({ className = defaultProps.className, heading, isSpacious = defaultProps.isSpacious }) {
   return (
     <div
       className={cx(className, styles.Subhead, {
@@ -15,5 +15,3 @@ export function Subhead({ className, heading, isSpacious }) {
 }
 
 Subhead.propTypes = propTypes
-
-Subhead.defaultProps = defaultProps

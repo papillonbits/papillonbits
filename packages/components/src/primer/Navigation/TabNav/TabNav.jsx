@@ -5,7 +5,15 @@ import { getIndexItems, getIndexItemsWithSelected } from '@papillonbits/library/
 import { propTypes, defaultProps, tabNavState } from './TabNav.prop'
 import styles from './TabNav.scss'
 
-export function TabNav({ className, ariaAttr, items, actions, onClick, children, state }) {
+export function TabNav({
+  className = defaultProps.className,
+  ariaAttr,
+  items,
+  actions = defaultProps.actions,
+  onClick,
+  children = defaultProps.children,
+  state = defaultProps.state,
+}) {
   if (!items) {
     return null
   }
@@ -97,5 +105,3 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children,
 }
 
 TabNav.propTypes = propTypes
-
-TabNav.defaultProps = defaultProps

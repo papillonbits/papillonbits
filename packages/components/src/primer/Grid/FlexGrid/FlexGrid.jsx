@@ -20,17 +20,17 @@ import { Checkbox } from '../../Form/Checkbox'
 import { Icon, iconName, iconSize } from '../../Icon'
 
 export function FlexGrid({
-  className,
+  className = defaultProps.className,
   items,
-  idIndex,
-  isSelectedIndex,
-  selection,
+  idIndex = defaultProps.idIndex,
+  isSelectedIndex = defaultProps.isSelectedIndex,
+  selection = defaultProps.selection,
   sort,
-  onChange,
-  onClick,
-  onDoubleClick,
-  iconColor,
-  state,
+  onChange = defaultProps.onChange,
+  onClick = defaultProps.onClick,
+  onDoubleClick = defaultProps.onDoubleClick,
+  iconColor = defaultProps.iconColor,
+  state = defaultProps.state,
 }) {
   return (
     <div
@@ -268,5 +268,3 @@ export function FlexGrid({
 }
 
 FlexGrid.propTypes = propTypes
-
-FlexGrid.defaultProps = defaultProps

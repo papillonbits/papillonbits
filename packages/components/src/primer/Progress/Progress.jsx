@@ -3,7 +3,7 @@ import colorStyles from '@papillonbits/css/build/primer/utilities/colors.scss'
 import { propTypes, defaultProps, progressVariant } from './Progress.prop'
 import styles from './Progress.scss'
 
-export function Progress({ className, variant, percentage }) {
+export function Progress({ className = defaultProps.className, variant = defaultProps.variant, percentage }) {
   const percentageStyle = { width: `${percentage}%` }
 
   return (
@@ -19,5 +19,3 @@ export function Progress({ className, variant, percentage }) {
 }
 
 Progress.propTypes = propTypes
-
-Progress.defaultProps = defaultProps

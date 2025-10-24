@@ -10,7 +10,13 @@ import { Button, buttonVariant, buttonInputType, iconAlignment } from '../Button
 import { iconName } from '../Icon/Icon.prop'
 import { Icon, iconSize } from '../Icon'
 
-export function Alert({ dataTest, className, variant, children, consent }) {
+export function Alert({
+  dataTest = defaultProps.dataTest,
+  className = defaultProps.className,
+  variant = defaultProps.variant,
+  children,
+  consent,
+}) {
   const [consentValue, setConsentValue] = useState('')
 
   return (
@@ -95,5 +101,3 @@ export function Alert({ dataTest, className, variant, children, consent }) {
 }
 
 Alert.propTypes = propTypes
-
-Alert.defaultProps = defaultProps

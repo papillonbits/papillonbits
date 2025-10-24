@@ -64,7 +64,6 @@ export const defaultProps = {
   size: buttonSize.normal,
   state: buttonState.active,
   icon: null,
-  hasInput: false,
   inputType: null,
   autoFocus: false,
 }

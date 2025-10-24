@@ -4,19 +4,19 @@ import styles from './Input.scss'
 import formStyles from '../index.scss'
 
 export function Input({
-  dataTest,
-  id,
-  className,
-  placeholder,
-  ariaAttr,
-  inputType,
+  dataTest = defaultProps.dataTest,
+  id = defaultProps.id,
+  className = defaultProps.className,
+  placeholder = defaultProps.placeholder,
+  ariaAttr = defaultProps.ariaAttr,
+  inputType = defaultProps.inputType,
   value,
   onChange,
   onKeyUp,
-  onFocus,
-  onBlur,
+  onFocus = defaultProps.onFocus,
+  onBlur = defaultProps.onBlur,
   autoFocus,
-  state,
+  state = defaultProps.state,
 }) {
   return (
     <input
@@ -43,5 +43,3 @@ export function Input({
 }
 
 Input.propTypes = propTypes
-
-Input.defaultProps = defaultProps

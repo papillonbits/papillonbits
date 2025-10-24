@@ -4,7 +4,13 @@ import { propTypes, defaultProps, toastVariant } from './Toast.prop'
 import styles from './Toast.scss'
 import { Icon, iconName, iconSize } from '../Icon'
 
-export function Toast({ className, variant, text, isDismissable, onClick }) {
+export function Toast({
+  className = defaultProps.className,
+  variant = defaultProps.variant,
+  text,
+  isDismissable = defaultProps.isDismissable,
+  onClick = defaultProps.onClick,
+}) {
   return (
     <div className={cx(className, paddingStyles['p-1'])}>
       <div
@@ -32,5 +38,3 @@ export function Toast({ className, variant, text, isDismissable, onClick }) {
 }
 
 Toast.propTypes = propTypes
-
-Toast.defaultProps = defaultProps

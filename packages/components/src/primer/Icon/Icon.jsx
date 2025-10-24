@@ -3,7 +3,17 @@ import { iconComponents } from './Icon.part'
 
 const defaultSize = [16, 16]
 
-export function Icon({ className, ariaLabel, icon, height, width, size, fill, verticalAlign, ...otherProps }) {
+export function Icon({
+  className = defaultProps.className,
+  ariaLabel = defaultProps.ariaLabel,
+  icon,
+  height = defaultProps.height,
+  width = defaultProps.width,
+  size = defaultProps.size,
+  fill = defaultProps.fill,
+  verticalAlign = defaultProps.verticalAlign,
+  ...otherProps
+}) {
   const widthHeight = defaultSize
 
   const attrs = {
@@ -38,5 +48,3 @@ export function Icon({ className, ariaLabel, icon, height, width, size, fill, ve
 }
 
 Icon.propTypes = propTypes
-
-Icon.defaultProps = defaultProps

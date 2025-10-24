@@ -13,7 +13,7 @@ exports[`<Button /> Render must match dismissable() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -32,7 +32,7 @@ exports[`<Button /> Render must match dismissable() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -58,7 +58,7 @@ exports[`<Button /> Render must match error() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -89,7 +89,7 @@ exports[`<Button /> Render must match info() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -120,7 +120,7 @@ exports[`<Button /> Render must match success() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
@@ -151,7 +151,7 @@ exports[`<Button /> Render must match warning() 1`] = `
       >
         <mock-file
           aria-hidden="true"
-          classname="octicon"
+          class="octicon"
           height="16"
           role="img"
           style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"

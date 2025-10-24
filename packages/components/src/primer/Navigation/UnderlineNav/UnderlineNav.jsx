@@ -8,7 +8,16 @@ import styles from './UnderlineNav.scss'
 import containerStyles from '../../Layout/container.scss'
 import { Icon, iconSize } from '../../Icon'
 
-export function UnderlineNav({ className, ariaAttr, items, itemType, actions, align, fullContainer, onClick }) {
+export function UnderlineNav({
+  className = defaultProps.className,
+  ariaAttr,
+  items,
+  itemType,
+  actions = defaultProps.actions,
+  align = defaultProps.align,
+  fullContainer = defaultProps.fullContainer,
+  onClick,
+}) {
   const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { label, selected, current } = ariaAttr
 
@@ -96,5 +105,3 @@ export function UnderlineNav({ className, ariaAttr, items, itemType, actions, al
 }
 
 UnderlineNav.propTypes = propTypes
-
-UnderlineNav.defaultProps = defaultProps

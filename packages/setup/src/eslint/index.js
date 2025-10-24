@@ -33,7 +33,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 12,
+    ecmaVersion: 16,
     sourceType: 'module',
   },
   plugins: ['react', 'react-hooks', 'jsx-a11y', 'jest', 'prettier'],
@@ -77,7 +77,7 @@ module.exports = {
       },
     },
     react: {
-      version: '18.3.1',
+      version: '19.2.0',
     },
   },
 }

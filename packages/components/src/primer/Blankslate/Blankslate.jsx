@@ -2,7 +2,13 @@ import cx from 'classnames'
 import { propTypes, defaultProps, blankslateVariant } from './Blankslate.prop'
 import styles from './Blankslate.scss'
 
-export function Blankslate({ className, heading, text, variant, hasCleanBackground }) {
+export function Blankslate({
+  className = defaultProps.className,
+  heading,
+  text,
+  variant = defaultProps.variant,
+  hasCleanBackground = defaultProps.hasCleanBackground,
+}) {
   return (
     <div
       className={cx(className, styles.blankslate, {
@@ -20,5 +26,3 @@ export function Blankslate({ className, heading, text, variant, hasCleanBackgrou
 }
 
 Blankslate.propTypes = propTypes
-
-Blankslate.defaultProps = defaultProps

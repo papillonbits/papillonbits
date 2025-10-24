@@ -10,7 +10,14 @@ import buttonStyles from '../Button/Button.scss'
 import { propTypes, defaultProps, dropdownState } from './Dropdown.prop'
 import styles from './Dropdown.scss'
 
-export function Dropdown({ className, summary, ariaAttr, items, onClick, state }) {
+export function Dropdown({
+  className = defaultProps.className,
+  summary,
+  ariaAttr = defaultProps.ariaAttr,
+  items,
+  onClick,
+  state = defaultProps.state,
+}) {
   const details = useRef(null)
 
   if (!items) {
@@ -94,5 +101,3 @@ export function Dropdown({ className, summary, ariaAttr, items, onClick, state }
 }
 
 Dropdown.propTypes = propTypes
-
-Dropdown.defaultProps = defaultProps

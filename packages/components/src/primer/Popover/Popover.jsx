@@ -9,7 +9,17 @@ import { propTypes, defaultProps, popoverVariant, popoverSize } from './Popover.
 import styles from './Popover.scss'
 import { Button, buttonVariant } from '../Button'
 
-export function Popover({ className, variant, size, intro, heading, message, acknowledge, introOnClick, acknowledgeOnClick }) {
+export function Popover({
+  className = defaultProps.className,
+  variant = defaultProps.variant,
+  size = defaultProps.size,
+  intro,
+  heading,
+  message,
+  acknowledge,
+  introOnClick,
+  acknowledgeOnClick,
+}) {
   return (
     <div
       className={cx(className, layoutStyles['position-relative'], {
@@ -69,5 +79,3 @@ export function Popover({ className, variant, size, intro, heading, message, ack
 }
 
 Popover.propTypes = propTypes
-
-Popover.defaultProps = defaultProps

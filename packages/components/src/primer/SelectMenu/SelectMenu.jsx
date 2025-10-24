@@ -9,7 +9,7 @@ import styles from './SelectMenu.scss'
 import buttonStyles from '../Button/Button.scss'
 import { Icon, iconSize } from '../Icon'
 
-export function SelectMenu({ className, summary, icon, title, ariaAttr, items, onClick }) {
+export function SelectMenu({ className = defaultProps.className, summary, icon, title = defaultProps.title, ariaAttr, items, onClick }) {
   const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { haspopup } = ariaAttr
   const details = useRef(null)
@@ -60,5 +60,3 @@ export function SelectMenu({ className, summary, icon, title, ariaAttr, items, o
 }
 
 SelectMenu.propTypes = propTypes
-
-SelectMenu.defaultProps = defaultProps

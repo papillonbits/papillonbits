@@ -7,7 +7,6 @@ exports[`<Input /> Render must match inactive() 1`] = `
     class="form-control input-inactive"
     placeholder="Fantastic placeholder"
     type="text"
-    value=""
   />
 </div>
 `;
@@ -19,7 +18,6 @@ exports[`<Input /> Render must match regular() 1`] = `
     class="form-control"
     placeholder="Fantastic placeholder"
     type="text"
-    value=""
   />
 </div>
 `;

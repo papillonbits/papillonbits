@@ -30,7 +30,6 @@ exports[`<Breadcrumb /> Render must match inactive() 1`] = `
       <li
         aria-current="page"
         class="breadcrumb-item breadcrumb-item-selected text-gray"
-        href=""
       >
         One More Fantastic Folder
       </li>
@@ -69,7 +68,6 @@ exports[`<Breadcrumb /> Render must match regular() 1`] = `
       <li
         aria-current="page"
         class="breadcrumb-item breadcrumb-item-selected text-gray"
-        href=""
       >
         One More Fantastic Folder
       </li>

@@ -4,7 +4,17 @@ import { propTypes, defaultProps, radioState } from './Radio.prop'
 import styles from './Radio.scss'
 import formStyles from '../index.scss'
 
-export function Radio({ dataTest, className, htmlFor, inputType, name, isChecked, text, onChange, state }) {
+export function Radio({
+  dataTest = defaultProps.dataTest,
+  className = defaultProps.className,
+  htmlFor = defaultProps.htmlFor,
+  inputType = defaultProps.inputType,
+  name,
+  isChecked = defaultProps.isChecked,
+  text = defaultProps.text,
+  onChange,
+  state = defaultProps.state,
+}) {
   return (
     <div
       data-test={dataTest}
@@ -28,5 +38,3 @@ export function Radio({ dataTest, className, htmlFor, inputType, name, isChecked
 }
 
 Radio.propTypes = propTypes
-
-Radio.defaultProps = defaultProps

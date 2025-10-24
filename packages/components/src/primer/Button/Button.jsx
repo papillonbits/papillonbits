@@ -14,7 +14,21 @@ import {
 import styles from './Button.scss'
 import { Icon, iconSize } from '../Icon'
 
-export function Button({ dataTest, id, className, element, href, text, variant, size, state, icon, onClick, inputType, autoFocus }) {
+export function Button({
+  dataTest = defaultProps.dataTest,
+  id = defaultProps.id,
+  className = defaultProps.className,
+  element = defaultProps.element,
+  href = defaultProps.href,
+  text,
+  variant = defaultProps.variant,
+  size = defaultProps.size,
+  state = defaultProps.state,
+  icon = defaultProps.icon,
+  onClick,
+  inputType = defaultProps.inputType,
+  autoFocus = defaultProps.autoFocus,
+}) {
   const stateProps = state === buttonState.inactive ? { ...{ disabled: 'true', 'aria-disabled': 'true' } } : null
   const fileInputRef = useRef(null)
 
@@ -74,5 +88,3 @@ export function Button({ dataTest, id, className, element, href, text, variant, 
 }
 
 Button.propTypes = propTypes
-
-Button.defaultProps = defaultProps

@@ -5,7 +5,14 @@ import { getIndexItems, getIndexItemsWithSelected } from '@papillonbits/library/
 import { propTypes, defaultProps, selectState } from './Select.prop'
 import styles from './Select.scss'
 
-export function Select({ id, className, selectedText, items, onChange, state }) {
+export function Select({
+  id = defaultProps.id,
+  className = defaultProps.className,
+  selectedText,
+  items,
+  onChange,
+  state = defaultProps.state,
+}) {
   const indexItems = getIndexItems(items)
 
   const handleOnChange = (event) => {
@@ -50,5 +57,3 @@ export function Select({ id, className, selectedText, items, onChange, state }) 
 }
 
 Select.propTypes = propTypes
-
-Select.defaultProps = defaultProps

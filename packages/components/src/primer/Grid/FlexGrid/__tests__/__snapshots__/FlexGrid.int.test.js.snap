@@ -197,7 +197,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -277,7 +277,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -357,7 +357,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -437,7 +437,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -517,7 +517,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -597,7 +597,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -677,7 +677,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -757,7 +757,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -837,7 +837,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1062,7 +1062,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1142,7 +1142,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1222,7 +1222,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1302,7 +1302,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1382,7 +1382,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1462,7 +1462,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1542,7 +1542,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1622,7 +1622,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1702,7 +1702,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1893,7 +1893,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -1957,7 +1957,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2021,7 +2021,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2085,7 +2085,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2149,7 +2149,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2213,7 +2213,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2277,7 +2277,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2341,7 +2341,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2405,7 +2405,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2596,7 +2596,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2660,7 +2660,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2724,7 +2724,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2788,7 +2788,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2852,7 +2852,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2916,7 +2916,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -2980,7 +2980,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3044,7 +3044,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3108,7 +3108,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3320,7 +3320,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3400,7 +3400,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3480,7 +3480,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3560,7 +3560,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3640,7 +3640,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3720,7 +3720,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3800,7 +3800,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3880,7 +3880,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -3960,7 +3960,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4172,7 +4172,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4252,7 +4252,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4332,7 +4332,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4412,7 +4412,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4492,7 +4492,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4572,7 +4572,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4652,7 +4652,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4732,7 +4732,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -4812,7 +4812,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5003,7 +5003,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5067,7 +5067,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5131,7 +5131,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5195,7 +5195,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5259,7 +5259,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5323,7 +5323,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5387,7 +5387,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5451,7 +5451,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5515,7 +5515,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5706,7 +5706,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5770,7 +5770,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5834,7 +5834,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5898,7 +5898,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -5962,7 +5962,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -6026,7 +6026,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -6090,7 +6090,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -6154,7 +6154,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
@@ -6218,7 +6218,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
         >
           <mock-file
             aria-hidden="true"
-            classname="octicon"
+            class="octicon"
             height="16"
             role="img"
             style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"

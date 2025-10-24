@@ -4,7 +4,13 @@ import { propTypes, defaultProps, labelVariant, labelBackgroundColor, labelTextC
 import labelsStyles from './labels.scss'
 import issueLabelsStyles from './issue-labels.scss'
 
-export function Label({ className, text, variant, backgroundColor, textColor }) {
+export function Label({
+  className = defaultProps.className,
+  text,
+  variant = defaultProps.variant,
+  backgroundColor = defaultProps.backgroundColor,
+  textColor = defaultProps.textColor,
+}) {
   return (
     <span
       title={`Label: ${text}`}
@@ -21,5 +27,3 @@ export function Label({ className, text, variant, backgroundColor, textColor }) 
 }
 
 Label.propTypes = propTypes
-
-Label.defaultProps = defaultProps
