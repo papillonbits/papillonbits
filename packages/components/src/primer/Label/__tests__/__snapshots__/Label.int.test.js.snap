@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<Label /> Render must match regular() 1`] = `
+<div>
+  <span
+    class="IssueLabel bg-blue text-white"
+    title="Label: default label"
+  >
+    default label
+  </span>
+</div>
+`;

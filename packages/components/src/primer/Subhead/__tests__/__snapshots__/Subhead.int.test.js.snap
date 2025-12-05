@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<Subhead /> Render must match plain() 1`] = `
+<div>
+  <div
+    class="Subhead"
+  >
+    <div
+      class="Subhead-heading"
+    >
+      Plain subhead
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Subhead /> Render must match spacious() 1`] = `
+<div>
+  <div
+    class="Subhead Subhead--spacious"
+  >
+    <div
+      class="Subhead-heading"
+    >
+      Spacious subhead
+    </div>
+  </div>
+</div>
+`;

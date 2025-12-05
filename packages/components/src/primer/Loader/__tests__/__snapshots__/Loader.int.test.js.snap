@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<Loader /> Render must match button() 1`] = `
+<div>
+  <button
+    aria-disabled="true"
+    class="btn mt-3"
+    type="button"
+  >
+    <span>
+      Loading
+    </span>
+    <span
+      class="AnimatedEllipsis"
+    />
+  </button>
+</div>
+`;
+
+exports[`<Loader /> Render must match heading() 1`] = `
+<div>
+  <h2>
+    <span>
+      Loading
+    </span>
+    <span
+      class="AnimatedEllipsis"
+    />
+  </h2>
+</div>
+`;
+
+exports[`<Loader /> Render must match label() 1`] = `
+<div>
+  <span
+    class="Label bg-blue mt-3"
+  >
+    <span>
+      Loading
+    </span>
+    <span
+      class="AnimatedEllipsis"
+    />
+  </span>
+</div>
+`;
+
+exports[`<Loader /> Render must match text() 1`] = `
+<div>
+  <span
+    class="branch-name mt-2"
+  >
+    <span>
+      Loading
+    </span>
+    <span
+      class="AnimatedEllipsis"
+    />
+  </span>
+</div>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<Select /> Render must match inacive() 1`] = `
+<div>
+  <div
+    class="select"
+  >
+    <select
+      class="select-menu width-full select-inactive"
+    >
+      <option
+        value="Select Item 1"
+      >
+        Select Item 1
+      </option>
+      <option
+        value="Select Item 2"
+      >
+        Select Item 2
+      </option>
+      <option
+        value="Select Item 3"
+      >
+        Select Item 3
+      </option>
+      <option
+        value="Select Item 4"
+      >
+        Select Item 4
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<Select /> Render must match regular() 1`] = `
+<div>
+  <div
+    class="select"
+  >
+    <select
+      class="select-menu width-full"
+    >
+      <option
+        value="Select Item 1"
+      >
+        Select Item 1
+      </option>
+      <option
+        value="Select Item 2"
+      >
+        Select Item 2
+      </option>
+      <option
+        value="Select Item 3"
+      >
+        Select Item 3
+      </option>
+      <option
+        value="Select Item 4"
+      >
+        Select Item 4
+      </option>
+    </select>
+  </div>
+</div>
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<SelectMenu /> Render must match regular() 1`] = `
+<div>
+  <details
+    class="details-reset details-overlay"
+  >
+    <summary
+      aria-haspopup="true"
+      class="btn btn-outline"
+    >
+      Choose an item
+       
+      <mock-file
+        aria-hidden="true"
+        class="ml-2"
+        height="16"
+        role="img"
+        style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+        viewbox="0 0 16 16"
+        width="16"
+      />
+    </summary>
+    <div
+      class="SelectMenu"
+    >
+      <div
+        class="SelectMenu-modal"
+      >
+        <header
+          class="SelectMenu-header"
+        >
+          <h3
+            class="SelectMenu-title"
+          >
+            Title
+          </h3>
+          <button
+            class="SelectMenu-closeButton"
+            type="button"
+          />
+        </header>
+        <div
+          class="SelectMenu-list"
+        >
+          <button
+            class="SelectMenu-item"
+            role="menuitem"
+            type="button"
+          >
+            Item 1
+          </button>
+          <button
+            class="SelectMenu-item"
+            role="menuitem"
+            type="button"
+          >
+            Item 2
+          </button>
+          <button
+            class="SelectMenu-item"
+            role="menuitem"
+            type="button"
+          >
+            Item 3
+          </button>
+          <button
+            class="SelectMenu-item"
+            role="menuitem"
+            type="button"
+          >
+            Item 4
+          </button>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+`;
