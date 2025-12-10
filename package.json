@@ -2,7 +2,7 @@
   "name": "papillonbits",
   "description": "Papillon Bits",
   "engines": {
-    "node": "24.11.1",
+    "node": "24.12.0",
     "npm": "11.6.2"
   },
   "homepage": "https://github.com/papillonbits/papillonbits#readme",
