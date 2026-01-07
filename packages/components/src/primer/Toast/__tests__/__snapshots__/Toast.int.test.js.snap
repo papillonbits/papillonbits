@@ -16,7 +16,7 @@ exports[`<Button /> Render must match dismissable() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
@@ -35,7 +35,7 @@ exports[`<Button /> Render must match dismissable() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
@@ -61,7 +61,7 @@ exports[`<Button /> Render must match error() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
@@ -92,7 +92,7 @@ exports[`<Button /> Render must match info() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
@@ -123,7 +123,7 @@ exports[`<Button /> Render must match success() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
@@ -154,7 +154,7 @@ exports[`<Button /> Render must match warning() 1`] = `
           class="octicon"
           height="16"
           role="img"
-          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"
           viewbox="0 0 16 16"
           width="16"
         />
