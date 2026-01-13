@@ -9,7 +9,6 @@ npm un -S \
   @papillonbits/setup \
   @primer/primitives \
   @primer/view-components \
-  ajv \
   classnames \
   clean-webpack-plugin \
   copy-webpack-plugin \
@@ -50,8 +49,8 @@ npm un -D \
   @storybook/addon-themes \
   @storybook/react-webpack5 \
   @svgr/webpack \
-  @testing-library/dom \
-  @testing-library/react \
+  @testing-library/dom @testing-library/react \
+  ajv \
   autoprefixer \
   babel-core \
   babel-jest \
@@ -114,7 +113,6 @@ npm i -S \
   @papillonbits/setup \
   @primer/primitives \
   @primer/view-components \
-  ajv \
   classnames \
   clean-webpack-plugin \
   copy-webpack-plugin \
@@ -155,8 +153,8 @@ npm i -D \
   @storybook/addon-themes@^9.1.17 \
   @storybook/react-webpack5@^9.1.17 \
   @svgr/webpack \
-  @testing-library/dom \
-  @testing-library/react \
+  @testing-library/dom @testing-library/react \
+  ajv \
   autoprefixer \
   babel-core@^7.0.0-bridge.0 \
   babel-jest \
