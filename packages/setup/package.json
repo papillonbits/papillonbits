@@ -20,18 +20,6 @@
     "webpack/",
     "README.md"
   ],
-  "exports": {
-    "./babel": "./babel/index.js",
-    "./eslint": "./eslint/index.mjs",
-    "./jest": "./jest/index.js",
-    "./prettier": "./prettier/index.js",
-    "./storybook": "./storybook/index.js",
-    "./storybook/mainSetup": "./storybook/mainSetup.js",
-    "./storybook/managerSetup": "./storybook/managerSetup.js",
-    "./storybook/previewSetup": "./storybook/previewSetup.js",
-    "./stylelint": "./stylelint/index.js",
-    "./webpack": "./webpack/index.js"
-  },
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
     "install-packages": "npm i",

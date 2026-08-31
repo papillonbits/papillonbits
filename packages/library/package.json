@@ -27,22 +27,6 @@
     "string/",
     "README.md"
   ],
-  "exports": {
-    "./a11y": "./a11y/index.js",
-    "./array": "./array/index.js",
-    "./auth": "./auth/index.js",
-    "./boolean": "./boolean/index.js",
-    "./browser": "./browser/index.js",
-    "./date": "./date/index.js",
-    "./event": "./event/index.js",
-    "./hooks": "./hooks/index.js",
-    "./number": "./number/index.js",
-    "./object": "./object/index.js",
-    "./pagination": "./pagination/index.js",
-    "./sort": "./sort/index.js",
-    "./store": "./store/index.js",
-    "./string": "./string/index.js"
-  },
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
     "install-packages": "npm i",
