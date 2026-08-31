@@ -3,8 +3,7 @@
 /* eslint-disable global-require */
 import webpack from 'webpack'
 import { isEmptyObject } from '@papillonbits/library/object'
-// import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack'
-import { getBabelLoaderAdvancedSetup } from '../webpack/loader/babelLoader'
+import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath, rootAttributesDefaults }) {
   // https://storybook.js.org/docs/react/api/main-config

@@ -1,4 +1,3 @@
-// const babelSetup = require('@papillonbits/setup/babel')
-const babelSetup = require('../setup/src/babel')
+const babelSetup = require('@papillonbits/setup/babel')
 
 module.exports = { ...babelSetup }
