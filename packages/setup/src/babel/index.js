@@ -7,8 +7,6 @@ module.exports = {
       '@babel/preset-env',
       {
         modules: false,
-        // useBuiltIns: 'entry',
-        // corejs: coreJSVersion,
         targets: { browsers: Object.values(targetBrowsers.modernBrowsers) },
       },
     ],
