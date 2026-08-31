@@ -56,8 +56,10 @@ npm un -D \
   babel-jest \
   babel-loader \
   babel-plugin-css-modules-transform \
+  babel-plugin-polyfill-corejs3 \
   babel-plugin-syntax-async-functions \
   babel-plugin-transform-assets \
+  core-js \
   css-loader \
   dotenv-cli \
   eslint \
@@ -160,8 +162,10 @@ npm i -D \
   babel-jest \
   babel-loader \
   babel-plugin-css-modules-transform \
+  babel-plugin-polyfill-corejs3 \
   babel-plugin-syntax-async-functions \
   babel-plugin-transform-assets \
+  core-js \
   css-loader \
   dotenv-cli \
   eslint@^8.57.1 \
