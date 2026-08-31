@@ -27,6 +27,22 @@
     "string/",
     "README.md"
   ],
+  "exports": {
+    "./a11y": "./src/a11y/index.js",
+    "./array": "./src/array/index.js",
+    "./auth": "./src/auth/index.js",
+    "./boolean": "./src/boolean/index.js",
+    "./browser": "./src/browser/index.js",
+    "./date": "./src/date/index.js",
+    "./event": "./src/event/index.js",
+    "./hooks": "./src/hooks/index.js",
+    "./number": "./src/number/index.js",
+    "./object": "./src/object/index.js",
+    "./pagination": "./src/pagination/index.js",
+    "./sort": "./src/sort/index.js",
+    "./store": "./src/store/index.js",
+    "./string": "./src/string/index.js"
+  },
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
     "install-packages": "npm i",
