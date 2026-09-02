@@ -1,7 +1,7 @@
 // https://docs.codecov.com/docs/codecov-uploader
 /* eslint-disable prefer-destructuring */
-// const getJestSetup = require('@papillonbits/setup/jest').getJestSetup
-import { getJestSetup } from './packages/setup/src/jest/index.js'
+import { getJestSetup } from '@papillonbits/setup/jest/index.js'
+// import { getJestSetup } from './packages/setup/src/jest/index.js'
 
 const testPathIgnorePatterns = []
 const coverageDirectory = './.coverage/'
