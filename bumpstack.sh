@@ -40,6 +40,7 @@ npm un -D \
   @babel/preset-react \
   @babel/register \
   @babel/runtime \
+  @babel/runtime-corejs3 \
   @chromatic-com/storybook \
   @storybook/addon-a11y \
   @storybook/addon-docs \
@@ -146,14 +147,15 @@ npm i -D \
   @babel/preset-react \
   @babel/register \
   @babel/runtime \
+  @babel/runtime-corejs3 \
   @chromatic-com/storybook@^4.1.3 \
-  @storybook/addon-a11y@^9.1.17 \
-  @storybook/addon-docs@^9.1.17 \
+  @storybook/addon-a11y@^9.1.20 \
+  @storybook/addon-docs@^9.1.20 \
   @storybook/addon-jest \
-  @storybook/addon-links@^9.1.17 \
+  @storybook/addon-links@^9.1.20 \
   @storybook/addon-styling-webpack@^2.0.0 \
-  @storybook/addon-themes@^9.1.17 \
-  @storybook/react-webpack5@^9.1.17 \
+  @storybook/addon-themes@^9.1.20 \
+  @storybook/react-webpack5@^9.1.20 \
   @svgr/webpack \
   @testing-library/dom @testing-library/react \
   ajv \
@@ -199,7 +201,7 @@ npm i -D \
   regenerator-runtime \
   sass \
   sass-loader \
-  storybook@^9.1.17 \
+  storybook@^9.1.20 \
   style-loader \
   stylelint \
   stylelint-config-standard \

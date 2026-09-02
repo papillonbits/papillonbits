@@ -200,7 +200,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -280,7 +280,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -360,7 +360,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -440,7 +440,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -520,7 +520,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -600,7 +600,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -680,7 +680,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -760,7 +760,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -840,7 +840,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1065,7 +1065,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1145,7 +1145,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1225,7 +1225,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1305,7 +1305,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1385,7 +1385,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1465,7 +1465,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1545,7 +1545,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1625,7 +1625,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1705,7 +1705,7 @@ exports[`<FlexGrid /> Render must match checkboxWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1896,7 +1896,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -1960,7 +1960,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2024,7 +2024,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2088,7 +2088,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2152,7 +2152,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2216,7 +2216,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2280,7 +2280,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2344,7 +2344,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2408,7 +2408,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2599,7 +2599,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2663,7 +2663,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2727,7 +2727,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2791,7 +2791,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2855,7 +2855,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2919,7 +2919,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -2983,7 +2983,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3047,7 +3047,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3111,7 +3111,7 @@ exports[`<FlexGrid /> Render must match checkboxWithoutSelectionInactive() 1`] =
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3323,7 +3323,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3403,7 +3403,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3483,7 +3483,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3563,7 +3563,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3643,7 +3643,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3723,7 +3723,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3803,7 +3803,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3883,7 +3883,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -3963,7 +3963,7 @@ exports[`<FlexGrid /> Render must match radioWithSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4175,7 +4175,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4255,7 +4255,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4335,7 +4335,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4415,7 +4415,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4495,7 +4495,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4575,7 +4575,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4655,7 +4655,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4735,7 +4735,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -4815,7 +4815,7 @@ exports[`<FlexGrid /> Render must match radioWithSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5006,7 +5006,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5070,7 +5070,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5134,7 +5134,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5198,7 +5198,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5262,7 +5262,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5326,7 +5326,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5390,7 +5390,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5454,7 +5454,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5518,7 +5518,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelection() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5709,7 +5709,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5773,7 +5773,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5837,7 +5837,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5901,7 +5901,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -5965,7 +5965,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -6029,7 +6029,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -6093,7 +6093,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -6157,7 +6157,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />
@@ -6221,7 +6221,7 @@ exports[`<FlexGrid /> Render must match radioWithoutSelectionInactive() 1`] = `
             class="octicon"
             height="16"
             role="img"
-            style="display: inline-block; fill: #79b8ff; user-select: none; vertical-align: text-bottom;"
+            style="display: inline-block; fill: rgb(121, 184, 255); user-select: none; vertical-align: text-bottom;"
             viewbox="0 0 16 16"
             width="16"
           />

@@ -4,6 +4,9 @@ module.exports = {
   rules: {
     'alpha-value-notation': null,
     'at-rule-no-unknown': null,
+    // SCSS at-rules (e.g. `@mixin Foo($arg: '')`) aren't real CSS at-rules, so this rule's
+    // CSS-grammar prelude validation rejects valid SCSS syntax.
+    'at-rule-prelude-no-invalid': null,
     'color-function-notation': null,
     'declaration-empty-line-before': null,
     'keyframes-name-pattern': null,

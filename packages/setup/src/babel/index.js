@@ -6,7 +6,11 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        modules: false,
+        // https://jestjs.io/docs/ecmascript-modules#require-of-esm
+        // https://babeljs.io/docs/babel-preset-env#modules
+        // Jest requires CommonJS to `require()` transformed files; webpack needs ES
+        // modules preserved for tree-shaking. https://jestjs.io/docs/ecmascript-modules
+        modules: process.env.NODE_ENV === 'test' ? 'commonjs' : false,
         targets: { browsers: Object.values(targetBrowsers.modernBrowsers) },
       },
     ],
