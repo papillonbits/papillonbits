@@ -1,7 +1,7 @@
 // https://github.com/jantimon/html-webpack-plugin
 
 import HtmlWebpackPlugin from 'html-webpack-plugin'
-import { indexHTMLName } from '../constant'
+import { indexHTMLName } from '../constant/index.js'
 
 export function getHtmlWebpackPluginStandardSetup({ title, micrositeWebpackFolderPath }) {
   return new HtmlWebpackPlugin({

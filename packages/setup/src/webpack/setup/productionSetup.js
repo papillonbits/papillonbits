@@ -1,10 +1,10 @@
 import { merge } from 'webpack-merge'
-import { getCSSLoaderStandardSetup } from '../loader/cssLoader'
-import { getBannerPluginStandardSetup } from '../plugin/bannerPlugin'
-import { getCSSMinimizerWebpackPluginStandardSetup } from '../plugin/cssMinimizerWebpackPlugin'
-import { getDotenvWebpackStandardSetup } from '../plugin/dotenvWebpack'
-import { MiniCSSExtractPluginLoader, getMiniCSSExtractPluginAdvancedSetup } from '../plugin/miniCSSExtractPlugin'
-import { getWebpackBundleAnalyzerStandardSetup } from '../plugin/webpackBundleAnalyzer'
+import { getCSSLoaderStandardSetup } from '../loader/cssLoader.js'
+import { getBannerPluginStandardSetup } from '../plugin/bannerPlugin.js'
+import { getCSSMinimizerWebpackPluginStandardSetup } from '../plugin/cssMinimizerWebpackPlugin.js'
+import { getDotenvWebpackStandardSetup } from '../plugin/dotenvWebpack.js'
+import { MiniCSSExtractPluginLoader, getMiniCSSExtractPluginAdvancedSetup } from '../plugin/miniCSSExtractPlugin.js'
+import { getWebpackBundleAnalyzerStandardSetup } from '../plugin/webpackBundleAnalyzer.js'
 
 export function getWebpackProductionSetup({
   webpackCommonSetup,

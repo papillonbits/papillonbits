@@ -1,7 +1,7 @@
 // https://github.com/shellscape/webpack-manifest-plugin
 /* eslint-disable no-param-reassign  */
 import { WebpackManifestPlugin } from 'webpack-manifest-plugin'
-import { manifestFileName } from '../constant'
+import { manifestFileName } from '../constant/index.js'
 
 export function getWebpackManifestPluginStandardSetup() {
   return new WebpackManifestPlugin({

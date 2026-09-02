@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 // https://github.com/babel/babel-loader
 
-import { targetBrowsers } from '../constant'
+import { targetBrowsers } from '../constant/index.js'
 
 export function getBabelLoaderAdvancedSetup() {
   return {

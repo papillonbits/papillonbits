@@ -1,10 +1,10 @@
 import { merge } from 'webpack-merge'
-import { getCSSLoaderStandardSetup } from '../loader/cssLoader'
-import { getPostCSSLoaderStandardSetup } from '../loader/postCSSLoader'
-import { getSassLoaderStandardSetup } from '../loader/sassLoader'
-import { getDotenvWebpackStandardSetup } from '../plugin/dotenvWebpack'
-import { getHotModuleReplacementPluginStandardSetup } from '../plugin/hotModuleReplacementPlugin'
-import { getDevServerStandardSetup } from '../server/devServer'
+import { getCSSLoaderStandardSetup } from '../loader/cssLoader.js'
+import { getPostCSSLoaderStandardSetup } from '../loader/postCSSLoader.js'
+import { getSassLoaderStandardSetup } from '../loader/sassLoader.js'
+import { getDotenvWebpackStandardSetup } from '../plugin/dotenvWebpack.js'
+import { getHotModuleReplacementPluginStandardSetup } from '../plugin/hotModuleReplacementPlugin.js'
+import { getDevServerStandardSetup } from '../server/devServer.js'
 
 export function getWebpackDevelopmentSetup({
   webpackCommonSetup,
