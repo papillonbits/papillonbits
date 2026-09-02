@@ -258,7 +258,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
 
       config.resolve.fallback = {
         ...config.resolve.fallback,
-        tty: require.resolve('tty-browserify'),
+        tty: 'tty-browserify',
       }
 
       return config
