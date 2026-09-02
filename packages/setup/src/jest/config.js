@@ -1,6 +1,6 @@
 const transformIgnorePackages = [
   '@exodus',
-  'jsdom/node_modules/parse5',
+  'jsdom/node_modules/(parse5|entities)',
   'parse5',
   'entities',
   'uuid',
