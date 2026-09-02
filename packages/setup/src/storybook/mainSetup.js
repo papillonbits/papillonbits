@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-param-reassign */
-/* eslint-disable global-require */
 import webpack from 'webpack'
+import postcssPresetEnv from 'postcss-preset-env'
 import { isEmptyObject } from '@papillonbits/library/object/index.js'
 import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack/index.js'
 // import { isEmptyObject } from '../../../library/src/object/index.js'
@@ -208,7 +208,7 @@ export function getStorybookMainSetup({ storiesBasePath, includeBasePath, module
               options: {
                 postcssOptions: {
                   sourceMap: true,
-                  plugins: () => [require('postcss-preset-env')()],
+                  plugins: () => [postcssPresetEnv()],
                   parser: 'postcss-scss',
                 },
               },

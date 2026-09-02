@@ -1,7 +1,7 @@
-/* eslint-disable global-require */
 // https://github.com/babel/babel-loader
 
 import { targetBrowsers } from '../constant/index.js'
+import coreJSPackageJson from 'core-js/package.json' with { type: 'json' }
 
 export function getBabelLoaderAdvancedSetup() {
   return {
@@ -33,7 +33,7 @@ export function getBabelLoaderAdvancedSetup() {
           ],
           '@babel/plugin-transform-runtime',
           'syntax-async-functions',
-          ['polyfill-corejs3', { method: 'usage-global', version: require('core-js/package.json').version }],
+          ['polyfill-corejs3', { method: 'usage-global', version: coreJSPackageJson.version }],
         ],
       },
     },
