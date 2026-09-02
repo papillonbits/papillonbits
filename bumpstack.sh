@@ -38,7 +38,6 @@ npm un -D \
   @babel/plugin-transform-runtime \
   @babel/preset-env \
   @babel/preset-react \
-  @babel/register \
   @babel/runtime \
   @babel/runtime-corejs3 \
   @chromatic-com/storybook \
@@ -145,7 +144,6 @@ npm i -D \
   @babel/plugin-transform-runtime \
   @babel/preset-env \
   @babel/preset-react \
-  @babel/register \
   @babel/runtime \
   @babel/runtime-corejs3 \
   @chromatic-com/storybook@^4.1.3 \
