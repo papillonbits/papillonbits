@@ -1,6 +1,5 @@
 import path from 'path'
 import { getStorybookMainSetup } from '@papillonbits/setup/storybook/mainSetup'
-// import { getStorybookMainSetup } from '../packages/setup/src/storybook/mainSetup'
 
 const storiesBasePath = path.resolve(
   __dirname,

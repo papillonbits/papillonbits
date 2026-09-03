@@ -4,8 +4,6 @@ import webpack from 'webpack'
 import postcssPresetEnv from 'postcss-preset-env'
 import { isEmptyObject } from '@papillonbits/library/object/index.js'
 import { getBabelLoaderAdvancedSetup } from '@papillonbits/setup/webpack/index.js'
-// import { isEmptyObject } from '../../../library/src/object/index.js'
-// import { getBabelLoaderAdvancedSetup } from '../webpack/index.js'
 
 export function getStorybookMainSetup({ storiesBasePath, includeBasePath, modulesBasePath, rootAttributesDefaults }) {
   // https://storybook.js.org/docs/react/api/main-config

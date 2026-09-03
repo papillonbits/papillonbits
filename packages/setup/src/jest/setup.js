@@ -1,7 +1,6 @@
 import 'jsdom-global/register.js'
 import { atob, btoa } from 'node:buffer'
 import { render } from '@testing-library/react'
-// import { configureAxe, toHaveNoViolations } from 'jest-axe'
 import jestAxe from 'jest-axe'
 
 // jsdom-global copies jsdom's window.atob/btoa onto the Node global, but those just
