@@ -65,6 +65,8 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     semi: ['error', 'never'],
+    // fix Sublime flagging legitimate .js import extensions that lint:format ignores
+    'import/extensions': 'off',
   },
   settings: {
     'import/resolver': {
