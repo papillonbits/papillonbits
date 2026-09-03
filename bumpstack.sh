@@ -39,6 +39,7 @@ npm un -D \
   @babel/preset-env \
   @babel/preset-react \
   @babel/runtime \
+  @babel/runtime-corejs3 \
   @chromatic-com/storybook \
   @storybook/addon-a11y \
   @storybook/addon-docs \
@@ -144,6 +145,7 @@ npm i -D \
   @babel/preset-env \
   @babel/preset-react \
   @babel/runtime \
+  @babel/runtime-corejs3 \
   @chromatic-com/storybook@^4.1.3 \
   @storybook/addon-a11y@^9.1.20 \
   @storybook/addon-docs@^9.1.20 \
