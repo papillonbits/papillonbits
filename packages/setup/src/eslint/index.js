@@ -79,7 +79,7 @@ module.exports = {
       },
     },
     react: {
-      version: '19.2.1',
+      version: '19.3.0',
     },
   },
 }

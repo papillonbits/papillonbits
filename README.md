@@ -442,7 +442,7 @@ Managed as a Lerna monorepo (v9.0.3):
 
 ### Rendering using React
 
-Built with React 19.2.3:
+Built with React 19.3.0:
 - Modern React features (hooks, concurrent features)
 - React DOM for web rendering
 - Component-based architecture
